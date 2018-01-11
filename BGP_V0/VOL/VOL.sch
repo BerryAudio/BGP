@@ -47,17 +47,6 @@ Comment4 ""
 $EndDescr
 Text Label 3200 2600 3    60   ~ 0
 BAT+
-$Comp
-L CONN_01X05 P3
-U 1 1 5A290F08
-P 3400 3600
-F 0 "P3" H 3400 3900 50  0000 C CNN
-F 1 "CONN_01X05" V 3500 3600 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3400 3600 50  0001 C CNN
-F 3 "" H 3400 3600 50  0000 C CNN
-	1    3400 3600
-	0    -1   -1   0   
-$EndComp
 Text Label 3600 3800 3    60   ~ 0
 BT_O
 Text Label 3500 3800 3    60   ~ 0
@@ -68,17 +57,6 @@ Text Label 3400 3200 3    60   ~ 0
 BUF_O
 Text Label 3300 3200 3    60   ~ 0
 V+
-$Comp
-L CONN_01X05 P4
-U 1 1 5A2910B8
-P 3400 4250
-F 0 "P4" H 3400 4550 50  0000 C CNN
-F 1 "CONN_01X05" V 3500 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3400 4250 50  0001 C CNN
-F 3 "" H 3400 4250 50  0000 C CNN
-	1    3400 4250
-	0    -1   -1   0   
-$EndComp
 Text Label 3600 4450 3    60   ~ 0
 M_O
 Text Label 3500 4450 3    60   ~ 0
@@ -514,6 +492,30 @@ F 3 "" H 7200 2900 50  0000 C CNN
 	1    7200 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3300 2600 3650 2600
+$Comp
+L CONN_01X05 P4
+U 1 1 5A2910B8
+P 3400 4250
+F 0 "P4" H 3400 4550 50  0000 C CNN
+F 1 "CONN_01X05" V 3500 4250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3400 4250 50  0001 C CNN
+F 3 "" H 3400 4250 50  0000 C CNN
+	1    3400 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X05 P3
+U 1 1 5A290F08
+P 3400 3600
+F 0 "P3" H 3400 3900 50  0000 C CNN
+F 1 "CONN_01X05" V 3500 3600 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3400 3600 50  0001 C CNN
+F 3 "" H 3400 3600 50  0000 C CNN
+	1    3400 3600
+	0    -1   -1   0   
+$EndComp
 $Comp
 L CONN_01X05 P1
 U 1 1 5A5579C9
@@ -525,6 +527,4 @@ F 3 "" H 3400 3000 50  0000 C CNN
 	1    3400 3000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3300 2600 3650 2600
 $EndSCHEMATC

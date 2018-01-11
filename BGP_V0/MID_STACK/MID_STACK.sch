@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MID_STACK-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,17 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_01X05 P1
-U 1 1 5A28B76C
-P 3750 3000
-F 0 "P1" H 3750 3300 50  0000 C CNN
-F 1 "CONN_01X05" V 3850 3000 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3750 3000 50  0001 C CNN
-F 3 "" H 3750 3000 50  0000 C CNN
-	1    3750 3000
-	-1   0    0    1   
-$EndComp
 Text Label 3950 3200 0    60   ~ 0
 IN
 Text Label 3950 2900 0    60   ~ 0
@@ -137,7 +127,7 @@ Wire Wire Line
 Text Label 5650 3250 3    60   ~ 0
 F1_1
 $Comp
-L MCP6001 U1
+L MCP6001-RESCUE-MID_STACK U1
 U 1 1 5A4C5A33
 P 6300 3350
 F 0 "U1" H 6350 3550 50  0000 C CNN
@@ -290,4 +280,15 @@ Wire Wire Line
 	7800 3300 7800 3200
 Wire Wire Line
 	7800 3600 7800 3500
+$Comp
+L Conn_01x05 P1
+U 1 1 5A573A2B
+P 3750 3000
+F 0 "P1" H 3750 3300 50  0000 C CNN
+F 1 "Conn_01x05" H 3750 2700 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3750 3000 50  0001 C CNN
+F 3 "" H 3750 3000 50  0001 C CNN
+	1    3750 3000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
