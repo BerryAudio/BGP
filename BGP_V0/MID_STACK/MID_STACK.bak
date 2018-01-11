@@ -1,0 +1,293 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MID_STACK-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X05 P1
+U 1 1 5A28B76C
+P 4050 2300
+F 0 "P1" H 4050 2600 50  0000 C CNN
+F 1 "CONN_01X05" V 4150 2300 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 4050 2300 50  0001 C CNN
+F 3 "" H 4050 2300 50  0000 C CNN
+	1    4050 2300
+	-1   0    0    1   
+$EndComp
+Text Label 4250 2500 0    60   ~ 0
+IN
+Text Label 4250 2200 0    60   ~ 0
+V+
+Text Label 4250 2100 0    60   ~ 0
+OUT
+$Comp
+L CP1_Small C1
+U 1 1 5A28B7C0
+P 4650 2300
+F 0 "C1" H 4660 2370 50  0000 L CNN
+F 1 "10u" H 4660 2220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4650 2300 50  0001 C CNN
+F 3 "" H 4650 2300 50  0000 C CNN
+	1    4650 2300
+	1    0    0    -1  
+$EndComp
+Text Label 4650 2200 1    60   ~ 0
+V+
+Text Label 4250 2400 0    60   ~ 0
+V-
+$Comp
+L Earth #PWR01
+U 1 1 5A4C5085
+P 4250 2300
+F 0 "#PWR01" H 4250 2050 50  0001 C CNN
+F 1 "Earth" H 4250 2150 50  0001 C CNN
+F 2 "" H 4250 2300 50  0000 C CNN
+F 3 "" H 4250 2300 50  0000 C CNN
+	1    4250 2300
+	0    -1   -1   0   
+$EndComp
+Text Label 4650 2400 3    60   ~ 0
+V-
+Text Label 5050 2900 2    60   ~ 0
+IN
+Wire Wire Line
+	5050 2900 5300 2900
+Wire Wire Line
+	5300 2650 5300 3750
+Wire Wire Line
+	5300 2100 5300 2450
+Text Label 5300 2650 2    60   ~ 0
+VOL1
+Text Label 5300 2550 2    60   ~ 0
+VOL2
+Text Label 5300 2450 2    60   ~ 0
+VOL3
+Wire Wire Line
+	5300 2550 5350 2550
+$Comp
+L C_Small C2
+U 1 1 5A4C54B9
+P 5450 2550
+F 0 "C2" H 5460 2620 50  0000 L CNN
+F 1 "15n" H 5460 2470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5450 2550 50  0001 C CNN
+F 3 "" H 5450 2550 50  0000 C CNN
+	1    5450 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5A4C5562
+P 5700 2550
+F 0 "R1" H 5730 2570 50  0000 L CNN
+F 1 "6.8k" H 5730 2510 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5700 2550 50  0001 C CNN
+F 3 "" H 5700 2550 50  0000 C CNN
+	1    5700 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2550 5550 2550
+Wire Wire Line
+	5800 2550 5850 2550
+Text Label 5850 2550 3    60   ~ 0
+F1_2
+Wire Wire Line
+	5950 2550 6300 2550
+Text Label 5950 2550 3    60   ~ 0
+F1_1
+$Comp
+L MCP6001 U1
+U 1 1 5A4C5A33
+P 6600 2650
+F 0 "U1" H 6650 2850 50  0000 C CNN
+F 1 "OPA170" H 6800 2450 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 6550 2750 50  0001 C CNN
+F 3 "" H 6650 2850 50  0000 C CNN
+	1    6600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2550 6050 3000
+Connection ~ 6050 2550
+Wire Wire Line
+	6050 3100 6050 3150
+$Comp
+L R_Small R3
+U 1 1 5A4C5B1B
+P 6050 3250
+F 0 "R3" H 6080 3270 50  0000 L CNN
+F 1 "6.8k" H 6080 3210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6050 3250 50  0001 C CNN
+F 3 "" H 6050 3250 50  0000 C CNN
+	1    6050 3250
+	1    0    0    -1  
+$EndComp
+Text Label 6050 3000 2    60   ~ 0
+F2_1
+Text Label 6050 3100 2    60   ~ 0
+F2_2
+$Comp
+L C_Small C3
+U 1 1 5A4C5BAB
+P 5750 3250
+F 0 "C3" H 5760 3320 50  0000 L CNN
+F 1 "6.8n" H 5760 3170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5750 3250 50  0001 C CNN
+F 3 "" H 5750 3250 50  0000 C CNN
+	1    5750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 2900
+Wire Wire Line
+	6050 3350 6050 3450
+Wire Wire Line
+	6050 3400 5750 3400
+Wire Wire Line
+	5750 3400 5750 3350
+Wire Wire Line
+	5750 3150 5750 2900
+Wire Wire Line
+	5750 2900 6050 2900
+Connection ~ 6050 3400
+$Comp
+L Earth #PWR02
+U 1 1 5A4C5CFC
+P 6050 3450
+F 0 "#PWR02" H 6050 3200 50  0001 C CNN
+F 1 "Earth" H 6050 3300 50  0001 C CNN
+F 2 "" H 6050 3450 50  0000 C CNN
+F 3 "" H 6050 3450 50  0000 C CNN
+	1    6050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5A4C5D1C
+P 5950 3750
+F 0 "R2" H 5980 3770 50  0000 L CNN
+F 1 "22k" H 5980 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5950 3750 50  0001 C CNN
+F 3 "" H 5950 3750 50  0000 C CNN
+	1    5950 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 5A4C5D84
+P 6550 3750
+F 0 "R4" H 6580 3770 50  0000 L CNN
+F 1 "22k" H 6580 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6550 3750 50  0001 C CNN
+F 3 "" H 6550 3750 50  0000 C CNN
+	1    6550 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3750 5850 3750
+Connection ~ 5300 2900
+Wire Wire Line
+	7000 3750 6650 3750
+Wire Wire Line
+	7000 2100 7000 3750
+Wire Wire Line
+	6900 2650 7100 2650
+Wire Wire Line
+	5300 2100 7000 2100
+Connection ~ 7000 2650
+Wire Wire Line
+	6250 3750 6250 2750
+Wire Wire Line
+	6250 2750 6300 2750
+Connection ~ 6250 3750
+Wire Wire Line
+	6050 3750 6450 3750
+Text Label 6500 2350 1    60   ~ 0
+V+
+Text Label 6500 2950 3    60   ~ 0
+V-
+$Comp
+L R_Small R5
+U 1 1 5A4C6009
+P 7200 2650
+F 0 "R5" H 7230 2670 50  0000 L CNN
+F 1 "100" H 7230 2610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7200 2650 50  0001 C CNN
+F 3 "" H 7200 2650 50  0000 C CNN
+	1    7200 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2650 7400 2650
+Text Label 7400 2650 0    60   ~ 0
+OUT
+$Comp
+L CONN_01X09 P2
+U 1 1 5A4C61D7
+P 8300 2500
+F 0 "P2" H 8300 3000 50  0000 C CNN
+F 1 "CONN_01X09" V 8400 2500 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alpha_Tripple_Vertical_Dual_Shaft" H 8300 2500 50  0001 C CNN
+F 3 "" H 8300 2500 50  0000 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+Text Label 8100 2100 2    60   ~ 0
+VOL1
+Text Label 8100 2200 2    60   ~ 0
+VOL2
+Text Label 8100 2300 2    60   ~ 0
+VOL3
+Text Label 8100 2400 2    60   ~ 0
+F1_1
+Text Label 8100 2500 2    60   ~ 0
+F1_2
+Text Label 8100 2700 2    60   ~ 0
+F2_1
+Text Label 8100 2800 2    60   ~ 0
+F2_2
+Wire Wire Line
+	8100 2600 8100 2500
+Wire Wire Line
+	8100 2900 8100 2800
+$EndSCHEMATC
