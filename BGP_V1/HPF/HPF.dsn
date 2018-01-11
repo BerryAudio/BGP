@@ -1,9 +1,9 @@
-(pcb /home/charlie/work/BGP_V1/HPF/HPF.dsn
+(pcb C:\Users\Charlie\Documents\GitHub\BGP\BGP_V1\HPF\HPF.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "4.0.4-1.fc24-product")
+    (host_version "4.0.7")
   )
   (resolution um 10)
   (unit um)
@@ -57,7 +57,7 @@
       (place U1 155100 -66900 front 270 (PN OPA2170))
     )
     (component LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft
-      (place P2 157500 -53000 front 90 (PN CONN_01X06))
+      (place P2 152500 -53000 back 270 (PN CONN_01X06))
     )
   )
   (library
@@ -272,14 +272,15 @@
     )
   )
   (wiring
+    (wire (path F.Cu 300  157500 -53000  155000 -53000)(net /VP_2)(type protect))
+    (wire (path F.Cu 300  145100 -61150  144850 -60900)(net /VP_2)(type protect))
+    (wire (path F.Cu 300  145100 -64500  145100 -61150)(net /VP_2)(type protect))
     (wire (path F.Cu 300  157005 -63587.3  159244 -63587.3)(net /VP_2)(type protect))
     (wire (path F.Cu 300  157005 -64200  157005 -63587.3)(net /VP_2)(type protect))
     (wire (path F.Cu 300  160850 -64500  162050 -64500)(net /VP_2)(type protect))
     (wire (path F.Cu 300  159937 -63587.3  160850 -64500)(net /VP_2)(type protect))
     (wire (path F.Cu 300  159244 -63587.3  159937 -63587.3)(net /VP_2)(type protect))
-    (wire (path F.Cu 300  145100 -61150  144975 -61025)(net /VP_2)(type protect))
-    (wire (path F.Cu 300  145100 -64500  145100 -61150)(net /VP_2)(type protect))
-    (wire (path F.Cu 300  144975 -61025  144850 -60900)(net /VP_2)(type protect))
+    (wire (path F.Cu 300  152500 -53000  151675 -53000)(net /VP_1)(type protect))
     (wire (path F.Cu 300  147300 -62025.3  147300 -64500)(net /VP_1)(type protect))
     (wire (path F.Cu 300  147350 -61975.3  147300 -62025.3)(net /VP_1)(type protect))
     (wire (path F.Cu 300  147350 -60900  147350 -61975.3)(net /VP_1)(type protect))
@@ -301,6 +302,7 @@
     (wire (path F.Cu 500  153195 -65525.3  152200 -66520.3)(net "/V-")(type protect))
     (wire (path F.Cu 500  153195 -64200  153195 -65525.3)(net "/V-")(type protect))
     (wire (path B.Cu 500  155000 -75900  155000 -70700)(net "/V-")(type protect))
+    (wire (path F.Cu 500  157500 -58000  155000 -58000)(net Earth)(type protect))
     (wire (path F.Cu 500  147200 -75700  147200 -76800)(net Earth)(type protect))
     (wire (path F.Cu 500  145100 -67400  143800 -67400)(net Earth)(type protect))
     (wire (path F.Cu 500  155685 -77214.8  157000 -75900)(net /IN)(type protect))
