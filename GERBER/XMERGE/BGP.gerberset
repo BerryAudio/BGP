@@ -12,8 +12,8 @@
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-170</X>
-        <Y>130</Y>
+        <X>-106</X>
+        <Y>162</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/BT_0</GerberPath>
@@ -75,8 +75,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-73</X>
-        <Y>186</Y>
+        <X>-137</X>
+        <Y>154</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/BUF_1</GerberPath>

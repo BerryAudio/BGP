@@ -3,7 +3,7 @@
   (general
     (links 45)
     (no_connects 0)
-    (area 151.305 49.474999 188.275 80.075001)
+    (area 151.305 49.424999 187.955 80.075001)
     (thickness 1.6)
     (drawings 31)
     (tracks 125)
@@ -1014,7 +1014,7 @@
   (gr_text B/T (at 156.6 65.3) (layer B.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "BGP V1.0\nVolume" (at 155 51.8) (layer B.SilkS)
+  (gr_text "BGP V0.0\nVolume" (at 156 52) (layer B.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 185.7 79.7) (end 185.7 50.3) (angle 90) (layer Margin) (width 0.2))

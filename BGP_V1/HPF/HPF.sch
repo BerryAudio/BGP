@@ -304,27 +304,35 @@ $EndComp
 Wire Wire Line
 	4850 3200 4850 3100
 Connection ~ 4850 3100
+Text Label 6600 4650 2    60   ~ 0
+VP_1
+Text Label 6600 4850 2    60   ~ 0
+VP_2
+Text Label 6600 4250 2    60   ~ 0
+VF_1
+Text Label 6600 4450 2    60   ~ 0
+VF_2
 $Comp
-L CONN_01X06 P2
-U 1 1 5A532055
-P 8850 3500
-F 0 "P2" H 8850 3850 50  0000 C CNN
-F 1 "CONN_01X06" V 8950 3500 50  0000 C CNN
-F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft" H 8850 3500 50  0001 C CNN
-F 3 "" H 8850 3500 50  0000 C CNN
-	1    8850 3500
+L DUAL_POT RV1
+U 1 1 5A5819B7
+P 6750 4550
+F 0 "RV1" H 6910 4860 50  0000 C CNN
+F 1 "DUAL_POT" H 7040 4250 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft" H 6750 4550 50  0001 C CNN
+F 3 "" H 6750 4550 50  0000 C CNN
+	1    6750 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 3350 8650 3450
-Text Label 8650 3250 2    60   ~ 0
-VP_1
-Text Label 8650 3350 2    60   ~ 0
-VP_2
+	7050 4750 7050 5000
 Wire Wire Line
-	8650 3750 8650 3650
-Text Label 8650 3550 2    60   ~ 0
-VF_1
-Text Label 8650 3650 2    60   ~ 0
-VF_2
+	7050 5000 6600 5000
+Wire Wire Line
+	6600 5000 6600 4850
+Wire Wire Line
+	7050 4350 7050 4550
+Wire Wire Line
+	7050 4550 6600 4550
+Wire Wire Line
+	6600 4550 6600 4450
 $EndSCHEMATC
