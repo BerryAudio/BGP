@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:BUF-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -194,7 +193,7 @@ L R_Small R12
 U 1 1 5A4D777F
 P 8500 3950
 F 0 "R12" H 8530 3970 50  0000 L CNN
-F 1 "4.99k" H 8530 3910 50  0000 L CNN
+F 1 "100" H 8530 3910 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 8500 3950 50  0001 C CNN
 F 3 "" H 8500 3950 50  0000 C CNN
 	1    8500 3950
@@ -276,21 +275,21 @@ F 3 "" H 9800 3800 50  0000 C CNN
 	1    9800 3800
 	1    0    0    -1  
 $EndComp
-Text Label 9600 3250 2    60   ~ 0
-VP1_1
-Text Label 9600 3350 2    60   ~ 0
-VP1_2
-Text Label 9600 3550 2    60   ~ 0
-VP2_1
-Text Label 9600 3650 2    60   ~ 0
-VP2_2
 Text Label 9600 3850 2    60   ~ 0
-VF1_1
+VP1_1
 Text Label 9600 3950 2    60   ~ 0
-VF1_2
+VP1_2
 Text Label 9600 4150 2    60   ~ 0
-VF2_1
+VP2_1
 Text Label 9600 4250 2    60   ~ 0
+VP2_2
+Text Label 9600 3250 2    60   ~ 0
+VF1_1
+Text Label 9600 3350 2    60   ~ 0
+VF1_2
+Text Label 9600 3550 2    60   ~ 0
+VF2_1
+Text Label 9600 3650 2    60   ~ 0
 VF2_2
 $Comp
 L CP1_Small C6

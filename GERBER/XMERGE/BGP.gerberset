@@ -211,8 +211,8 @@
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>100</Width>
-  <Height>100</Height>
+  <Width>96</Width>
+  <Height>94</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
