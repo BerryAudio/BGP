@@ -307,24 +307,43 @@ Connection ~ 4850 3100
 $Comp
 L CONN_01X06 P2
 U 1 1 5A532055
-P 8600 3500
-F 0 "P2" H 8600 3850 50  0000 C CNN
-F 1 "CONN_01X06" V 8700 3500 50  0000 C CNN
-F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft" H 8600 3500 50  0001 C CNN
-F 3 "" H 8600 3500 50  0000 C CNN
-	1    8600 3500
+P 8850 3500
+F 0 "P2" H 8850 3850 50  0000 C CNN
+F 1 "CONN_01X06" V 8950 3500 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft" H 8850 3500 50  0001 C CNN
+F 3 "" H 8850 3500 50  0000 C CNN
+	1    8850 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 3350 8400 3450
-Text Label 8400 3250 2    60   ~ 0
+	8650 3350 8650 3450
+Text Label 8650 3250 2    60   ~ 0
 VP_1
-Text Label 8400 3350 2    60   ~ 0
+Text Label 8650 3350 2    60   ~ 0
 VP_2
 Wire Wire Line
-	8400 3750 8400 3650
-Text Label 8400 3550 2    60   ~ 0
+	8650 3750 8650 3650
+Text Label 8650 3550 2    60   ~ 0
 VF_1
-Text Label 8400 3650 2    60   ~ 0
+Text Label 8650 3650 2    60   ~ 0
 VF_2
+$Comp
+L R_Small R7
+U 1 1 5A580929
+P 8350 3250
+F 0 "R7" H 8380 3270 50  0000 L CNN
+F 1 "24.9k" H 8380 3210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8350 3250 50  0001 C CNN
+F 3 "" H 8350 3250 50  0000 C CNN
+	1    8350 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 3250 8450 3250
+Wire Wire Line
+	8250 3250 8200 3250
+Wire Wire Line
+	8200 3250 8200 3450
+Wire Wire Line
+	8200 3450 8650 3450
 $EndSCHEMATC

@@ -169,7 +169,7 @@ U 1 1 5A27584C
 P 6050 3600
 F 0 "RV1" H 6210 3910 50  0000 C CNN
 F 1 "RK0971210Z2M" H 6400 3300 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Double_Vertical" H 6050 3600 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical" H 6050 3600 50  0001 C CNN
 F 3 "" H 6050 3600 50  0000 C CNN
 	1    6050 3600
 	1    0    0    -1  
@@ -553,12 +553,12 @@ Wire Wire Line
 Text Label 7700 3800 3    60   ~ 0
 REF
 $Comp
-L Conn_01x05 P?
+L Conn_01x05 P3
 U 1 1 5A5738D7
 P 7050 4400
-F 0 "P?" H 7050 4700 50  0000 C CNN
+F 0 "P3" H 7050 4700 50  0000 C CNN
 F 1 "Conn_01x05" H 7050 4100 50  0000 C CNN
-F 2 "" H 7050 4400 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 7050 4400 50  0001 C CNN
 F 3 "" H 7050 4400 50  0001 C CNN
 	1    7050 4400
 	-1   0    0    1   

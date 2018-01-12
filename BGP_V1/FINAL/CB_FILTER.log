@@ -1,4 +1,4 @@
-Circuit: * Z:\home\charlie\work\BGP_V1\FINAL\CB_FILTER.asc
+Circuit: * Z:\home\charlie\work\BGP\BGP_V1\FINAL\CB_FILTER.asc
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -171,8 +171,8 @@ Source stepping succeeded in finding the operating point.
 .step rx=10
 .step rx=11
 
-Date: Mon Jan 08 10:22:13 2018
-Total elapsed time: 37.792 seconds.
+Date: Fri Jan 12 12:59:04 2018
+Total elapsed time: 36.963 seconds.
 
 tnom = 27
 temp = 27
@@ -183,8 +183,8 @@ tranpoints = 0
 accept = 0
 rejected = 0
 matrix size = 334
-fillins = 1920
+fillins = 1935
 solver = Normal
-Matrix Compiler1:   12279 opcodes
-Matrix Compiler2: 63.43 KB object code size  8.0/6.7/[5.3]
+Matrix Compiler1:   12565 opcodes
+Matrix Compiler2: 63.64 KB object code size  7.9/6.8/[5.3]
 

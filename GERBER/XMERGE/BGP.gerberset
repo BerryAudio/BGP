@@ -1,49 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GerberLayoutSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LoadedOutlines>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BUF_0</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BUF_1</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\HPF_1</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MID_0</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\VOL_0</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\VOL_1</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BT_0</string>
+    <string>/home/charlie/work/BGP/GERBER/BT_0</string>
+    <string>/home/charlie/work/BGP/GERBER/BUF_0</string>
+    <string>/home/charlie/work/BGP/GERBER/BUF_1</string>
+    <string>/home/charlie/work/BGP/GERBER/HPF_1</string>
+    <string>/home/charlie/work/BGP/GERBER/MID_0</string>
+    <string>/home/charlie/work/BGP/GERBER/VOL_0</string>
+    <string>/home/charlie/work/BGP/GERBER/VOL_1</string>
   </LoadedOutlines>
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-136</X>
+        <X>-170</X>
         <Y>130</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BUF_0</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/BT_0</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-137</X>
-        <Y>186</Y>
+        <X>-136</X>
+        <Y>162</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BUF_1</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/BUF_0</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-108</X>
-        <Y>144</Y>
+        <X>-105</X>
+        <Y>154</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\HPF_1</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/BUF_1</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-76</X>
+        <Y>112</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>/home/charlie/work/BGP/GERBER/HPF_1</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
         <X>-112</X>
-        <Y>126</Y>
+        <Y>158</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MID_0</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/MID_0</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
@@ -52,7 +61,7 @@
         <Y>80</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\VOL_0</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/VOL_0</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
@@ -61,16 +70,7 @@
         <Y>111</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\VOL_1</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
-    <GerberInstance>
-      <Center>
-        <X>-106</X>
-        <Y>130</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BT_0</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/VOL_1</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
@@ -79,7 +79,7 @@
         <Y>186</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\BUF_1</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/BUF_1</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
   </Instances>
@@ -194,7 +194,7 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>64</X>
+        <X>63</X>
         <Y>79</Y>
       </Center>
       <Angle>0</Angle>
@@ -204,18 +204,21 @@
     <BreakTab>
       <Center>
         <X>79</X>
-        <Y>64</Y>
+        <Y>63</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>96</Width>
-  <Height>94</Height>
+  <Width>100</Width>
+  <Height>100</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
+  <ClipToOutlines>true</ClipToOutlines>
+  <LastExportFolder>/home/charlie/work/BGP/GERBER/XMERGE</LastExportFolder>
+  <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>

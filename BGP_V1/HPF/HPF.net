@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/charlie/work/BGP_V1/HPF/HPF.sch)
-    (date "Mon 08 Jan 2018 12:22:28 AEDT")
+    (source /home/charlie/work/BGP/BGP_V1/HPF/HPF.sch)
+    (date "Fri 12 Jan 2018 12:54:19 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -46,7 +46,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A4D9666))
     (comp (ref R4)
-      (value 20k)
+      (value 24.9k)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R_Small))
       (sheetpath (names /) (tstamps /))
@@ -182,12 +182,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical linear)
+      (uri /usr/share/kicad/library/linear.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical linear)
-      (uri /usr/share/kicad/library/linear.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(R6-Pad2)")
       (node (ref U1) (pin 7))

@@ -303,17 +303,6 @@ T+
 Text Label 5600 5400 0    60   ~ 0
 TW
 $Comp
-L CONN_01X05 P1
-U 1 1 5A28A525
-P 3750 2500
-F 0 "P1" H 3750 2800 50  0000 C CNN
-F 1 "CONN_01X05" V 3850 2500 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3750 2500 50  0001 C CNN
-F 3 "" H 3750 2500 50  0000 C CNN
-	1    3750 2500
-	-1   0    0    1   
-$EndComp
-$Comp
 L Earth #PWR03
 U 1 1 5A28A63A
 P 3950 2600
@@ -332,4 +321,15 @@ Text Label 3950 2300 0    60   ~ 0
 OUT
 Text Label 3950 2700 0    60   ~ 0
 IN
+$Comp
+L CONN_01X05 P1
+U 1 1 5A5738E3
+P 3750 2500
+F 0 "P1" H 3750 2800 50  0000 C CNN
+F 1 "CONN_01X05" V 3850 2500 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 3750 2500 50  0001 C CNN
+F 3 "" H 3750 2500 50  0000 C CNN
+	1    3750 2500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
