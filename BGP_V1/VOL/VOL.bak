@@ -392,7 +392,7 @@ F 1 "22u" H 7360 4220 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7350 4300 50  0001 C CNN
 F 3 "" H 7350 4300 50  0000 C CNN
 	1    7350 4300
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Earth #PWR07
@@ -413,17 +413,17 @@ Text Label 8950 3800 2    60   ~ 0
 VP_3
 Text Label 8950 3900 2    60   ~ 0
 VP_OUT
-Text Label 8950 4100 2    60   ~ 0
+Text Label 8950 4300 2    60   ~ 0
 VB1_1
 Text Label 8950 4200 2    60   ~ 0
 VB1_2
-Text Label 8950 4300 2    60   ~ 0
+Text Label 8950 4100 2    60   ~ 0
 VB1_3
-Text Label 8950 4400 2    60   ~ 0
+Text Label 8950 4600 2    60   ~ 0
 VB2_1
 Text Label 8950 4500 2    60   ~ 0
 VB2_2
-Text Label 8950 4600 2    60   ~ 0
+Text Label 8950 4400 2    60   ~ 0
 VB2_3
 $Comp
 L CONN_02X02 P7
@@ -765,12 +765,12 @@ VP_3
 Text Label 7500 4500 2    60   ~ 0
 OUT
 $Comp
-L Conn_01x14 J?
+L Conn_01x14 P6
 U 1 1 5A5672C2
 P 9150 4100
-F 0 "J?" H 9150 4800 50  0000 C CNN
+F 0 "P6" H 9150 4800 50  0000 C CNN
 F 1 "Conn_01x14" H 9150 3300 50  0000 C CNN
-F 2 "" H 9150 4100 50  0001 C CNN
+F 2 "LIBS:Potentiometer_TT_P08X_Quad_Vertical_Dual_Shaft" H 9150 4100 50  0001 C CNN
 F 3 "" H 9150 4100 50  0001 C CNN
 	1    9150 4100
 	1    0    0    -1  

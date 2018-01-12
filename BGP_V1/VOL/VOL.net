@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/charlie/work/BGP_V1/VOL/VOL.sch)
-    (date "Thu 11 Jan 2018 08:43:12 AEDT")
+    (source /home/charlie/work/BGP/BGP_V1/VOL/VOL.sch)
+    (date "Fri 12 Jan 2018 14:41:35 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,7 +18,7 @@
     (comp (ref IC1)
       (value TC7660SO-08)
       (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
-      (libsource (lib MC_TC7660) (part TC7660SO-08))
+      (libsource (lib VOL-cache) (part TC7660SO-08))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A4DABA4))
     (comp (ref C1)
@@ -143,7 +143,7 @@
       (tstamp 5A4DD8B3))
     (comp (ref C8)
       (value 22u)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint Capacitors_Tantalum_SMD:TantalC_SizeS_EIA-3216)
       (libsource (lib device) (part CP1_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A4DD92B))
@@ -383,7 +383,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib MC_TC7660) (part TC7660SO-08)
+    (libpart (lib VOL-cache) (part TC7660SO-08)
       (fields
         (field (name Reference) IC)
         (field (name Value) TC7660SO-08)
@@ -404,10 +404,8 @@
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
-    (library (logical MC_TC7660)
-      (uri /home/charlie/work/BGP_V1/MC_TC7660.lib))
     (library (logical VOL-cache)
-      (uri /home/charlie/work/BGP_V1/VOL/VOL-cache.lib)))
+      (uri /home/charlie/work/BGP/BGP_V1/VOL/VOL-cache.lib)))
   (nets
     (net (code 1) (name "Net-(C1-Pad2)")
       (node (ref C1) (pin 2))
