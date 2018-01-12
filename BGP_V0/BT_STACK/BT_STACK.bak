@@ -285,7 +285,7 @@ U 1 1 5A289F35
 P 5300 5200
 F 0 "RV1" H 5460 5510 50  0000 C CNN
 F 1 "DUAL_POT" H 5590 4900 50  0000 C CNN
-F 2 "LIBS:Potentiometer_Alpha_Double_Vertical_Dual_Shaft" H 5300 5200 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft" H 5300 5200 50  0001 C CNN
 F 3 "" H 5300 5200 50  0000 C CNN
 	1    5300 5200
 	1    0    0    -1  

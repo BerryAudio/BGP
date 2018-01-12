@@ -88,7 +88,7 @@ U 1 1 5A291EC4
 P 5000 4500
 F 0 "RV1" H 5000 4420 50  0000 C CNN
 F 1 "POT" H 5000 4500 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 5000 4500 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Single_Vertical" H 5000 4500 50  0001 C CNN
 F 3 "" H 5000 4500 50  0000 C CNN
 	1    5000 4500
 	0    1    -1   0   
