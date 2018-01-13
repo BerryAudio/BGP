@@ -1,0 +1,7 @@
+BGP 0
+Change Buffer board size to 3.6x3mm
+Edit BT, Mid, Buffer to +/-9v net names
+Change Opamps to ADA4084-1
+
+BGP 1
+Change Buffer board size to 3.3x3mm
