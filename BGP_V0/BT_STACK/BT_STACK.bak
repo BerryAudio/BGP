@@ -49,7 +49,7 @@ U 1 1 5A288695
 P 4400 2450
 F 0 "C1" H 4410 2520 50  0000 L CNN
 F 1 "22u" H 4410 2370 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 4400 2450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4400 2450 50  0001 C CNN
 F 3 "" H 4400 2450 50  0000 C CNN
 	1    4400 2450
 	1    0    0    -1  
@@ -132,7 +132,7 @@ U 1 1 5A288B14
 P 5550 3500
 F 0 "C5" H 5560 3570 50  0000 L CNN
 F 1 "0.1u" H 5560 3420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 5550 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5550 3500 50  0001 C CNN
 F 3 "" H 5550 3500 50  0000 C CNN
 	1    5550 3500
 	0    1    1    0   

@@ -54,17 +54,6 @@ F 3 "" H 4400 2450 50  0000 C CNN
 	1    4400 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Earth #PWR01
-U 1 1 5A28872E
-P 4400 2600
-F 0 "#PWR01" H 4400 2350 50  0001 C CNN
-F 1 "Earth" H 4400 2450 50  0001 C CNN
-F 2 "" H 4400 2600 50  0000 C CNN
-F 3 "" H 4400 2600 50  0000 C CNN
-	1    4400 2600
-	1    0    0    -1  
-$EndComp
 Text Label 4400 2300 1    60   ~ 0
 V+
 $Comp
@@ -80,19 +69,6 @@ F 3 "" H 5450 2900 50  0000 C CNN
 $EndComp
 Text Label 5300 2400 0    60   ~ 0
 V+
-$Comp
-L Earth #PWR02
-U 1 1 5A28886E
-P 5300 3000
-F 0 "#PWR02" H 5300 2750 50  0001 C CNN
-F 1 "Earth" H 5300 2850 50  0001 C CNN
-F 2 "" H 5300 3000 50  0000 C CNN
-F 3 "" H 5300 3000 50  0000 C CNN
-	1    5300 3000
-	1    0    0    -1  
-$EndComp
-Text Label 5100 2600 2    60   ~ 0
-REF
 $Comp
 L C_Small C4
 U 1 1 5A2888B6
@@ -302,21 +278,8 @@ Text Label 5150 5500 2    60   ~ 0
 T+
 Text Label 5600 5400 0    60   ~ 0
 TW
-$Comp
-L Earth #PWR03
-U 1 1 5A28A63A
-P 3950 2600
-F 0 "#PWR03" H 3950 2350 50  0001 C CNN
-F 1 "Earth" H 3950 2450 50  0001 C CNN
-F 2 "" H 3950 2600 50  0000 C CNN
-F 3 "" H 3950 2600 50  0000 C CNN
-	1    3950 2600
-	0    -1   -1   0   
-$EndComp
 Text Label 3950 2400 0    60   ~ 0
 V+
-Text Label 3950 2500 0    60   ~ 0
-REF
 Text Label 3950 2300 0    60   ~ 0
 OUT
 Text Label 3950 2700 0    60   ~ 0
@@ -332,4 +295,30 @@ F 3 "" H 3750 2500 50  0000 C CNN
 	1    3750 2500
 	-1   0    0    1   
 $EndComp
+Text Label 3950 2600 0    60   ~ 0
+V-
+$Comp
+L Earth #PWR?
+U 1 1 5A5AEE2D
+P 3950 2500
+F 0 "#PWR?" H 3950 2250 50  0001 C CNN
+F 1 "Earth" H 3950 2350 50  0001 C CNN
+F 2 "" H 3950 2500 50  0001 C CNN
+F 3 "" H 3950 2500 50  0001 C CNN
+	1    3950 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5A5AEE90
+P 5100 2600
+F 0 "#PWR?" H 5100 2350 50  0001 C CNN
+F 1 "Earth" H 5100 2450 50  0001 C CNN
+F 2 "" H 5100 2600 50  0001 C CNN
+F 3 "" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	0    1    1    0   
+$EndComp
+Text Label 5300 3000 3    60   ~ 0
+V-
 $EndSCHEMATC
