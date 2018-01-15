@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_V1/HPF/HPF.sch)
-    (date "Fri 12 Jan 2018 14:32:46 AEDT")
+    (date "Mon 15 Jan 2018 15:48:51 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -71,7 +71,7 @@
       (tstamp 5A4DA958))
     (comp (ref C3)
       (value 10u)
-      (footprint Capacitors_SMD:C_1206_HandSoldering)
+      (footprint Capacitors_SMD:C_0805_HandSoldering)
       (libsource (lib device) (part CP1_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A4DC564))
@@ -177,12 +177,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /IN)
       (node (ref P1) (pin 4))
