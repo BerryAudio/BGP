@@ -318,7 +318,7 @@ U 1 1 5A5819B7
 P 6750 4550
 F 0 "RV1" H 6910 4860 50  0000 C CNN
 F 1 "DUAL_POT" H 7040 4250 50  0000 C CNN
-F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical_Dual_Shaft" H 6750 4550 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alpha_Double_Vertical_Dual_Shaft" H 6750 4550 50  0001 C CNN
 F 3 "" H 6750 4550 50  0000 C CNN
 	1    6750 4550
 	1    0    0    -1  

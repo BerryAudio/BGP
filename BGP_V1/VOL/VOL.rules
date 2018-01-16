@@ -1,5 +1,5 @@
 
-(rules PCB HPF
+(rules PCB VOL
   (snap_angle 
     fortyfive_degree
   )
@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 104)
+    (start_pass_no 86)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 3.0)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 1.5)
     )
   )
   (rule
@@ -69,7 +69,10 @@
     )
   )
   (class "kicad_default"
-    "/VP_2" "/VP_1" "Net-(C2-Pad1)" "Net-(R1-Pad1)" "/VF_1" "Net-(R6-Pad2)"
+    "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C4-Pad2)" "Net-(C8-Pad2)" "Net-(IC1-Pad6)" "Net-(IC1-Pad7)"
+    "/OUT_B" "/BUF_B" "/OUT_N" "/BUF_N" "/HPF_OUT" "/HPF_IN" "Net-(R2-Pad1)" "Net-(R3-Pad1)"
+    "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(C3-Pad2)" "/VP_1" "/VB1_2" "/VB2_2" "Net-(P6-Pad7)" "Net-(P6-Pad8)"
+    "Net-(P6-Pad9)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -80,7 +83,7 @@
     )
   )
   (class PWR
-    Earth /V+ "/V-" /IN /OUT
+    /V+ Earth /BAT+ "/V-" /OUT "/BAT-"
     (clearance_class PWR)
     (via_rule PWR)
     (rule
