@@ -321,4 +321,6 @@ F 3 "" H 5100 2600 50  0001 C CNN
 $EndComp
 Text Label 5300 3000 3    60   ~ 0
 V-
+Text Label 4400 2600 3    60   ~ 0
+V-
 $EndSCHEMATC

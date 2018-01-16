@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 33)
+    (start_pass_no 230)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -70,6 +70,7 @@
   )
   (class "kicad_default"
     /TW "Net-(C3-Pad2)" "Net-(C4-Pad1)" /B+ "/B-" /BW "/T-" /T+
+    "Net-(C1-Pad2)" "/V-"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -80,7 +81,7 @@
     )
   )
   (class PWR
-    Earth /V+ /IN /REF /OUT
+    Earth /V+ /IN /OUT
     (clearance_class PWR)
     (via_rule PWR)
     (rule
