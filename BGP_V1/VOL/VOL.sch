@@ -330,9 +330,9 @@ F 3 "" H 6500 4800 50  0000 C CNN
 $EndComp
 Text Label 5500 3500 1    60   ~ 0
 VB1_1
-Text Label 5600 3500 1    60   ~ 0
-VB1_2
 Text Label 5700 3500 1    60   ~ 0
+VB1_2
+Text Label 5600 3500 1    60   ~ 0
 VB1_3
 Text Label 6500 4000 1    60   ~ 0
 V+
@@ -340,9 +340,9 @@ Text Label 6500 4600 3    60   ~ 0
 V-
 Text Label 5500 3950 1    60   ~ 0
 VB2_1
-Text Label 5600 3950 1    60   ~ 0
-VB2_2
 Text Label 5700 3950 1    60   ~ 0
+VB2_2
+Text Label 5600 3950 1    60   ~ 0
 VB2_3
 Text Label 5400 3500 2    60   ~ 0
 OUT_B
@@ -407,23 +407,23 @@ F 3 "" H 7500 4650 50  0000 C CNN
 $EndComp
 Text Label 7500 4300 1    60   ~ 0
 VP_1
-Text Label 8950 4000 2    60   ~ 0
+Text Label 8900 4750 2    60   ~ 0
 VP_1
-Text Label 8950 3800 2    60   ~ 0
+Text Label 8900 4550 2    60   ~ 0
 VP_3
-Text Label 8950 3900 2    60   ~ 0
-VP_OUT
-Text Label 8950 4300 2    60   ~ 0
+Text Label 8900 4650 2    60   ~ 0
+OUT
+Text Label 8900 3850 2    60   ~ 0
 VB1_1
-Text Label 8950 4200 2    60   ~ 0
+Text Label 8900 3750 2    60   ~ 0
 VB1_2
-Text Label 8950 4100 2    60   ~ 0
+Text Label 8900 3650 2    60   ~ 0
 VB1_3
-Text Label 8950 4600 2    60   ~ 0
+Text Label 8900 4150 2    60   ~ 0
 VB2_1
-Text Label 8950 4500 2    60   ~ 0
+Text Label 8900 4050 2    60   ~ 0
 VB2_2
-Text Label 8950 4400 2    60   ~ 0
+Text Label 8900 3950 2    60   ~ 0
 VB2_3
 $Comp
 L CONN_02X02 P7
@@ -541,12 +541,12 @@ OUT
 $Comp
 L Earth #PWR011
 U 1 1 5A4E0247
-P 3600 2400
-F 0 "#PWR011" H 3600 2150 50  0001 C CNN
-F 1 "Earth" H 3600 2250 50  0001 C CNN
-F 2 "" H 3600 2400 50  0000 C CNN
-F 3 "" H 3600 2400 50  0000 C CNN
-	1    3600 2400
+P 3600 2600
+F 0 "#PWR011" H 3600 2350 50  0001 C CNN
+F 1 "Earth" H 3600 2450 50  0001 C CNN
+F 2 "" H 3600 2600 50  0000 C CNN
+F 3 "" H 3600 2600 50  0000 C CNN
+	1    3600 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -582,7 +582,7 @@ F 3 "" H 6500 5100 50  0000 C CNN
 	1    6500 5100
 	0    1    1    0   
 $EndComp
-Text Label 3600 2600 0    60   ~ 0
+Text Label 3600 2400 0    60   ~ 0
 BAT-
 $Comp
 L L_Small L4
@@ -600,7 +600,7 @@ L R_Small R9
 U 1 1 5A4F3A3C
 P 7650 4300
 F 0 "R9" H 7680 4320 50  0000 L CNN
-F 1 "18k" H 7680 4260 50  0000 L CNN
+F 1 "8.45k" H 7680 4260 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 7650 4300 50  0001 C CNN
 F 3 "" H 7650 4300 50  0000 C CNN
 	1    7650 4300
@@ -611,7 +611,7 @@ L R_Small R10
 U 1 1 5A4F3B09
 P 7650 4600
 F 0 "R10" H 7680 4620 50  0000 L CNN
-F 1 "22k" H 7680 4560 50  0000 L CNN
+F 1 "11k" H 7680 4560 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 7650 4600 50  0001 C CNN
 F 3 "" H 7650 4600 50  0000 C CNN
 	1    7650 4600
@@ -765,18 +765,44 @@ VP_3
 Text Label 7500 4500 2    60   ~ 0
 OUT
 $Comp
-L Conn_01x14 P6
-U 1 1 5A5672C2
-P 9150 4100
-F 0 "P6" H 9150 4800 50  0000 C CNN
-F 1 "Conn_01x14" H 9150 3300 50  0000 C CNN
-F 2 "LIBS:Potentiometer_TT_P08X_Quad_Vertical_Dual_Shaft" H 9150 4100 50  0001 C CNN
-F 3 "" H 9150 4100 50  0001 C CNN
-	1    9150 4100
+L CONN_01X12 P6
+U 1 1 5A5D73F9
+P 9100 4200
+F 0 "P6" H 9100 4850 50  0000 C CNN
+F 1 "CONN_01X12" V 9200 4200 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Quad_Vertical_Dual_Shaft" H 9100 4200 50  0001 C CNN
+F 3 "" H 9100 4200 50  0000 C CNN
+	1    9100 4200
 	1    0    0    -1  
 $EndComp
-Text Label 8950 4700 2    60   ~ 0
-VP_OUT
-Text Label 8950 4800 2    60   ~ 0
-OUT
+$Comp
+L R_Small R11
+U 1 1 5A5D792F
+P 7650 3500
+F 0 "R11" H 7680 3520 50  0000 L CNN
+F 1 "11k" H 7680 3460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7650 3500 50  0001 C CNN
+F 3 "" H 7650 3500 50  0000 C CNN
+	1    7650 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R12
+U 1 1 5A5D7B92
+P 7650 3800
+F 0 "R12" H 7680 3820 50  0000 L CNN
+F 1 "11k" H 7680 3760 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7650 3800 50  0001 C CNN
+F 3 "" H 7650 3800 50  0000 C CNN
+	1    7650 3800
+	0    1    1    0   
+$EndComp
+Text Label 7550 3500 2    60   ~ 0
+VB1_1
+Text Label 7750 3500 0    60   ~ 0
+VB1_3
+Text Label 7550 3800 2    60   ~ 0
+VB2_1
+Text Label 7750 3800 0    60   ~ 0
+VB2_3
 $EndSCHEMATC
