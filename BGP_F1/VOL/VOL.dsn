@@ -1,9 +1,9 @@
-(pcb /home/charlie/work/BGP/BGP_F1/VOL/vol.dsn
+(pcb C:\Users\Charlie\Documents\GitHub\BGP\BGP_F1\VOL\VOL.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "4.0.4-1.fc24-product")
+    (host_version "4.0.7")
   )
   (resolution um 10)
   (unit um)
@@ -14,32 +14,19 @@
         (index 0)
       )
     )
-    (layer In1.Cu
-      (type power)
-      (property
-        (index 1)
-      )
-    )
-    (layer In2.Cu
-      (type power)
-      (property
-        (index 2)
-      )
-    )
     (layer B.Cu
       (type signal)
       (property
-        (index 3)
+        (index 1)
       )
     )
     (boundary
       (path pcb 0  170000 -106000  130000 -106000  130000 -76000  170000 -76000
             170000 -106000  170000 -106000)
     )
-    (plane Earth (polygon In1.Cu 0  169700 -76300  130300 -76300  130300 -105700  169700 -105700))
-    (plane /Vref (polygon In2.Cu 0  169700 -76300  130300 -76300  130300 -105700  169700 -105700))
-    (plane /V+ (polygon B.Cu 0  169700 -76300  130300 -76300  130300 -105700  169700 -105700))
-    (via "Via[0-3]_600:400_um")
+    (plane /Vref (polygon B.Cu 0  169700 -76300  130300 -76300  130300 -105700  169700 -105700))
+    (plane @:no_net_0 (polygon F.Cu 0  169700 -76300  130300 -76300  130300 -105700  169700 -105700))
+    (via "Via[0-1]_600:400_um")
     (rule
       (width 300)
       (clearance 300.1)
@@ -49,15 +36,15 @@
   )
   (placement
     (component LIBS:Potentiometer_Alps_RK097_Quad_Vertical_Dual_Shaft
-      (place P7 165200 -79000 front 90 (PN CONN_01X12))
+      (place P7 164900 -79100 front 90 (PN CONN_01X12))
     )
     (component Capacitors_SMD:C_0805_HandSoldering
-      (place C1 149900 -78400 front 180 (PN 1n))
+      (place C1 147000 -78700 front 180 (PN 1n))
     )
     (component "Capacitors_Tantalum_SMD:TantalC_SizeS_EIA-3216"
-      (place C2 154500 -94450 front 180 (PN 22u))
-      (place C3 137500 -80000 front 90 (PN 22u))
-      (place C4 160400 -101000 back 270 (PN 22u))
+      (place C2 154000 -83700 front 180 (PN 22u))
+      (place C3 140400 -85900 back 0 (PN 22u))
+      (place C4 160374 -96400 back 0 (PN 22u))
     )
     (component "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight"
       (place P1 135000 -103000 back 270 (PN CONN_01X05))
@@ -74,23 +61,23 @@
       (place P6 153950 -103350 back 180 (PN CONN_02X02))
     )
     (component Resistors_SMD:R_0603_HandSoldering
-      (place R1 138100 -98100 front 270 (PN 249k))
-      (place R2 145100 -98100 front 270 (PN 249k))
-      (place R3 155500 -79500 front 90 (PN 4.99k))
-      (place R4 155450 -84400 front 90 (PN 4.99k))
-      (place R5 149900 -87800 front 0 (PN 4.99k))
-      (place R6 149900 -83200 front 0 (PN 4.99k))
-      (place R7 149900 -85500 front 0 (PN 4.99k))
-      (place R8 149900 -80900 front 180 (PN 4.99k))
-      (place R9 155400 -89400 front 90 (PN 100))
-      (place R10 159050 -95500 front 270 (PN 10k))
-      (place R11 161550 -95550 front 90 (PN 12k))
-      (place R12 132600 -80000 front 90 (PN 100k))
-      (place R13 134900 -80000 front 270 (PN 100k))
+      (place R1 138000 -96100 front 270 (PN 249k))
+      (place R2 145000 -96100 front 270 (PN 249k))
+      (place R3 156000 -79900 front 90 (PN 4.99k))
+      (place R4 168800 -80000 front 90 (PN 4.99k))
+      (place R5 152000 -96100 front 270 (PN 4.99k))
+      (place R6 152000 -78700 front 0 (PN 4.99k))
+      (place R7 152000 -81100 front 0 (PN 4.99k))
+      (place R8 147000 -81100 front 180 (PN 4.99k))
+      (place R9 147000 -83700 front 180 (PN 100))
+      (place R10 156000 -87500 front 270 (PN 10k))
+      (place R11 160600 -92800 front 0 (PN 12k))
+      (place R12 136400 -84600 back 270 (PN 100k))
+      (place R13 140400 -83200 back 180 (PN 100k))
     )
     (component "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
-      (place U1 143000 -87450 front 180 (PN MC33178))
-      (place U2 143050 -80200 front 180 (PN MC33178))
+      (place U1 139000 -88050 front 180 (PN MC33178))
+      (place U2 139050 -80800 front 180 (PN MC33178))
     )
   )
   (library
@@ -258,29 +245,21 @@
     )
     (padstack Round[A]Pad_1500_um
       (shape (circle F.Cu 1500))
-      (shape (circle In1.Cu 1500))
-      (shape (circle In2.Cu 1500))
       (shape (circle B.Cu 1500))
       (attach off)
     )
     (padstack Round[A]Pad_1800_um
       (shape (circle F.Cu 1800))
-      (shape (circle In1.Cu 1800))
-      (shape (circle In2.Cu 1800))
       (shape (circle B.Cu 1800))
       (attach off)
     )
     (padstack Oval[A]Pad_1727.2x1727.2_um
       (shape (path F.Cu 1727.2  0 0  0 0))
-      (shape (path In1.Cu 1727.2  0 0  0 0))
-      (shape (path In2.Cu 1727.2  0 0  0 0))
       (shape (path B.Cu 1727.2  0 0  0 0))
       (attach off)
     )
     (padstack Oval[A]Pad_1998.98x1998.98_um
       (shape (path F.Cu 1998.98  0 0  0 0))
-      (shape (path In1.Cu 1998.98  0 0  0 0))
-      (shape (path In2.Cu 1998.98  0 0  0 0))
       (shape (path B.Cu 1998.98  0 0  0 0))
       (attach off)
     )
@@ -294,8 +273,6 @@
     )
     (padstack Rect[A]Pad_1500x1500_um
       (shape (rect F.Cu -750 -750 750 750))
-      (shape (rect In1.Cu -750 -750 750 750))
-      (shape (rect In2.Cu -750 -750 750 750))
       (shape (rect B.Cu -750 -750 750 750))
       (attach off)
     )
@@ -305,8 +282,6 @@
     )
     (padstack Rect[A]Pad_1727.2x1727.2_um
       (shape (rect F.Cu -863.6 -863.6 863.6 863.6))
-      (shape (rect In1.Cu -863.6 -863.6 863.6 863.6))
-      (shape (rect In2.Cu -863.6 -863.6 863.6 863.6))
       (shape (rect B.Cu -863.6 -863.6 863.6 863.6))
       (attach off)
     )
@@ -316,20 +291,18 @@
     )
     (padstack Rect[A]Pad_1998.98x1998.98_um
       (shape (rect F.Cu -999.49 -999.49 999.49 999.49))
-      (shape (rect In1.Cu -999.49 -999.49 999.49 999.49))
-      (shape (rect In2.Cu -999.49 -999.49 999.49 999.49))
       (shape (rect B.Cu -999.49 -999.49 999.49 999.49))
       (attach off)
     )
-    (padstack "Via[0-3]_600:400_um"
+    (padstack "Via[0-1]_600:400_um"
       (shape (circle F.Cu 600))
-      (shape (circle In1.Cu 600))
-      (shape (circle In2.Cu 600))
       (shape (circle B.Cu 600))
       (attach off)
     )
   )
   (network
+    (net @:no_net_0
+    )
     (net "Net-(C1-Pad1)"
       (pins C1-1 R8-1 R9-2 U2-1)
     )
@@ -404,7 +377,7 @@
       "Net-(C1-Pad2)" "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(P7-Pad7)" "Net-(P7-Pad8)"
       "Net-(P7-Pad9)"
       (circuit
-        (use_via Via[0-3]_600:400_um)
+        (use_via Via[0-1]_600:400_um)
       )
       (rule
         (width 300)

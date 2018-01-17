@@ -1,5 +1,5 @@
 
-(rules PCB vol
+(rules PCB VOL
   (snap_angle 
     fortyfive_degree
   )
@@ -11,21 +11,9 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 617)
+    (start_pass_no 782)
     (layer_rule F.Cu
       (active on)
-      (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.3)
-    )
-    (layer_rule In1.Cu
-      (active off)
-      (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.3)
-    )
-    (layer_rule In2.Cu
-      (active off)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 2.3)
@@ -43,15 +31,9 @@
     (clear 150.0 (type smd_to_turn_gap))
     (clear 75.0 (type smd_smd))
   )
-  (padstack "Via[0-3]_600:400_um"
+  (padstack "Via[0-1]_600:400_um"
     (shape
       (circle F.Cu 600.0 0.0 0.0)
-    )
-    (shape
-      (circle In1.Cu 600.0 0.0 0.0)
-    )
-    (shape
-      (circle In2.Cu 600.0 0.0 0.0)
     )
     (shape
       (circle B.Cu 600.0 0.0 0.0)
@@ -59,55 +41,36 @@
     (attach off)
   )
   (via 
-    "Via[0-3]_600:400_um" "Via[0-3]_600:400_um" default
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
   )
   (via 
-    "Via[0-3]_600:400_um-kicad_default" "Via[0-3]_600:400_um" "kicad_default"
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
   )
   (via_rule
-    default "Via[0-3]_600:400_um"
+    default "Via[0-1]_600:400_um"
   )
   (via_rule
-    "kicad_default" "Via[0-3]_600:400_um-kicad_default"
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
   )
   (class default
+    "@:no_net_0"
     (clearance_class default)
     (via_rule default)
     (rule
       (width 300.0)
-    )
-    (layer_rule In1.Cu
-      (rule 
-        (width 0.0) 
-      )
-    )
-    (layer_rule In2.Cu
-      (rule 
-        (width 0.0) 
-      )
     )
     (circuit 
       (use_layer F.Cu B.Cu)
     )
   )
   (class "kicad_default"
-    Earth /Vref /V+ "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)" "/PV_3" "Net-(C3-Pad1)"
-    "/OUT_N" "/BUF_N" "/OUT_B" "/BUF_B" "/BAT-" /OUT "/PB1_1" "/PB1_2"
+    /Vref "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)" "/PV_3" "Net-(C3-Pad1)" Earth "/OUT_N"
+    "/BUF_N" /V+ "/OUT_B" "/BUF_B" "/BAT-" /OUT "/PB1_1" "/PB1_2"
     "/PB2_2" "Net-(P7-Pad7)" "Net-(P7-Pad8)" "Net-(P7-Pad9)" "/OUT_HPF" "/PB2_3" "/IN_HPF"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 300.0)
-    )
-    (layer_rule In1.Cu
-      (rule 
-        (width 0.0) 
-      )
-    )
-    (layer_rule In2.Cu
-      (rule 
-        (width 0.0) 
-      )
     )
     (circuit 
       (use_layer F.Cu B.Cu)
