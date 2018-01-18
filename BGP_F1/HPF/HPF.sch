@@ -76,8 +76,6 @@ F 3 "" H 4800 4450 50  0000 C CNN
 	1    4800 4450
 	-1   0    0    1   
 $EndComp
-Text Label 4800 4050 0    60   ~ 0
-VF_1
 Text Label 4800 4150 0    60   ~ 0
 VF_2
 Text Label 4800 4250 0    60   ~ 0
@@ -175,8 +173,6 @@ Text Label 5000 3050 2    60   ~ 0
 VG_1
 Text Label 5600 3050 0    60   ~ 0
 VG_2
-Text Label 5600 3150 0    60   ~ 0
-VG_3
 Text Label 4150 3800 2    60   ~ 0
 BUF_I
 $Comp
