@@ -48,7 +48,7 @@ U 1 1 5A5E88B2
 P 4400 4150
 F 0 "U1" H 4400 4350 50  0000 L CNN
 F 1 "MC33178" H 4400 3950 50  0000 L CNN
-F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4300 4200 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4300 4200 50  0001 C CNN
 F 3 "" H 4400 4300 50  0000 C CNN
 	1    4400 4150
 	1    0    0    1   
@@ -67,23 +67,12 @@ $EndComp
 Text Label 4300 4450 3    60   ~ 0
 V+
 $Comp
-L C_Small C1
-U 1 1 5A5E8958
-P 3800 4250
-F 0 "C1" H 3810 4320 50  0000 L CNN
-F 1 "0.1u" H 3810 4170 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 3800 4250 50  0001 C CNN
-F 3 "" H 3800 4250 50  0000 C CNN
-	1    3800 4250
-	0    1    1    0   
-$EndComp
-$Comp
 L R_Small R3
 U 1 1 5A5E8981
 P 4000 4600
 F 0 "R3" H 4030 4620 50  0000 L CNN
 F 1 "499k" H 4030 4560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4000 4600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4000 4600 50  0001 C CNN
 F 3 "" H 4000 4600 50  0000 C CNN
 	1    4000 4600
 	1    0    0    -1  
@@ -94,7 +83,7 @@ U 1 1 5A5E89AB
 P 3550 4600
 F 0 "R1" H 3580 4620 50  0000 L CNN
 F 1 "499k" H 3580 4560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 4600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3550 4600 50  0001 C CNN
 F 3 "" H 3550 4600 50  0000 C CNN
 	1    3550 4600
 	1    0    0    -1  
@@ -116,7 +105,7 @@ U 1 1 5A5E8A0B
 P 4000 3550
 F 0 "RV1" H 4000 3470 50  0000 C CNN
 F 1 "POT" H 4000 3550 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3269X" H 4000 3550 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296X" H 4000 3550 50  0001 C CNN
 F 3 "" H 4000 3550 50  0000 C CNN
 	1    4000 3550
 	-1   0    0    1   
@@ -138,7 +127,7 @@ U 1 1 5A5E8A7C
 P 3700 3550
 F 0 "R2" H 3730 3570 50  0000 L CNN
 F 1 "2.49k" H 3730 3510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3700 3550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3700 3550 50  0001 C CNN
 F 3 "" H 3700 3550 50  0000 C CNN
 	1    3700 3550
 	0    1    1    0   
@@ -167,7 +156,7 @@ U 1 1 5A5E8BB7
 P 4900 4150
 F 0 "R4" H 4930 4170 50  0000 L CNN
 F 1 "4.99k" H 4930 4110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4900 4150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4900 4150 50  0001 C CNN
 F 3 "" H 4900 4150 50  0000 C CNN
 	1    4900 4150
 	0    1    1    0   
@@ -195,7 +184,7 @@ U 1 1 5A5E8E72
 P 5900 4150
 F 0 "R5" H 5930 4170 50  0000 L CNN
 F 1 "4.99k" H 5930 4110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5900 4150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5900 4150 50  0001 C CNN
 F 3 "" H 5900 4150 50  0000 C CNN
 	1    5900 4150
 	0    1    1    0   
@@ -208,7 +197,7 @@ U 2 1 5A5E8EFC
 P 6300 4050
 F 0 "U1" H 6300 4250 50  0000 L CNN
 F 1 "MC33178" H 6300 3850 50  0000 L CNN
-F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6200 4100 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6200 4100 50  0001 C CNN
 F 3 "" H 6300 4200 50  0000 C CNN
 	2    6300 4050
 	1    0    0    1   
@@ -259,7 +248,7 @@ U 1 1 5A5E925F
 P 6200 3400
 F 0 "R7" H 6230 3420 50  0000 L CNN
 F 1 "15k" H 6230 3360 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6200 3400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6200 3400 50  0001 C CNN
 F 3 "" H 6200 3400 50  0000 C CNN
 	1    6200 3400
 	0    1    1    0   
@@ -270,16 +259,16 @@ U 1 1 5A5E92ED
 P 6200 3050
 F 0 "R6" H 6230 3070 50  0000 L CNN
 F 1 "15k" H 6230 3010 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6200 3050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6200 3050 50  0001 C CNN
 F 3 "" H 6200 3050 50  0000 C CNN
 	1    6200 3050
 	0    1    1    0   
 $EndComp
-Text Label 6450 3400 1    60   ~ 0
+Text Label 6950 4050 1    60   ~ 0
 PG1_1
-Text Label 6550 3400 1    60   ~ 0
+Text Label 7050 4050 1    60   ~ 0
 PG1_2
-Text Label 6650 3400 1    60   ~ 0
+Text Label 7150 4050 1    60   ~ 0
 PG1_3
 Wire Wire Line
 	6550 3400 6750 3400
@@ -298,11 +287,11 @@ Wire Wire Line
 Connection ~ 6000 3400
 Text Label 6300 3050 0    60   ~ 0
 Vref
-Text Label 6950 4050 1    60   ~ 0
+Text Label 6450 3400 1    60   ~ 0
 PG2_1
-Text Label 7050 4050 1    60   ~ 0
+Text Label 6550 3400 1    60   ~ 0
 PG2_2
-Text Label 7150 4050 1    60   ~ 0
+Text Label 6650 3400 1    60   ~ 0
 PG2_3
 Connection ~ 6750 4050
 Wire Wire Line
@@ -313,7 +302,7 @@ U 1 1 5A5E9684
 P 6500 3500
 F 0 "R8" H 6530 3520 50  0000 L CNN
 F 1 "20k" H 6530 3460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6500 3500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6500 3500 50  0001 C CNN
 F 3 "" H 6500 3500 50  0000 C CNN
 	1    6500 3500
 	0    1    1    0   
@@ -332,7 +321,7 @@ U 1 1 5A5E9759
 P 7000 4150
 F 0 "R9" H 7030 4170 50  0000 L CNN
 F 1 "20k" H 7030 4110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7000 4150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7000 4150 50  0001 C CNN
 F 3 "" H 7000 4150 50  0000 C CNN
 	1    7000 4150
 	0    1    1    0   
@@ -352,7 +341,7 @@ U 1 1 5A5E9826
 P 7300 4050
 F 0 "R10" H 7330 4070 50  0000 L CNN
 F 1 "15k" H 7330 4010 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7300 4050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7300 4050 50  0001 C CNN
 F 3 "" H 7300 4050 50  0000 C CNN
 	1    7300 4050
 	0    1    1    0   
@@ -363,7 +352,7 @@ U 1 1 5A5E989C
 P 7500 4250
 F 0 "R11" H 7530 4270 50  0000 L CNN
 F 1 "15k" H 7530 4210 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7500 4250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7500 4250 50  0001 C CNN
 F 3 "" H 7500 4250 50  0000 C CNN
 	1    7500 4250
 	1    0    0    -1  
@@ -486,4 +475,39 @@ Text Label 8550 4550 2    60   ~ 0
 PG2_2
 Text Label 8550 4650 2    60   ~ 0
 PG2_3
+$Comp
+L CP1_Small C1
+U 1 1 5A5FD792
+P 3800 4250
+F 0 "C1" H 3810 4320 50  0000 L CNN
+F 1 "0.01u" H 3810 4170 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 3800 4250 50  0001 C CNN
+F 3 "" H 3800 4250 50  0000 C CNN
+	1    3800 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1_Small C5
+U 1 1 5A5FDAB4
+P 7800 4600
+F 0 "C5" H 7810 4670 50  0000 L CNN
+F 1 "10u" H 7810 4520 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 7800 4600 50  0001 C CNN
+F 3 "" H 7800 4600 50  0000 C CNN
+	1    7800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR06
+U 1 1 5A5FDB44
+P 7800 4700
+F 0 "#PWR06" H 7800 4450 50  0001 C CNN
+F 1 "Earth" H 7800 4550 50  0001 C CNN
+F 2 "" H 7800 4700 50  0000 C CNN
+F 3 "" H 7800 4700 50  0000 C CNN
+	1    7800 4700
+	1    0    0    -1  
+$EndComp
+Text Label 7800 4500 1    60   ~ 0
+V+
 $EndSCHEMATC

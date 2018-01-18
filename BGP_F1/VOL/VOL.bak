@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:vol-cache
+LIBS:VOL-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -656,4 +656,19 @@ F 3 "" H 8400 3500 50  0000 C CNN
 $EndComp
 Text Label 8400 3300 1    60   ~ 0
 V+
+$Comp
+L D_Small_ALT D1
+U 1 1 5A5F9F82
+P 8700 3400
+F 0 "D1" H 8650 3480 50  0000 L CNN
+F 1 "1N4148" H 8550 3320 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8700 3400 50  0001 C CNN
+F 3 "" V 8700 3400 50  0001 C CNN
+	1    8700 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 3500 8700 3500
+Wire Wire Line
+	8400 3300 8700 3300
 $EndSCHEMATC
