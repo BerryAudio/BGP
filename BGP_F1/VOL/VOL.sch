@@ -628,8 +628,6 @@ Text Label 9400 2550 2    60   ~ 0
 Vref
 Text Label 9400 3350 2    60   ~ 0
 PV_3
-Text Label 9400 3150 2    60   ~ 0
-Vref
 Text Label 2650 4750 0    60   ~ 0
 V+
 $Comp
@@ -671,4 +669,15 @@ Wire Wire Line
 	8400 3500 8700 3500
 Wire Wire Line
 	8400 3300 8700 3300
+$Comp
+L Earth #PWR?
+U 1 1 5A606171
+P 9400 3150
+F 0 "#PWR?" H 9400 2900 50  0001 C CNN
+F 1 "Earth" H 9400 3000 50  0001 C CNN
+F 2 "" H 9400 3150 50  0000 C CNN
+F 3 "" H 9400 3150 50  0000 C CNN
+	1    9400 3150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
