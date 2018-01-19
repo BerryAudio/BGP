@@ -80,20 +80,9 @@ F 3 "" H 4150 3200 50  0000 C CNN
 $EndComp
 Text Label 3650 3900 3    60   ~ 0
 Vref
-$Comp
-L R_Small R3
-U 1 1 5A5EC802
-P 4800 3500
-F 0 "R3" H 4830 3520 50  0000 L CNN
-F 1 "4.99k" H 4830 3460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4800 3500 50  0001 C CNN
-F 3 "" H 4800 3500 50  0000 C CNN
-	1    4800 3500
-	0    1    1    0   
-$EndComp
 Text Label 4700 3500 1    60   ~ 0
 PB1_1
-Text Label 5050 3500 1    60   ~ 0
+Text Label 4900 3500 1    60   ~ 0
 PB1_2
 Text Label 3650 3600 2    60   ~ 0
 OUT_N
@@ -123,18 +112,7 @@ F 3 "" H 4150 4200 50  0000 C CNN
 $EndComp
 Text Label 3650 4900 3    60   ~ 0
 Vref
-$Comp
-L R_Small R4
-U 1 1 5A5EC9E9
-P 4800 4500
-F 0 "R4" H 4830 4520 50  0000 L CNN
-F 1 "4.99k" H 4830 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4800 4500 50  0001 C CNN
-F 3 "" H 4800 4500 50  0000 C CNN
-	1    4800 4500
-	0    1    1    0   
-$EndComp
-Text Label 5050 4500 1    60   ~ 0
+Text Label 4900 4500 1    60   ~ 0
 PB2_2
 Text Label 3650 4600 2    60   ~ 0
 OUT_B
@@ -591,14 +569,14 @@ F 3 "" H 9600 2800 50  0000 C CNN
 	1    9600 2800
 	1    0    0    -1  
 $EndComp
-Text Label 9400 2250 2    60   ~ 0
+Text Label 9400 2450 2    60   ~ 0
 PB1_1
 Text Label 9400 2350 2    60   ~ 0
 PB1_2
 Text Label 9400 2650 2    60   ~ 0
 PB2_2
-Text Label 9400 2750 2    60   ~ 0
-PB2_3
+Text Label 9400 2550 2    60   ~ 0
+PB2_1
 Text Label 9400 3250 2    60   ~ 0
 PV_2
 $Comp
@@ -621,15 +599,13 @@ BUF_B
 Text Label 6900 4150 2    60   ~ 0
 BUF_N
 Text Label 4700 4500 1    60   ~ 0
-PB2_3
-Text Label 9400 2450 2    60   ~ 0
+PB2_1
+Text Label 9400 2250 2    60   ~ 0
 Vref
-Text Label 9400 2550 2    60   ~ 0
+Text Label 9400 2750 2    60   ~ 0
 Vref
 Text Label 9400 3350 2    60   ~ 0
 PV_3
-Text Label 9400 3150 2    60   ~ 0
-Vref
 Text Label 2650 4750 0    60   ~ 0
 V+
 $Comp
@@ -671,4 +647,49 @@ Wire Wire Line
 	8400 3500 8700 3500
 Wire Wire Line
 	8400 3300 8700 3300
+$Comp
+L Earth #PWR012
+U 1 1 5A606171
+P 9400 3150
+F 0 "#PWR012" H 9400 2900 50  0001 C CNN
+F 1 "Earth" H 9400 3000 50  0001 C CNN
+F 2 "" H 9400 3150 50  0000 C CNN
+F 3 "" H 9400 3150 50  0000 C CNN
+	1    9400 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A6282A9
+P 4700 3650
+F 0 "R?" H 4730 3670 50  0000 L CNN
+F 1 "11.1k" H 4730 3610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4700 3650 50  0001 C CNN
+F 3 "" H 4700 3650 50  0000 C CNN
+	1    4700 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A628323
+P 4700 4650
+F 0 "R?" H 4730 4670 50  0000 L CNN
+F 1 "11.1k" H 4730 4610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4700 4650 50  0001 C CNN
+F 3 "" H 4700 4650 50  0000 C CNN
+	1    4700 4650
+	-1   0    0    1   
+$EndComp
+Text Label 4700 4800 3    60   ~ 0
+Vref
+Wire Wire Line
+	4700 4800 4700 4750
+Wire Wire Line
+	4700 4500 4700 4550
+Wire Wire Line
+	4700 3500 4700 3550
+Wire Wire Line
+	4700 3800 4700 3750
+Text Label 4700 3800 3    60   ~ 0
+Vref
 $EndSCHEMATC
