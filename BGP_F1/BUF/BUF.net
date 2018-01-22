@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_F1/BUF/BUF.sch)
-    (date "Fri 19 Jan 2018 13:49:54 AEDT")
+    (date "Mon 22 Jan 2018 08:58:37 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -119,7 +119,7 @@
       (tstamp 5A5EA041))
     (comp (ref P2)
       (value CONN_01X05)
-      (footprint Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight)
+      (footprint Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight)
       (libsource (lib conn) (part CONN_01X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A5EA274))
@@ -264,12 +264,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(C4-Pad1)")
       (node (ref C4) (pin 1))

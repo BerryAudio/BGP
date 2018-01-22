@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BUF-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -161,16 +162,12 @@ F 3 "" H 4900 4150 50  0000 C CNN
 	1    4900 4150
 	0    1    1    0   
 $EndComp
-Text Label 5100 4150 1    60   ~ 0
-PF1_1
 Text Label 5200 4150 1    60   ~ 0
 PF1_2
 Text Label 5300 4150 1    60   ~ 0
 PF1_3
 Wire Wire Line
 	5200 4150 5000 4150
-Text Label 5550 4150 1    60   ~ 0
-PF2_1
 Text Label 5650 4150 1    60   ~ 0
 PF2_2
 Text Label 5750 4150 1    60   ~ 0
@@ -268,8 +265,6 @@ Text Label 6950 4050 1    60   ~ 0
 PG1_1
 Text Label 7050 4050 1    60   ~ 0
 PG1_2
-Text Label 7150 4050 1    60   ~ 0
-PG1_3
 Wire Wire Line
 	6550 3400 6750 3400
 Wire Wire Line
@@ -291,8 +286,6 @@ Text Label 6450 3400 1    60   ~ 0
 PG2_1
 Text Label 6550 3400 1    60   ~ 0
 PG2_2
-Text Label 6650 3400 1    60   ~ 0
-PG2_3
 Connection ~ 6750 4050
 Wire Wire Line
 	7050 4050 7200 4050

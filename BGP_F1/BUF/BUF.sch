@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BUF-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -403,7 +404,7 @@ U 1 1 5A5EA274
 P 2600 4150
 F 0 "P2" H 2600 4450 50  0000 C CNN
 F 1 "CONN_01X05" V 2700 4150 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 2600 4150 50  0001 C CNN
+F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 2600 4150 50  0001 C CNN
 F 3 "" H 2600 4150 50  0000 C CNN
 	1    2600 4150
 	-1   0    0    1   
