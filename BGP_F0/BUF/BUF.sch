@@ -446,9 +446,9 @@ PV_2
 Text Label 7600 2750 0    60   ~ 0
 PV_3
 Text Label 7050 2700 2    60   ~ 0
+OUT_EQ
+Text Label 6350 2700 0    60   ~ 0
 IN_EQ
-Text Label 6050 2700 0    60   ~ 0
-OUT_BUF
 $Comp
 L CONN_01X02 P5
 U 1 1 5A655B8F
@@ -483,7 +483,7 @@ F 3 "" H 2350 3950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 2550 3900 0    60   ~ 0
-IN_N
+IN_B
 $Comp
 L CONN_01X09 P6
 U 1 1 5A656FFD
@@ -553,9 +553,9 @@ $EndComp
 Text Label 8300 4100 2    60   ~ 0
 VRef
 Text Label 8300 3900 2    60   ~ 0
-OUT_BUF
-Text Label 8300 3800 2    60   ~ 0
 IN_EQ
+Text Label 8300 3800 2    60   ~ 0
+OUT_EQ
 Text Label 8300 4000 2    60   ~ 0
 V+
 $Comp
@@ -723,7 +723,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 5000 2550 4650
 Text Label 2550 2500 0    60   ~ 0
-IN_B
+IN_N
 Connection ~ 2800 2500
 Connection ~ 2800 3900
 Text Label 6000 4450 0    60   ~ 0
