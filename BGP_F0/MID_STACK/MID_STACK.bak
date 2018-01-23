@@ -1,0 +1,189 @@
+EESchema Schematic File Version 2
+LIBS:MID_STACK-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MID_STACK-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5000 3350 2    60   ~ 0
+VOL1
+Text Label 5000 3250 2    60   ~ 0
+VOL2
+Text Label 5000 3150 2    60   ~ 0
+VOL3
+Wire Wire Line
+	5000 3250 5050 3250
+$Comp
+L C_Small C2
+U 1 1 5A4C54B9
+P 5150 3250
+F 0 "C2" H 5160 3320 50  0000 L CNN
+F 1 "10n" H 5160 3170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5150 3250 50  0001 C CNN
+F 3 "" H 5150 3250 50  0000 C CNN
+	1    5150 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5A4C5562
+P 5400 3250
+F 0 "R1" H 5430 3270 50  0000 L CNN
+F 1 "12k" H 5430 3210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5400 3250 50  0001 C CNN
+F 3 "" H 5400 3250 50  0000 C CNN
+	1    5400 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3250 5250 3250
+Wire Wire Line
+	5500 3250 5550 3250
+Text Label 5550 3250 3    60   ~ 0
+F1_2
+Text Label 5650 3250 3    60   ~ 0
+F1_1
+Wire Wire Line
+	5750 3250 5750 3700
+Wire Wire Line
+	5750 3800 5750 3850
+$Comp
+L R_Small R3
+U 1 1 5A4C5B1B
+P 5750 3950
+F 0 "R3" H 5780 3970 50  0000 L CNN
+F 1 "12k" H 5780 3910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5750 3950 50  0001 C CNN
+F 3 "" H 5750 3950 50  0000 C CNN
+	1    5750 3950
+	1    0    0    -1  
+$EndComp
+Text Label 5750 3700 2    60   ~ 0
+F2_1
+Text Label 5750 3800 2    60   ~ 0
+F2_2
+$Comp
+L C_Small C3
+U 1 1 5A4C5BAB
+P 5450 3950
+F 0 "C3" H 5460 4020 50  0000 L CNN
+F 1 "4.7n" H 5460 3870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5450 3950 50  0001 C CNN
+F 3 "" H 5450 3950 50  0000 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3600
+Wire Wire Line
+	5750 4050 5750 4150
+Wire Wire Line
+	5750 4100 5450 4100
+Wire Wire Line
+	5450 4100 5450 4050
+Wire Wire Line
+	5450 3850 5450 3600
+Wire Wire Line
+	5450 3600 5750 3600
+Connection ~ 5750 4100
+Text Label 6400 3450 2    60   ~ 0
+VOL1
+Text Label 6400 3550 2    60   ~ 0
+VOL2
+Text Label 6400 3650 2    60   ~ 0
+VOL3
+Text Label 6400 3750 2    60   ~ 0
+F1_1
+Text Label 6400 3850 2    60   ~ 0
+F1_2
+Text Label 6400 4050 2    60   ~ 0
+F2_1
+Text Label 6400 4150 2    60   ~ 0
+F2_2
+Wire Wire Line
+	6400 3950 6400 3850
+Wire Wire Line
+	6400 4250 6400 4150
+Wire Wire Line
+	5750 3250 5650 3250
+Wire Wire Line
+	5000 3000 5000 3150
+Wire Wire Line
+	5000 3450 5000 3350
+Text Label 5750 4150 3    60   ~ 0
+Vref
+Text Label 5000 3000 1    60   ~ 0
+MID_O
+Text Label 5000 3450 3    60   ~ 0
+MID_I
+Text Label 5750 3250 0    60   ~ 0
+MID_R
+$Comp
+L CONN_01X09 P?
+U 1 1 5A669FB9
+P 6600 3850
+F 0 "P?" H 6600 4350 50  0000 C CNN
+F 1 "CONN_01X09" V 6700 3850 50  0000 C CNN
+F 2 "" H 6600 3850 50  0000 C CNN
+F 3 "" H 6600 3850 50  0000 C CNN
+	1    6600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 5A66A01B
+P 4300 3550
+F 0 "P?" H 4300 3800 50  0000 C CNN
+F 1 "CONN_01X04" V 4400 3550 50  0000 C CNN
+F 2 "" H 4300 3550 50  0000 C CNN
+F 3 "" H 4300 3550 50  0000 C CNN
+	1    4300 3550
+	-1   0    0    1   
+$EndComp
+Text Label 4500 3400 0    60   ~ 0
+Vref
+Text Label 4500 3500 0    60   ~ 0
+MID_O
+Text Label 4500 3600 0    60   ~ 0
+MID_R
+Text Label 4500 3700 0    60   ~ 0
+MID_I
+$EndSCHEMATC
