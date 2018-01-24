@@ -439,11 +439,11 @@ F 3 "" H 7600 3300 50  0000 C CNN
 	1    7600 3300
 	1    0    0    -1  
 $EndComp
-Text Label 7600 2700 0    60   ~ 0
+Text Label 7600 3300 0    60   ~ 0
 PV_1
 Text Label 7600 3050 0    60   ~ 0
 PV_2
-Text Label 7600 3300 0    60   ~ 0
+Text Label 7600 2750 0    60   ~ 0
 PV_3
 Text Label 7050 2700 2    60   ~ 0
 OUT_EQ
