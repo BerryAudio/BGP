@@ -685,11 +685,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 4900 6000 4450
 Wire Wire Line
-	5000 4750 5600 4750
+	4750 4750 5600 4750
 Wire Wire Line
 	5200 4750 5200 4700
 Wire Wire Line
-	5200 4150 5600 4150
+	4750 4150 5600 4150
 Wire Wire Line
 	5200 4350 5200 4500
 Wire Wire Line
@@ -728,4 +728,21 @@ Connection ~ 2800 2500
 Connection ~ 2800 3900
 Text Label 6000 4450 0    60   ~ 0
 VRef
+$Comp
+L D_Small_ALT D1
+U 1 1 5A68E289
+P 4750 4600
+F 0 "D1" H 4700 4680 50  0000 L CNN
+F 1 "CS1D" H 4600 4520 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 4750 4600 50  0001 C CNN
+F 3 "" V 4750 4600 50  0001 C CNN
+	1    4750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4500 4750 4150
+Connection ~ 5200 4150
+Wire Wire Line
+	4750 4700 4750 4750
+Connection ~ 5000 4750
 $EndSCHEMATC
