@@ -85,7 +85,7 @@ L R_Small R2
 U 1 1 5A288A43
 P 4950 3750
 F 0 "R2" H 4980 3770 50  0000 L CNN
-F 1 "2.2k" H 4980 3710 50  0000 L CNN
+F 1 "4.7k" H 4980 3710 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 4950 3750 50  0001 C CNN
 F 3 "" H 4950 3750 50  0000 C CNN
 	1    4950 3750
@@ -107,15 +107,15 @@ L R_Small R4
 U 1 1 5A288BAC
 P 5850 3750
 F 0 "R4" H 5880 3770 50  0000 L CNN
-F 1 "2.2k" H 5880 3710 50  0000 L CNN
+F 1 "4.7k" H 5880 3710 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5850 3750 50  0001 C CNN
 F 3 "" H 5850 3750 50  0000 C CNN
 	1    5850 3750
 	0    1    1    0   
 $EndComp
-Text Label 5300 3850 3    60   ~ 0
-B-
 Text Label 5500 3850 3    60   ~ 0
+B-
+Text Label 5300 3850 3    60   ~ 0
 B+
 Text Label 5400 3850 3    60   ~ 0
 BW
@@ -213,9 +213,9 @@ Wire Wire Line
 Wire Wire Line
 	4700 4450 4700 3750
 Connection ~ 4700 3750
-Text Label 5300 4550 3    60   ~ 0
-T-
 Text Label 5500 4550 3    60   ~ 0
+T-
+Text Label 5300 4550 3    60   ~ 0
 T+
 Text Label 5400 4550 3    60   ~ 0
 TW

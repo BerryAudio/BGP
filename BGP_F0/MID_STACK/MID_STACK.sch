@@ -43,11 +43,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5500 3550 2    60   ~ 0
+Text Label 5500 3350 2    60   ~ 0
 VOL1
 Text Label 5500 3450 2    60   ~ 0
 VOL2
-Text Label 5500 3350 2    60   ~ 0
+Text Label 5500 3550 2    60   ~ 0
 VOL3
 Wire Wire Line
 	5500 3450 5550 3450
