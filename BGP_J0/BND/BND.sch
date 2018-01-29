@@ -1,0 +1,398 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P?
+U 1 1 5A6E9BB6
+P 3600 3600
+F 0 "P?" H 3600 3750 50  0000 C CNN
+F 1 "CONN_01X02" V 3700 3600 50  0000 C CNN
+F 2 "" H 3600 3600 50  0000 C CNN
+F 3 "" H 3600 3600 50  0000 C CNN
+	1    3600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5A6E9BE9
+P 3600 4000
+F 0 "P?" H 3600 4150 50  0000 C CNN
+F 1 "CONN_01X02" V 3700 4000 50  0000 C CNN
+F 2 "" H 3600 4000 50  0000 C CNN
+F 3 "" H 3600 4000 50  0000 C CNN
+	1    3600 4000
+	-1   0    0    1   
+$EndComp
+Text Label 3800 3950 0    60   ~ 0
+IN_N
+Text Label 3800 3550 0    60   ~ 0
+IN_B
+$Comp
+L Earth #PWR?
+U 1 1 5A6E9C5A
+P 3800 3650
+F 0 "#PWR?" H 3800 3400 50  0001 C CNN
+F 1 "Earth" H 3800 3500 50  0001 C CNN
+F 2 "" H 3800 3650 50  0000 C CNN
+F 3 "" H 3800 3650 50  0000 C CNN
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5A6E9C72
+P 3800 4050
+F 0 "#PWR?" H 3800 3800 50  0001 C CNN
+F 1 "Earth" H 3800 3900 50  0001 C CNN
+F 2 "" H 3800 4050 50  0000 C CNN
+F 3 "" H 3800 4050 50  0000 C CNN
+	1    3800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A6E9EA0
+P 5500 3650
+F 0 "R?" H 5530 3670 50  0000 L CNN
+F 1 "1Meg" H 5530 3610 50  0000 L CNN
+F 2 "" H 5500 3650 50  0000 C CNN
+F 3 "" H 5500 3650 50  0000 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A6E9EFF
+P 5100 3650
+F 0 "R?" H 5130 3670 50  0000 L CNN
+F 1 "499k" H 5130 3610 50  0000 L CNN
+F 2 "" H 5100 3650 50  0000 C CNN
+F 3 "" H 5100 3650 50  0000 C CNN
+	1    5100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5A6E9F43
+P 5100 3750
+F 0 "#PWR?" H 5100 3500 50  0001 C CNN
+F 1 "Earth" H 5100 3600 50  0001 C CNN
+F 2 "" H 5100 3750 50  0000 C CNN
+F 3 "" H 5100 3750 50  0000 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3450 5250 3450
+Connection ~ 5100 3450
+Wire Wire Line
+	5450 3450 5950 3450
+Wire Wire Line
+	5500 3450 5500 3550
+$Comp
+L CP1_Small C?
+U 1 1 5A6E9FDE
+P 5350 3450
+F 0 "C?" H 5360 3520 50  0000 L CNN
+F 1 "0.1u" H 5360 3370 50  0000 L CNN
+F 2 "" H 5350 3450 50  0000 C CNN
+F 3 "" H 5350 3450 50  0000 C CNN
+	1    5350 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3800 5500 3750
+Text Label 5500 3800 3    60   ~ 0
+Vref
+Wire Wire Line
+	3800 3550 4300 3550
+Wire Wire Line
+	3800 3950 4300 3950
+$Comp
+L Q_NJFET_DSG Q?
+U 1 1 5A6EA1A7
+P 6150 3450
+F 0 "Q?" H 6450 3500 50  0000 R CNN
+F 1 "J201" H 6500 3400 50  0000 R CNN
+F 2 "" H 6350 3550 50  0000 C CNN
+F 3 "" H 6150 3450 50  0000 C CNN
+	1    6150 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3450
+$Comp
+L R_Small R?
+U 1 1 5A6EA2D7
+P 6250 3050
+F 0 "R?" H 6280 3070 50  0000 L CNN
+F 1 "10k" H 6280 3010 50  0000 L CNN
+F 2 "" H 6250 3050 50  0000 C CNN
+F 3 "" H 6250 3050 50  0000 C CNN
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A6EA31B
+P 6250 3850
+F 0 "R?" H 6280 3870 50  0000 L CNN
+F 1 "4.99k" H 6280 3810 50  0000 L CNN
+F 2 "" H 6250 3850 50  0000 C CNN
+F 3 "" H 6250 3850 50  0000 C CNN
+	1    6250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A6EA362
+P 6550 3850
+F 0 "R?" H 6580 3870 50  0000 L CNN
+F 1 "3.9k" H 6580 3810 50  0000 L CNN
+F 2 "" H 6550 3850 50  0000 C CNN
+F 3 "" H 6550 3850 50  0000 C CNN
+	1    6550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5A6EA398
+P 6550 4100
+F 0 "C?" H 6560 4170 50  0000 L CNN
+F 1 "47u" H 6560 4020 50  0000 L CNN
+F 2 "" H 6550 4100 50  0000 C CNN
+F 3 "" H 6550 4100 50  0000 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4200 6550 4250
+Wire Wire Line
+	6550 4250 6250 4250
+Wire Wire Line
+	6250 4250 6250 3950
+Wire Wire Line
+	6250 3650 6250 3750
+Wire Wire Line
+	6250 3150 6250 3250
+Wire Wire Line
+	6250 2950 6250 2900
+$Comp
+L VCC #PWR?
+U 1 1 5A6EA4A3
+P 6250 2900
+F 0 "#PWR?" H 6250 2750 50  0001 C CNN
+F 1 "VCC" H 6250 3050 50  0000 C CNN
+F 2 "" H 6250 2900 50  0000 C CNN
+F 3 "" H 6250 2900 50  0000 C CNN
+	1    6250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5A6EA523
+P 6250 4250
+F 0 "#PWR?" H 6250 4000 50  0001 C CNN
+F 1 "Earth" H 6250 4100 50  0001 C CNN
+F 2 "" H 6250 4250 50  0000 C CNN
+F 3 "" H 6250 4250 50  0000 C CNN
+	1    6250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3700 6550 3700
+Wire Wire Line
+	6550 3700 6550 3750
+Connection ~ 6250 3700
+Wire Wire Line
+	6550 3950 6550 4000
+$Comp
+L R_Small R?
+U 1 1 5A6EA691
+P 6600 3200
+F 0 "R?" H 6630 3220 50  0000 L CNN
+F 1 "100" H 6630 3160 50  0000 L CNN
+F 2 "" H 6600 3200 50  0000 C CNN
+F 3 "" H 6600 3200 50  0000 C CNN
+	1    6600 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 3200 6500 3200
+Connection ~ 6250 3200
+$Comp
+L C_Small C?
+U 1 1 5A6EA813
+P 5800 3650
+F 0 "C?" H 5810 3720 50  0000 L CNN
+F 1 "47p" H 5810 3570 50  0000 L CNN
+F 2 "" H 5800 3650 50  0000 C CNN
+F 3 "" H 5800 3650 50  0000 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3800 5800 3750
+Wire Wire Line
+	5800 3450 5800 3550
+Connection ~ 5800 3450
+$Comp
+L Earth #PWR?
+U 1 1 5A6EA95F
+P 5800 3800
+F 0 "#PWR?" H 5800 3550 50  0001 C CNN
+F 1 "Earth" H 5800 3650 50  0001 C CNN
+F 2 "" H 5800 3800 50  0000 C CNN
+F 3 "" H 5800 3800 50  0000 C CNN
+	1    5800 3800
+	1    0    0    -1  
+$EndComp
+Text Label 6750 3200 0    60   ~ 0
+OUT_BT
+Wire Wire Line
+	6750 3200 6700 3200
+Text Label 4300 3950 2    60   ~ 0
+BND5
+Wire Wire Line
+	5100 3550 5100 3450
+Text Label 4750 3450 0    60   ~ 0
+BND1
+$Comp
+L DUAL_POT RV?
+U 1 1 5A6EEABF
+P 4600 3750
+F 0 "RV?" H 4760 4060 50  0000 C CNN
+F 1 "DUAL_POT" H 4890 3450 50  0000 C CNN
+F 2 "" H 4600 3750 50  0000 C CNN
+F 3 "" H 4600 3750 50  0000 C CNN
+	1    4600 3750
+	-1   0    0    -1  
+$EndComp
+Text Label 4300 3550 2    60   ~ 0
+BND2
+Text Label 4750 3650 0    60   ~ 0
+BND3
+Text Label 4750 3850 0    60   ~ 0
+BND4
+Text Label 4750 4050 0    60   ~ 0
+BND6
+Wire Wire Line
+	4750 3650 4750 3850
+$Comp
+L Earth #PWR?
+U 1 1 5A6EF359
+P 4800 3750
+F 0 "#PWR?" H 4800 3500 50  0001 C CNN
+F 1 "Earth" H 4800 3600 50  0001 C CNN
+F 2 "" H 4800 3750 50  0000 C CNN
+F 3 "" H 4800 3750 50  0000 C CNN
+	1    4800 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3750 4750 3750
+Connection ~ 4750 3750
+Wire Wire Line
+	4750 4050 4950 4050
+Wire Wire Line
+	4950 4050 4950 3450
+Connection ~ 4950 3450
+$Comp
+L CONN_01X06 P?
+U 1 1 5A6F0C64
+P 7850 3450
+F 0 "P?" H 7850 3800 50  0000 C CNN
+F 1 "CONN_01X06" V 7950 3450 50  0000 C CNN
+F 2 "" H 7850 3450 50  0000 C CNN
+F 3 "" H 7850 3450 50  0000 C CNN
+	1    7850 3450
+	1    0    0    -1  
+$EndComp
+Text Label 7650 3200 2    60   ~ 0
+BND1
+Text Label 7650 3400 2    60   ~ 0
+BND3
+Text Label 7650 3500 2    60   ~ 0
+BND4
+Text Label 7650 3700 2    60   ~ 0
+BND6
+Text Label 7650 3300 2    60   ~ 0
+BND2
+Text Label 7650 3600 2    60   ~ 0
+BND5
+$Comp
+L CONN_01X03 P?
+U 1 1 5A6F0E49
+P 7850 4050
+F 0 "P?" H 7850 4250 50  0000 C CNN
+F 1 "CONN_01X03" V 7950 4050 50  0000 C CNN
+F 2 "" H 7850 4050 50  0000 C CNN
+F 3 "" H 7850 4050 50  0000 C CNN
+	1    7850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5A6F0EB5
+P 7650 3950
+F 0 "#PWR?" H 7650 3800 50  0001 C CNN
+F 1 "VCC" H 7650 4100 50  0000 C CNN
+F 2 "" H 7650 3950 50  0000 C CNN
+F 3 "" H 7650 3950 50  0000 C CNN
+	1    7650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5A6F0EED
+P 7650 4150
+F 0 "#PWR?" H 7650 3900 50  0001 C CNN
+F 1 "Earth" H 7650 4000 50  0001 C CNN
+F 2 "" H 7650 4150 50  0000 C CNN
+F 3 "" H 7650 4150 50  0000 C CNN
+	1    7650 4150
+	1    0    0    -1  
+$EndComp
+Text Label 7650 4050 2    60   ~ 0
+OUT_BT
+$EndSCHEMATC
