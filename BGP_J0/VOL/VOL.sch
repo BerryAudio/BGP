@@ -392,17 +392,6 @@ F 3 "" H 6500 3400 50  0000 C CNN
 	1    6500 3400
 	0    1    1    0   
 $EndComp
-$Comp
-L CP1_Small C2
-U 1 1 5A6FC1F6
-P 3850 4600
-F 0 "C2" H 3860 4670 50  0000 L CNN
-F 1 "10u" H 3860 4520 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 3850 4600 50  0001 C CNN
-F 3 "" H 3850 4600 50  0000 C CNN
-	1    3850 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 4700 3550 4750
 Wire Wire Line
@@ -578,6 +567,17 @@ F 1 "Earth" H 8200 4050 50  0001 C CNN
 F 2 "" H 8200 4200 50  0000 C CNN
 F 3 "" H 8200 4200 50  0000 C CNN
 	1    8200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C2
+U 1 1 5A6FE715
+P 3850 4600
+F 0 "C2" H 3860 4670 50  0000 L CNN
+F 1 "47u" H 3860 4520 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 3850 4600 50  0001 C CNN
+F 3 "" H 3850 4600 50  0000 C CNN
+	1    3850 4600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
