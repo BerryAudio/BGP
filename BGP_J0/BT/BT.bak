@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BT-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -144,14 +145,14 @@ L R_Small R4
 U 1 1 5A6FCB12
 P 5400 4000
 F 0 "R4" H 5430 4020 50  0000 L CNN
-F 1 "6.8k10k" H 5430 3960 50  0000 L CNN
+F 1 "6.8k" H 5430 3960 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5400 4000 50  0001 C CNN
 F 3 "" H 5400 4000 50  0000 C CNN
 	1    5400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-BT RV1
 U 1 1 5A6FCC01
 P 5750 4050
 F 0 "RV1" H 5750 3970 50  0000 C CNN
@@ -451,48 +452,37 @@ $EndComp
 Wire Wire Line
 	6600 4000 6500 4000
 $Comp
-L CONN_01X02 P3
-U 1 1 5A71357E
-P 3450 4350
-F 0 "P3" H 3450 4500 50  0000 C CNN
-F 1 "CONN_01X02" V 3550 4350 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 3450 4350 50  0001 C CNN
-F 3 "" H 3450 4350 50  0000 C CNN
-	1    3450 4350
-	-1   0    0    1   
-$EndComp
-$Comp
 L Earth #PWR010
 U 1 1 5A713616
-P 3650 4400
-F 0 "#PWR010" H 3650 4150 50  0001 C CNN
-F 1 "Earth" H 3650 4250 50  0001 C CNN
-F 2 "" H 3650 4400 50  0000 C CNN
-F 3 "" H 3650 4400 50  0000 C CNN
-	1    3650 4400
+P 3650 4600
+F 0 "#PWR010" H 3650 4350 50  0001 C CNN
+F 1 "Earth" H 3650 4450 50  0001 C CNN
+F 2 "" H 3650 4600 50  0000 C CNN
+F 3 "" H 3650 4600 50  0000 C CNN
+	1    3650 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X02 P5
-U 1 1 5A713500
-P 3450 4850
-F 0 "P5" H 3450 5000 50  0000 C CNN
-F 1 "CONN_01X02" V 3550 4850 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 3450 4850 50  0001 C CNN
-F 3 "" H 3450 4850 50  0000 C CNN
-	1    3450 4850
-	-1   0    0    1   
-$EndComp
-Text Label 3650 4900 0    60   ~ 0
+Text Label 3650 4500 0    60   ~ 0
 IN_N
-Text Label 3650 4800 0    60   ~ 0
+Text Label 3650 4400 0    60   ~ 0
 IN_B
 Text Notes 1600 3300 0    60   ~ 0
 Inputs direct from pickups
 Text Notes 1600 4300 0    60   ~ 0
 Input from Balance control including\nEarth
-Text Notes 1600 4750 0    60   ~ 0
+Text Notes 1600 4450 0    60   ~ 0
 Pickup outputs to Balance control
 Text Notes 8700 3300 0    60   ~ 0
 IO from Volume/Tone Control PCB
+$Comp
+L CONN_01X04 P?
+U 1 1 5A71A07A
+P 3450 4450
+F 0 "P?" H 3450 4700 50  0000 C CNN
+F 1 "CONN_01X04" V 3550 4450 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 3450 4450 50  0001 C CNN
+F 3 "" H 3450 4450 50  0000 C CNN
+	1    3450 4450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
