@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_J0/VOL/VOL.sch)
-    (date "Thu 01 Feb 2018 11:58:50 AEDT")
+    (date "Fri 02 Feb 2018 09:21:24 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -106,7 +106,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6FBE66))
     (comp (ref R7)
-      (value 47k)
+      (value 24.9k)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R_Small))
       (sheetpath (names /) (tstamps /))
