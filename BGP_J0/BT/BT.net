@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_J0/BT/BT.sch)
-    (date "Thu 01 Feb 2018 09:23:00 AEDT")
+    (date "Thu 01 Feb 2018 11:36:24 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -46,7 +46,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6FCABD))
     (comp (ref R4)
-      (value 4.99k)
+      (value 6.8k)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R_Small))
       (sheetpath (names /) (tstamps /))
@@ -58,7 +58,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6FCC01))
     (comp (ref R3)
-      (value 10k)
+      (value 12k)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R_Small))
       (sheetpath (names /) (tstamps /))
@@ -235,12 +235,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical BT-rescue)
-      (uri /home/charlie/work/BGP/BGP_J0/BT/BT-rescue.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /home/charlie/work/BGP/BGP_J0/BT/BT-rescue.lib)))
   (nets
     (net (code 1) (name /RV_4)
       (node (ref RV3) (pin 2))
