@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Charlie/Documents/GitHub/BGP/BGP_J0/BT/BT.sch)
-    (date "4/02/2018 7:16:37 AM")
+    (date "4/02/2018 5:18:24 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -118,7 +118,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6FE7FB))
     (comp (ref R7)
-      (value 2k)
+      (value 1.8k)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R_Small))
       (sheetpath (names /) (tstamps /))
@@ -221,12 +221,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical BT-cache)
+      (uri C:\Users\Charlie\Documents\GitHub\BGP\BGP_J0\BT\BT-cache.lib))
     (library (logical BT-rescue)
       (uri C:\Users\Charlie\Documents\GitHub\BGP\BGP_J0\BT\BT-rescue.lib))
     (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical BT-cache)
-      (uri C:\Users\Charlie\Documents\GitHub\BGP\BGP_J0\BT\BT-cache.lib)))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
   (nets
     (net (code 1) (name /Vref)
       (node (ref R2) (pin 2))
