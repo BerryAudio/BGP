@@ -1,0 +1,538 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BUF-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_Small R1
+U 1 1 5A653A92
+P 3750 2800
+F 0 "R1" H 3780 2820 50  0000 L CNN
+F 1 "1.5MEG" H 3780 2760 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 3750 2800 50  0001 C CNN
+F 3 "" H 3750 2800 50  0000 C CNN
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5A653A98
+P 4300 2800
+F 0 "R2" H 4330 2820 50  0000 L CNN
+F 1 "499k" H 4330 2760 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4300 2800 50  0001 C CNN
+F 3 "" H 4300 2800 50  0000 C CNN
+	1    4300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR01
+U 1 1 5A653A9E
+P 3750 2900
+F 0 "#PWR01" H 3750 2650 50  0001 C CNN
+F 1 "Earth" H 3750 2750 50  0001 C CNN
+F 2 "" H 3750 2900 50  0000 C CNN
+F 3 "" H 3750 2900 50  0000 C CNN
+	1    3750 2900
+	1    0    0    -1  
+$EndComp
+Text Label 4300 2900 3    60   ~ 0
+VRef
+$Comp
+L C_Small C1
+U 1 1 5A653ACD
+P 4050 2600
+F 0 "C1" H 4060 2670 50  0000 L CNN
+F 1 "0.1u" H 4060 2520 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 4050 2600 50  0001 C CNN
+F 3 "" H 4050 2600 50  0000 C CNN
+	1    4050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 5A653B83
+P 5200 2800
+F 0 "R4" H 5230 2820 50  0000 L CNN
+F 1 "4.99k" H 5230 2760 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5200 2800 50  0001 C CNN
+F 3 "" H 5200 2800 50  0000 C CNN
+	1    5200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L MC33178 U1
+U 1 1 5A653F31
+P 5750 2700
+F 0 "U1" H 5750 2900 50  0000 L CNN
+F 1 "MC33178" H 5750 2500 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5650 2750 50  0001 C CNN
+F 3 "" H 5750 2850 50  0000 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 5A654108
+P 5650 3000
+F 0 "#PWR02" H 5650 2750 50  0001 C CNN
+F 1 "Earth" H 5650 2850 50  0001 C CNN
+F 2 "" H 5650 3000 50  0000 C CNN
+F 3 "" H 5650 3000 50  0000 C CNN
+	1    5650 3000
+	1    0    0    -1  
+$EndComp
+Text Label 5650 2400 1    60   ~ 0
+V+
+Text Label 5450 2600 2    60   ~ 0
+VRef
+$Comp
+L MC33178 U1
+U 2 1 5A654838
+P 5750 3950
+F 0 "U1" H 5750 4150 50  0000 L CNN
+F 1 "MC33178" H 5750 3750 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5650 4000 50  0001 C CNN
+F 3 "" H 5750 4100 50  0000 C CNN
+	2    5750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR03
+U 1 1 5A6549CA
+P 5650 4250
+F 0 "#PWR03" H 5650 4000 50  0001 C CNN
+F 1 "Earth" H 5650 4100 50  0001 C CNN
+F 2 "" H 5650 4250 50  0000 C CNN
+F 3 "" H 5650 4250 50  0000 C CNN
+	1    5650 4250
+	1    0    0    -1  
+$EndComp
+Text Label 5650 3650 1    60   ~ 0
+V+
+$Comp
+L R_Small R5
+U 1 1 5A654B24
+P 5250 3750
+F 0 "R5" H 5280 3770 50  0000 L CNN
+F 1 "100k" H 5280 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5250 3750 50  0001 C CNN
+F 3 "" H 5250 3750 50  0000 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R6
+U 1 1 5A654BC0
+P 5250 4100
+F 0 "R6" H 5280 4120 50  0000 L CNN
+F 1 "100k" H 5280 4060 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5250 4100 50  0001 C CNN
+F 3 "" H 5250 4100 50  0000 C CNN
+	1    5250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C3
+U 1 1 5A654FB3
+P 5050 4100
+F 0 "C3" H 5060 4170 50  0000 L CNN
+F 1 "10u" H 5060 4020 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 5050 4100 50  0001 C CNN
+F 3 "" H 5050 4100 50  0000 C CNN
+	1    5050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C4
+U 1 1 5A65510F
+P 7400 2700
+F 0 "C4" H 7410 2770 50  0000 L CNN
+F 1 "10u" H 7410 2620 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 7400 2700 50  0001 C CNN
+F 3 "" H 7400 2700 50  0000 C CNN
+	1    7400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 5A6551C2
+P 7150 2700
+F 0 "R7" H 7180 2720 50  0000 L CNN
+F 1 "100" H 7180 2660 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 7150 2700 50  0001 C CNN
+F 3 "" H 7150 2700 50  0000 C CNN
+	1    7150 2700
+	0    1    1    0   
+$EndComp
+Text Label 3050 2500 0    60   ~ 0
+PB1_1
+Text Label 3500 2600 2    60   ~ 0
+PB1_2
+Text Label 3500 3000 2    60   ~ 0
+PB2_2
+Text Label 3050 3100 0    60   ~ 0
+PB2_3
+$Comp
+L Earth #PWR04
+U 1 1 5A655780
+P 7600 2850
+F 0 "#PWR04" H 7600 2600 50  0001 C CNN
+F 1 "Earth" H 7600 2700 50  0001 C CNN
+F 2 "" H 7600 2850 50  0000 C CNN
+F 3 "" H 7600 2850 50  0000 C CNN
+	1    7600 2850
+	1    0    0    -1  
+$EndComp
+Text Label 7600 2800 0    60   ~ 0
+PV_1
+Text Label 7600 2700 0    60   ~ 0
+PV_3
+Text Label 7050 2700 2    60   ~ 0
+OUT_EQ
+Text Label 6350 2700 0    60   ~ 0
+IN_EQ
+$Comp
+L CONN_01X02 P5
+U 1 1 5A655B8F
+P 6650 2300
+F 0 "P5" H 6650 2450 50  0000 C CNN
+F 1 "CONN_01X02" V 6750 2300 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6650 2300 50  0001 C CNN
+F 3 "" H 6650 2300 50  0000 C CNN
+	1    6650 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 5A65640A
+P 2700 2550
+F 0 "P1" H 2700 2700 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 2550 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 2700 2550 50  0001 C CNN
+F 3 "" H 2700 2550 50  0000 C CNN
+	1    2700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 5A656625
+P 2700 3150
+F 0 "P2" H 2700 3300 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 3150 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 2700 3150 50  0001 C CNN
+F 3 "" H 2700 3150 50  0000 C CNN
+	1    2700 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X09 P6
+U 1 1 5A656FFD
+P 8500 3150
+F 0 "P6" H 8500 3650 50  0000 C CNN
+F 1 "CONN_01X09" V 8600 3150 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alpha_Tripple_Vertical_Dual_Shaft" H 8500 3150 50  0001 C CNN
+F 3 "" H 8500 3150 50  0000 C CNN
+	1    8500 3150
+	1    0    0    -1  
+$EndComp
+Text Label 8300 3550 2    60   ~ 0
+PV_3
+Text Label 8300 3450 2    60   ~ 0
+PV_2
+Text Label 8300 3350 2    60   ~ 0
+PV_1
+Text Label 8300 2750 2    60   ~ 0
+PB1_1
+Text Label 8300 2850 2    60   ~ 0
+PB1_2
+Text Label 8300 3150 2    60   ~ 0
+PB2_2
+Text Label 8300 3250 2    60   ~ 0
+PB2_3
+$Comp
+L CONN_01X05 P7
+U 1 1 5A657865
+P 8500 4000
+F 0 "P7" H 8500 4300 50  0000 C CNN
+F 1 "CONN_01X05" V 8600 4000 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 8500 4000 50  0001 C CNN
+F 3 "" H 8500 4000 50  0000 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR05
+U 1 1 5A6578E9
+P 8300 4200
+F 0 "#PWR05" H 8300 3950 50  0001 C CNN
+F 1 "Earth" H 8300 4050 50  0001 C CNN
+F 2 "" H 8300 4200 50  0000 C CNN
+F 3 "" H 8300 4200 50  0000 C CNN
+	1    8300 4200
+	1    0    0    -1  
+$EndComp
+Text Label 8300 4100 2    60   ~ 0
+VRef
+Text Label 8300 3900 2    60   ~ 0
+IN_EQ
+Text Label 8300 3800 2    60   ~ 0
+OUT_EQ
+Text Label 8300 4000 2    60   ~ 0
+V+
+$Comp
+L CONN_01X03 P3
+U 1 1 5A657F5B
+P 2700 3700
+F 0 "P3" H 2700 3900 50  0000 C CNN
+F 1 "CONN_01X03" V 2800 3700 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 2700 3700 50  0001 C CNN
+F 3 "" H 2700 3700 50  0000 C CNN
+	1    2700 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 5A658137
+P 2700 4200
+F 0 "P4" H 2700 4350 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 4200 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 2700 4200 50  0001 C CNN
+F 3 "" H 2700 4200 50  0000 C CNN
+	1    2700 4200
+	-1   0    0    1   
+$EndComp
+Text Label 2900 4250 0    60   ~ 0
+V+
+Text Label 2900 3700 0    60   ~ 0
+PV_2
+$Comp
+L Earth #PWR06
+U 1 1 5A65837A
+P 2900 3600
+F 0 "#PWR06" H 2900 3350 50  0001 C CNN
+F 1 "Earth" H 2900 3450 50  0001 C CNN
+F 2 "" H 2900 3600 50  0000 C CNN
+F 3 "" H 2900 3600 50  0000 C CNN
+	1    2900 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Earth #PWR07
+U 1 1 5A658545
+P 2900 3200
+F 0 "#PWR07" H 2900 2950 50  0001 C CNN
+F 1 "Earth" H 2900 3050 50  0001 C CNN
+F 2 "" H 2900 3200 50  0000 C CNN
+F 3 "" H 2900 3200 50  0000 C CNN
+	1    2900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR08
+U 1 1 5A6585B9
+P 2900 2600
+F 0 "#PWR08" H 2900 2350 50  0001 C CNN
+F 1 "Earth" H 2900 2450 50  0001 C CNN
+F 2 "" H 2900 2600 50  0000 C CNN
+F 3 "" H 2900 2600 50  0000 C CNN
+	1    2900 2600
+	1    0    0    -1  
+$EndComp
+Text Label 6050 3950 0    60   ~ 0
+VRef
+$Comp
+L D_Small_ALT D1
+U 1 1 5A68E289
+P 4800 4100
+F 0 "D1" H 4750 4180 50  0000 L CNN
+F 1 "CS1D" H 4650 4020 50  0000 L CNN
+F 2 "Diodes_SMD:SMA_Standard" V 4800 4100 50  0001 C CNN
+F 3 "" V 4800 4100 50  0001 C CNN
+	1    4800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 5A77C488
+P 4650 2800
+F 0 "C2" H 4660 2870 50  0000 L CNN
+F 1 "27p" H 4660 2720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4650 2800 50  0001 C CNN
+F 3 "" H 4650 2800 50  0000 C CNN
+	1    4650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR09
+U 1 1 5A77C6E6
+P 4650 2900
+F 0 "#PWR09" H 4650 2650 50  0001 C CNN
+F 1 "Earth" H 4650 2750 50  0001 C CNN
+F 2 "" H 4650 2900 50  0000 C CNN
+F 3 "" H 4650 2900 50  0000 C CNN
+	1    4650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2600 4650 2700
+Connection ~ 5050 4250
+Wire Wire Line
+	4800 4200 4800 4250
+Connection ~ 5250 3650
+Wire Wire Line
+	4800 4000 4800 3650
+Connection ~ 3750 2600
+Wire Wire Line
+	2900 4150 2900 3800
+Wire Wire Line
+	8300 2950 8300 3050
+Wire Wire Line
+	6700 2700 6700 2500
+Wire Wire Line
+	7050 2700 6700 2700
+Wire Wire Line
+	6600 2700 6600 2500
+Wire Wire Line
+	6050 2700 6600 2700
+Wire Wire Line
+	7500 2700 7600 2700
+Wire Wire Line
+	7600 2850 7600 2800
+Wire Wire Line
+	7250 2700 7300 2700
+Connection ~ 5250 3850
+Wire Wire Line
+	5050 4000 5050 3850
+Connection ~ 5250 4250
+Wire Wire Line
+	5050 4250 5050 4200
+Wire Wire Line
+	5050 3850 5450 3850
+Wire Wire Line
+	5250 3850 5250 4000
+Wire Wire Line
+	4800 3650 5650 3650
+Wire Wire Line
+	5250 4250 5250 4200
+Wire Wire Line
+	4800 4250 5650 4250
+Wire Wire Line
+	6050 4400 6050 3950
+Wire Wire Line
+	5450 4400 6050 4400
+Wire Wire Line
+	5450 4050 5450 4400
+Connection ~ 5350 2800
+Wire Wire Line
+	5450 2800 5300 2800
+Wire Wire Line
+	4900 2800 5100 2800
+Wire Wire Line
+	3750 2600 3750 2700
+Wire Wire Line
+	3500 2600 3950 2600
+Connection ~ 4300 2600
+Wire Wire Line
+	4300 2600 4300 2700
+Wire Wire Line
+	4150 2600 5450 2600
+$Comp
+L R_Small R3
+U 1 1 5A653C2D
+P 5050 3200
+F 0 "R3" H 5080 3220 50  0000 L CNN
+F 1 "2.49kk" H 5080 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5050 3200 50  0001 C CNN
+F 3 "" H 5050 3200 50  0000 C CNN
+	1    5050 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV1
+U 1 1 5A77F1C1
+P 5350 3200
+F 0 "RV1" H 5350 3120 50  0000 C CNN
+F 1 "POT" H 5350 3200 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 5350 3200 50  0001 C CNN
+F 3 "" H 5350 3200 50  0000 C CNN
+	1    5350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3200 6100 3200
+Wire Wire Line
+	6100 3200 6100 2700
+Connection ~ 6100 2700
+Wire Wire Line
+	5350 3050 5350 2800
+Wire Wire Line
+	5200 3200 5150 3200
+Wire Wire Line
+	4850 3200 4950 3200
+Wire Wire Line
+	4900 2800 4900 3200
+Text Notes 5200 3500 0    60   ~ 0
+10k POT
+Connection ~ 4900 3200
+Text Label 4850 3200 2    60   ~ 0
+VRef
+Connection ~ 4650 2600
+Wire Wire Line
+	3500 3000 3500 2600
+Wire Wire Line
+	3050 2500 2900 2500
+Wire Wire Line
+	3050 3100 2900 3100
+$Comp
+L Earth #PWR010
+U 1 1 5A77FC25
+P 8300 2950
+F 0 "#PWR010" H 8300 2700 50  0001 C CNN
+F 1 "Earth" H 8300 2800 50  0001 C CNN
+F 2 "" H 8300 2950 50  0000 C CNN
+F 3 "" H 8300 2950 50  0000 C CNN
+	1    8300 2950
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
