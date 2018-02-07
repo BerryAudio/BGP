@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_F0/BT_STACK/BT_STACK.sch)
-    (date "Thu 25 Jan 2018 16:53:47 AEDT")
+    (date "Wed 07 Feb 2018 16:42:12 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 5A288695))
     (comp (ref C4)
       (value 470p)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint Capacitors_SMD:C_0603)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A2888B6))
@@ -241,12 +241,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical linear)
-      (uri /usr/share/kicad/library/linear.lib)))
+      (uri /usr/share/kicad/library/linear.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(C3-Pad2)")
       (node (ref R1) (pin 2))
