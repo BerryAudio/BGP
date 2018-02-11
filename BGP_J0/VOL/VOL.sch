@@ -493,7 +493,7 @@ U 1 1 5A6FE796
 P 7050 3900
 F 0 "C8" H 7060 3970 50  0000 L CNN
 F 1 "0.1u" H 7060 3820 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 7050 3900 50  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7050 3900 50  0001 C CNN
 F 3 "" H 7050 3900 50  0000 C CNN
 	1    7050 3900
 	1    0    0    -1  
@@ -659,4 +659,19 @@ Wire Wire Line
 Wire Wire Line
 	4350 2800 4350 2900
 Connection ~ 4350 2850
+$Comp
+L Conn_01x03_Female J1
+U 1 1 5A800B63
+P 6600 3900
+F 0 "J1" H 6600 4100 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 6600 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6600 3900 50  0001 C CNN
+F 3 "" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3800 7050 3800
+Wire Wire Line
+	6800 4000 7050 4000
 $EndSCHEMATC

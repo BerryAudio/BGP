@@ -254,9 +254,9 @@ Text Label 5600 5400 0    60   ~ 0
 TW
 Text Label 3950 2500 0    60   ~ 0
 V+
-Text Label 3950 2300 0    60   ~ 0
-OUT
 Text Label 3950 2400 0    60   ~ 0
+OUT
+Text Label 3950 2300 0    60   ~ 0
 IN
 $Comp
 L CONN_01X05 P1
