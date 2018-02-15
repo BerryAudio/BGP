@@ -283,7 +283,7 @@ F 1 "CONN_01X02" V 3550 3350 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 3450 3350 50  0001 C CNN
 F 3 "" H 3450 3350 50  0000 C CNN
 	1    3450 3350
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P2
@@ -294,7 +294,7 @@ F 1 "CONN_01X02" V 3550 3850 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 3450 3850 50  0001 C CNN
 F 3 "" H 3450 3850 50  0000 C CNN
 	1    3450 3850
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 3650 3300 0    60   ~ 0
 IN_B
