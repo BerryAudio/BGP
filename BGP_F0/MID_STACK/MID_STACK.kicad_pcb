@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-1.fc24-product)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 13)
@@ -266,7 +266,7 @@
     (fp_text reference R1 (at -1.3 -1.2 90) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
-    (fp_text value 12k (at 0 1.9 90) (layer F.Fab) hide
+    (fp_text value 6.8k (at 0 1.9 90) (layer F.Fab) hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -295,7 +295,7 @@
     (fp_text reference R2 (at -1.3 -1.2 270) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
-    (fp_text value 12k (at 0 1.9 270) (layer F.Fab) hide
+    (fp_text value 6.8k (at 0 1.9 270) (layer F.Fab) hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
