@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_F0/BT_STACK/BT_STACK.sch)
-    (date "Sun 18 Feb 2018 11:19:11 AEDT")
+    (date "Sun 18 Feb 2018 14:30:20 AEDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -22,7 +22,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A288695))
     (comp (ref C4)
-      (value 470p)
+      (value 270p)
       (footprint Capacitors_SMD:C_0603)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
@@ -118,7 +118,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A667029))
     (comp (ref C6)
-      (value 470p)
+      (value 270p)
       (footprint Capacitors_SMD:C_0603)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
