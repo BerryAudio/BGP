@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Charlie/Documents/GitHub/BGP/BGP_F0/VOL/VOL.sch)
-    (date "17/02/2018 10:07:37 PM")
+    (date "19/02/2018 9:02:39 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref RV1)
       (value POT)
-      (footprint LIBS:Potentiometer_Alps_RK097_Single_Vertical)
+      (footprint LIBS:Potentiometer_Alps_RK097_Double_Vertical)
       (libsource (lib VOL-cache) (part POT-RESCUE-VOL))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6864CE))

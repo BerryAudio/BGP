@@ -56,7 +56,7 @@ U 1 1 5A6864CE
 P 5800 3200
 F 0 "RV1" V 5625 3200 50  0000 C CNN
 F 1 "POT" V 5700 3200 50  0000 C CNN
-F 2 "LIBS:Potentiometer_Alps_RK097_Single_Vertical" H 5800 3200 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical" H 5800 3200 50  0001 C CNN
 F 3 "" H 5800 3200 50  0001 C CNN
 	1    5800 3200
 	1    0    0    -1  

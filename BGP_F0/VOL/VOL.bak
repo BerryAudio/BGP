@@ -65,10 +65,6 @@ Text Label 5800 3950 3    60   ~ 0
 VOL_3
 Text Label 5800 3050 1    60   ~ 0
 VOL_1
-Wire Wire Line
-	5800 3050 5950 3050
-Wire Wire Line
-	5950 3050 5950 3200
 $Comp
 L CONN_01X02 P1
 U 1 1 5A7A6251
@@ -112,4 +108,8 @@ Wire Wire Line
 Wire Wire Line
 	5800 3750 5800 3950
 Connection ~ 5800 3750
+Wire Wire Line
+	5950 3200 5950 3350
+Wire Wire Line
+	5950 3350 5800 3350
 $EndSCHEMATC
