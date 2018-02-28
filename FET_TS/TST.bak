@@ -1,0 +1,183 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_NJFET_DSG Q1
+U 1 1 5A95F1B1
+P 5550 3300
+F 0 "Q1" H 5850 3350 50  0000 R CNN
+F 1 "Q_NJFET_DSG" H 6200 3250 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5750 3400 50  0001 C CNN
+F 3 "" H 5550 3300 50  0000 C CNN
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5A95F223
+P 5650 3650
+F 0 "R2" H 5680 3670 50  0000 L CNN
+F 1 "1MEG" H 5680 3610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5650 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0000 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5A95F261
+P 5650 2950
+F 0 "R1" H 5680 2970 50  0000 L CNN
+F 1 "100" H 5680 2910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0000 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 5A95F2A3
+P 5650 2800
+F 0 "#PWR01" H 5650 2650 50  0001 C CNN
+F 1 "VCC" H 5650 2950 50  0000 C CNN
+F 2 "" H 5650 2800 50  0000 C CNN
+F 3 "" H 5650 2800 50  0000 C CNN
+	1    5650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 5A95F2BD
+P 5650 3800
+F 0 "#PWR02" H 5650 3550 50  0001 C CNN
+F 1 "Earth" H 5650 3650 50  0001 C CNN
+F 2 "" H 5650 3800 50  0000 C CNN
+F 3 "" H 5650 3800 50  0000 C CNN
+	1    5650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3800 5650 3750
+Wire Wire Line
+	5650 3500 5650 3550
+Wire Wire Line
+	5650 3100 5650 3050
+Wire Wire Line
+	5650 2850 5650 2800
+Wire Wire Line
+	5350 3300 5350 3800
+Wire Wire Line
+	5350 3800 5650 3800
+$Comp
+L CONN_01X02 P1
+U 1 1 5A95F323
+P 4550 3300
+F 0 "P1" H 4550 3450 50  0000 C CNN
+F 1 "CONN_01X02" V 4650 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4550 3300 50  0001 C CNN
+F 3 "" H 4550 3300 50  0000 C CNN
+	1    4550 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR03
+U 1 1 5A95F36A
+P 4800 3200
+F 0 "#PWR03" H 4800 3050 50  0001 C CNN
+F 1 "VCC" H 4800 3350 50  0000 C CNN
+F 2 "" H 4800 3200 50  0000 C CNN
+F 3 "" H 4800 3200 50  0000 C CNN
+	1    4800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR04
+U 1 1 5A95F381
+P 4800 3400
+F 0 "#PWR04" H 4800 3150 50  0001 C CNN
+F 1 "Earth" H 4800 3250 50  0001 C CNN
+F 2 "" H 4800 3400 50  0000 C CNN
+F 3 "" H 4800 3400 50  0000 C CNN
+	1    4800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3400 4800 3350
+Wire Wire Line
+	4800 3350 4750 3350
+Wire Wire Line
+	4750 3250 4800 3250
+Wire Wire Line
+	4800 3250 4800 3200
+Wire Wire Line
+	5650 3450 6250 3450
+Text Label 6250 3450 2    60   ~ 0
+Vo
+$Comp
+L CONN_01X02 P2
+U 1 1 5A95F3EF
+P 6450 3500
+F 0 "P2" H 6450 3650 50  0000 C CNN
+F 1 "CONN_01X02" V 6550 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6450 3500 50  0001 C CNN
+F 3 "" H 6450 3500 50  0000 C CNN
+	1    6450 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L Earth #PWR05
+U 1 1 5A95F546
+P 6200 3600
+F 0 "#PWR05" H 6200 3350 50  0001 C CNN
+F 1 "Earth" H 6200 3450 50  0001 C CNN
+F 2 "" H 6200 3600 50  0000 C CNN
+F 3 "" H 6200 3600 50  0000 C CNN
+	1    6200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3600 6200 3550
+Wire Wire Line
+	6200 3550 6250 3550
+$EndSCHEMATC
