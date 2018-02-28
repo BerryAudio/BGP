@@ -1,85 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LoadedOutlines>
-    <string>/home/charlie/work/BGP/GERBER/BT_0</string>
-    <string>/home/charlie/work/BGP/GERBER/BUF_0</string>
-    <string>/home/charlie/work/BGP/GERBER/BUF_1</string>
-    <string>/home/charlie/work/BGP/GERBER/HPF_1</string>
-    <string>/home/charlie/work/BGP/GERBER/MID_0</string>
-    <string>/home/charlie/work/BGP/GERBER/VOL_0</string>
-    <string>/home/charlie/work/BGP/GERBER/VOL_1</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_BT</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_BUF</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_MID</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_VOL</string>
+    <string>/home/charlie/work/BGP/GERBER/J0_BT</string>
+    <string>/home/charlie/work/BGP/GERBER/J0_VOL</string>
+    <string>/home/charlie/work/BGP/GERBER/TST</string>
   </LoadedOutlines>
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-175</X>
+        <X>-96</X>
+        <Y>123</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_BT</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-125</X>
+        <Y>104</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_BUF</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-165</X>
+        <Y>146</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_MID</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-116</X>
         <Y>130</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/BT_0</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_VOL</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-114</X>
-        <Y>130</Y>
+        <X>-133</X>
+        <Y>160</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/BUF_0</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0_BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-115</X>
-        <Y>186</Y>
+        <X>-121</X>
+        <Y>152</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/BUF_1</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0_VOL</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-88.5</X>
-        <Y>112</Y>
+        <X>-136</X>
+        <Y>96</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/HPF_1</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
-    <GerberInstance>
-      <Center>
-        <X>-154</X>
-        <Y>158</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MID_0</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
-    <GerberInstance>
-      <Center>
-        <X>-90</X>
-        <Y>80</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/VOL_0</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
-    <GerberInstance>
-      <Center>
-        <X>-119</X>
-        <Y>111</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/VOL_1</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
-    <GerberInstance>
-      <Center>
-        <X>-83</X>
-        <Y>186</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/BUF_1</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/TST</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
   </Instances>
@@ -87,7 +78,7 @@
     <BreakTab>
       <Center>
         <X>10</X>
-        <Y>63</Y>
+        <Y>55</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -96,7 +87,7 @@
     <BreakTab>
       <Center>
         <X>21</X>
-        <Y>47</Y>
+        <Y>41</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -104,8 +95,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>21</X>
-        <Y>63</Y>
+        <X>25</X>
+        <Y>55</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -114,7 +105,7 @@
     <BreakTab>
       <Center>
         <X>10</X>
-        <Y>31</Y>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -122,8 +113,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>36</X>
-        <Y>31</Y>
+        <X>32</X>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -131,8 +122,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>75</X>
-        <Y>31</Y>
+        <X>49</X>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -140,8 +131,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>53</X>
-        <Y>47</Y>
+        <X>64</X>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -149,8 +140,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>61</X>
-        <Y>15</Y>
+        <X>43</X>
+        <Y>41</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -158,8 +149,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>53</X>
-        <Y>63</Y>
+        <X>39</X>
+        <Y>13.2777777</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -167,8 +158,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>21</X>
-        <Y>79</Y>
+        <X>49.8909073</X>
+        <Y>55</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -176,34 +167,25 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>53</X>
-        <Y>79</Y>
+        <X>38.1090927</X>
+        <Y>55</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>75</X>
-        <Y>63</Y>
+        <X>29</X>
+        <Y>68.5</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3</Radius>
-      <Valid>false</Valid>
-    </BreakTab>
-    <BreakTab>
-      <Center>
-        <X>61</X>
-        <Y>31</Y>
-      </Center>
-      <Angle>0</Angle>
-      <Radius>3</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>96</Width>
-  <Height>94</Height>
+  <Width>70</Width>
+  <Height>81</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
