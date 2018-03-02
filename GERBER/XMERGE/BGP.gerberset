@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GerberLayoutSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LoadedOutlines>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_BT</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_BUF</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_MID</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_VOL</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0_BT</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0_VOL</string>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\TST</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_BT</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_BUF</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_MID</string>
+    <string>/home/charlie/work/BGP/GERBER/F0_VOL</string>
+    <string>/home/charlie/work/BGP/GERBER/J0_BT</string>
+    <string>/home/charlie/work/BGP/GERBER/J0_VOL</string>
+    <string>/home/charlie/work/BGP/GERBER/TST</string>
   </LoadedOutlines>
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-140</X>
-        <Y>95</Y>
+        <X>-138</X>
+        <Y>97</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_BT</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-125</X>
-        <Y>132</Y>
+        <X>-123</X>
+        <Y>134</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_BUF</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_BUF</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-139</X>
-        <Y>118</Y>
+        <X>-137</X>
+        <Y>120</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_MID</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_MID</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-90</X>
-        <Y>102</Y>
+        <X>-88</X>
+        <Y>104</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\F0_VOL</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/F0_VOL</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-103</X>
-        <Y>160</Y>
+        <X>-101</X>
+        <Y>162</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0_BT</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0_BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-151</X>
-        <Y>152</Y>
+        <X>-149</X>
+        <Y>154</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0_VOL</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0_VOL</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-136</X>
-        <Y>124</Y>
+        <X>-134</X>
+        <Y>126</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\TST</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/TST</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
   </Instances>
   <Tabs>
     <BreakTab>
       <Center>
-        <X>15.5</X>
-        <Y>27</Y>
+        <X>17.5</X>
+        <Y>29</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -86,8 +86,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>16.454546</X>
-        <Y>55</Y>
+        <X>18.454546</X>
+        <Y>57</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -95,8 +95,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>25</X>
-        <Y>13</Y>
+        <X>27</X>
+        <Y>15</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -104,8 +104,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>27.5</X>
-        <Y>27</Y>
+        <X>34</X>
+        <Y>29</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -113,8 +113,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32</X>
-        <Y>55</Y>
+        <X>31</X>
+        <Y>70.5</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -122,8 +122,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>29</X>
-        <Y>68.5</Y>
+        <X>49</X>
+        <Y>15</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -131,8 +131,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>47</X>
-        <Y>13</Y>
+        <X>57</X>
+        <Y>29</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -140,8 +140,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>56.5</X>
-        <Y>27</Y>
+        <X>41</X>
+        <Y>43</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -149,37 +149,22 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>45.5</X>
-        <Y>27</Y>
-      </Center>
-      <Angle>0</Angle>
-      <Radius>3.2</Radius>
-      <Valid>false</Valid>
-    </BreakTab>
-    <BreakTab>
-      <Center>
-        <X>39</X>
-        <Y>41</Y>
-      </Center>
-      <Angle>0</Angle>
-      <Radius>3.2</Radius>
-      <Valid>false</Valid>
-    </BreakTab>
-    <BreakTab>
-      <Center>
-        <X>49.4</X>
-        <Y>55</Y>
+        <X>49</X>
+        <Y>57</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>70</Width>
-  <Height>81</Height>
+  <Width>100</Width>
+  <Height>100</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
+  <ClipToOutlines>true</ClipToOutlines>
+  <LastExportFolder />
+  <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>
