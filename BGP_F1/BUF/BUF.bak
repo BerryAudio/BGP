@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BUF-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -127,7 +128,7 @@ L R_Small R2
 U 1 1 5A5E8A7C
 P 3700 3550
 F 0 "R2" H 3730 3570 50  0000 L CNN
-F 1 "2.49k" H 3730 3510 50  0000 L CNN
+F 1 "2.4k" H 3730 3510 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 3700 3550 50  0001 C CNN
 F 3 "" H 3700 3550 50  0000 C CNN
 	1    3700 3550
@@ -403,7 +404,7 @@ U 1 1 5A5EA274
 P 2600 4150
 F 0 "P2" H 2600 4450 50  0000 C CNN
 F 1 "CONN_01X05" V 2700 4150 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MicroLatch-53253-0570_05x2.00mm_Straight" H 2600 4150 50  0001 C CNN
+F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 2600 4150 50  0001 C CNN
 F 3 "" H 2600 4150 50  0000 C CNN
 	1    2600 4150
 	-1   0    0    1   
@@ -438,11 +439,11 @@ F 3 "" H 8750 4100 50  0000 C CNN
 	1    8750 4100
 	1    0    0    -1  
 $EndComp
-Text Label 8550 3550 2    60   ~ 0
+Text Label 8550 4150 2    60   ~ 0
 PF1_1
-Text Label 8550 3650 2    60   ~ 0
+Text Label 8550 4250 2    60   ~ 0
 PF1_2
-Text Label 8550 3750 2    60   ~ 0
+Text Label 8550 4350 2    60   ~ 0
 PF1_3
 Wire Wire Line
 	5400 4500 5400 4150
@@ -450,23 +451,23 @@ Wire Wire Line
 	5400 4700 5400 4950
 Wire Wire Line
 	5400 4950 6750 4950
-Text Label 8550 3850 2    60   ~ 0
-PF2_1
-Text Label 8550 3950 2    60   ~ 0
-PF2_2
-Text Label 8550 4050 2    60   ~ 0
-PF3_3
-Text Label 8550 4150 2    60   ~ 0
-PG1_1
-Text Label 8550 4250 2    60   ~ 0
-PG1_2
-Text Label 8550 4350 2    60   ~ 0
-PG1_3
 Text Label 8550 4450 2    60   ~ 0
-PG2_1
+PF2_1
 Text Label 8550 4550 2    60   ~ 0
-PG2_2
+PF2_2
 Text Label 8550 4650 2    60   ~ 0
+PF3_3
+Text Label 8550 3550 2    60   ~ 0
+PG1_1
+Text Label 8550 3650 2    60   ~ 0
+PG1_2
+Text Label 8550 3750 2    60   ~ 0
+PG1_3
+Text Label 8550 3850 2    60   ~ 0
+PG2_1
+Text Label 8550 3950 2    60   ~ 0
+PG2_2
+Text Label 8550 4050 2    60   ~ 0
 PG2_3
 $Comp
 L CP1_Small C1

@@ -121,7 +121,7 @@ L R_Small R6
 U 1 1 5A5ECA9A
 P 5250 3500
 F 0 "R6" H 5280 3520 50  0000 L CNN
-F 1 "4.99k" H 5280 3460 50  0000 L CNN
+F 1 "4.7k" H 5280 3460 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5250 3500 50  0001 C CNN
 F 3 "" H 5250 3500 50  0000 C CNN
 	1    5250 3500
@@ -132,7 +132,7 @@ L R_Small R7
 U 1 1 5A5ECAF5
 P 5250 4500
 F 0 "R7" H 5280 4520 50  0000 L CNN
-F 1 "4.99k" H 5280 4460 50  0000 L CNN
+F 1 "4.7k" H 5280 4460 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5250 4500 50  0001 C CNN
 F 3 "" H 5250 4500 50  0000 C CNN
 	1    5250 4500
@@ -143,7 +143,7 @@ L R_Small R5
 U 1 1 5A5ECC1F
 P 5250 2950
 F 0 "R5" H 5280 2970 50  0000 L CNN
-F 1 "4.99k" H 5280 2910 50  0000 L CNN
+F 1 "4.7k" H 5280 2910 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5250 2950 50  0001 C CNN
 F 3 "" H 5250 2950 50  0000 C CNN
 	1    5250 2950
@@ -193,7 +193,7 @@ L R_Small R8
 U 1 1 5A5ED080
 P 5800 2400
 F 0 "R8" H 5830 2420 50  0000 L CNN
-F 1 "4.99k" H 5830 2360 50  0000 L CNN
+F 1 "4.7k" H 5830 2360 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5800 2400 50  0001 C CNN
 F 3 "" H 5800 2400 50  0000 C CNN
 	1    5800 2400
@@ -569,42 +569,25 @@ F 3 "" H 9600 2800 50  0000 C CNN
 	1    9600 2800
 	1    0    0    -1  
 $EndComp
-Text Label 9400 2450 2    60   ~ 0
+Text Label 9400 3050 2    60   ~ 0
 PB1_1
-Text Label 9400 2350 2    60   ~ 0
+Text Label 9400 2950 2    60   ~ 0
 PB1_2
-Text Label 9400 2650 2    60   ~ 0
-PB2_2
-Text Label 9400 2550 2    60   ~ 0
-PB2_1
 Text Label 9400 3250 2    60   ~ 0
+PB2_2
+Text Label 9400 3150 2    60   ~ 0
+PB2_1
+Text Label 9400 2650 2    60   ~ 0
 PV_2
-$Comp
-L CONN_02X02 P6
-U 1 1 5A5EF9B3
-P 7150 4200
-F 0 "P6" H 7150 4350 50  0000 C CNN
-F 1 "CONN_02X02" H 7150 4050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 7150 3000 50  0001 C CNN
-F 3 "" H 7150 3000 50  0000 C CNN
-	1    7150 4200
-	1    0    0    -1  
-$EndComp
 Text Label 7400 4150 0    60   ~ 0
 IN_HPF
-Wire Wire Line
-	7400 4250 7400 4150
-Text Label 6900 4250 2    60   ~ 0
-BUF_B
-Text Label 6900 4150 2    60   ~ 0
-BUF_N
 Text Label 4700 4500 1    60   ~ 0
 PB2_1
-Text Label 9400 2250 2    60   ~ 0
-Vref
-Text Label 9400 2750 2    60   ~ 0
+Text Label 9400 2850 2    60   ~ 0
 Vref
 Text Label 9400 3350 2    60   ~ 0
+Vref
+Text Label 9400 2750 2    60   ~ 0
 PV_3
 Text Label 2650 4750 0    60   ~ 0
 V+
@@ -650,12 +633,12 @@ Wire Wire Line
 $Comp
 L Earth #PWR012
 U 1 1 5A606171
-P 9400 3150
-F 0 "#PWR012" H 9400 2900 50  0001 C CNN
-F 1 "Earth" H 9400 3000 50  0001 C CNN
-F 2 "" H 9400 3150 50  0000 C CNN
-F 3 "" H 9400 3150 50  0000 C CNN
-	1    9400 3150
+P 9400 2550
+F 0 "#PWR012" H 9400 2300 50  0001 C CNN
+F 1 "Earth" H 9400 2400 50  0001 C CNN
+F 2 "" H 9400 2550 50  0000 C CNN
+F 3 "" H 9400 2550 50  0000 C CNN
+	1    9400 2550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -692,4 +675,8 @@ Wire Wire Line
 	4700 3800 4700 3750
 Text Label 4700 3800 3    60   ~ 0
 Vref
+Text Label 7300 4150 2    60   ~ 0
+BUF_B
+Wire Wire Line
+	7300 4150 7400 4150
 $EndSCHEMATC
