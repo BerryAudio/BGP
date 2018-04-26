@@ -437,7 +437,7 @@ F 1 "CONN_01X02" V 8500 4050 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 8400 4050 50  0001 C CNN
 F 3 "" H 8400 4050 50  0000 C CNN
 	1    8400 4050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Earth #PWR013
@@ -484,44 +484,16 @@ F 3 "" H 5050 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P5
-U 1 1 5A725119
-P 8400 4600
-F 0 "P5" H 8400 4800 50  0000 C CNN
-F 1 "CONN_01X03" V 8500 4600 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 8400 4600 50  0001 C CNN
-F 3 "" H 8400 4600 50  0000 C CNN
-	1    8400 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Earth #PWR014
-U 1 1 5A7251E9
-P 8200 4500
-F 0 "#PWR014" H 8200 4250 50  0001 C CNN
-F 1 "Earth" H 8200 4350 50  0001 C CNN
-F 2 "" H 8200 4500 50  0000 C CNN
-F 3 "" H 8200 4500 50  0000 C CNN
-	1    8200 4500
-	-1   0    0    1   
-$EndComp
-Text Label 8200 4700 2    60   ~ 0
-I_BY
-Text Label 8200 4600 2    60   ~ 0
-OUT
-$Comp
-L Earth #PWR015
 U 1 1 5A72580A
 P 7300 3800
-F 0 "#PWR015" H 7300 3550 50  0001 C CNN
+F 0 "#PWR014" H 7300 3550 50  0001 C CNN
 F 1 "Earth" H 7300 3650 50  0001 C CNN
 F 2 "" H 7300 3800 50  0000 C CNN
 F 3 "" H 7300 3800 50  0000 C CNN
 	1    7300 3800
 	-1   0    0    1   
 $EndComp
-Text Notes 8600 4500 0    60   ~ 0
-Runs parallel to VOL pot
 $Comp
 L C_Small C9
 U 1 1 5A77A09B
