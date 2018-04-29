@@ -3,7 +3,7 @@
   (general
     (links 46)
     (no_connects 0)
-    (area 134.921763 85.321623 162.242644 116.217339)
+    (area 134.971763 85.371623 162.292644 116.267339)
     (thickness 1.6)
     (drawings 8)
     (tracks 135)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../GERBER/J0_VOL/))
+      (outputdirectory ../../GERBER/J0/VOL/))
   )
 
   (net 0 "")
