@@ -61,7 +61,7 @@ U 1 1 5A6FC9AD
 P 4550 3600
 F 0 "C1" H 4560 3670 50  0000 L CNN
 F 1 "0.1u" H 4560 3520 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02" H 4550 3600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4550 3600 50  0001 C CNN
 F 3 "" H 4550 3600 50  0000 C CNN
 	1    4550 3600
 	0    1    1    0   
@@ -183,7 +183,7 @@ L CP1_Small C4
 U 1 1 5A6FCF89
 P 6400 3350
 F 0 "C4" H 6410 3420 50  0000 L CNN
-F 1 "2200p" H 6410 3270 50  0000 L CNN
+F 1 "2700p" H 6410 3270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6400 3350 50  0001 C CNN
 F 3 "" H 6400 3350 50  0000 C CNN
 	1    6400 3350
@@ -237,7 +237,7 @@ F 1 "CONN_01X04" V 8550 3500 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 8450 3500 50  0001 C CNN
 F 3 "" H 8450 3500 50  0000 C CNN
 	1    8450 3500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 8250 3550 2    60   ~ 0
 Vref
@@ -311,7 +311,7 @@ F 3 "" H 3650 3900 50  0000 C CNN
 	1    3650 3900
 	1    0    0    -1  
 $EndComp
-Text Label 3650 4300 0    60   ~ 0
+Text Label 3650 4500 0    60   ~ 0
 IN
 $Comp
 L Earth #PWR08
@@ -346,9 +346,9 @@ F 3 "" H 3650 4600 50  0000 C CNN
 	1    3650 4600
 	1    0    0    -1  
 $EndComp
-Text Label 3650 4400 0    60   ~ 0
+Text Label 3650 4300 0    60   ~ 0
 IN_N
-Text Label 3650 4500 0    60   ~ 0
+Text Label 3650 4400 0    60   ~ 0
 IN_B
 Text Notes 1600 3300 0    60   ~ 0
 Inputs direct from pickups
@@ -367,7 +367,7 @@ F 1 "CONN_01X04" V 3550 4450 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 3450 4450 50  0001 C CNN
 F 3 "" H 3450 4450 50  0000 C CNN
 	1    3450 4450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R_Small R1

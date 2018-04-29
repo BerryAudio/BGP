@@ -237,7 +237,7 @@ F 1 "CONN_01X04" V 8550 3500 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 8450 3500 50  0001 C CNN
 F 3 "" H 8450 3500 50  0000 C CNN
 	1    8450 3500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 8250 3550 2    60   ~ 0
 Vref
@@ -311,7 +311,7 @@ F 3 "" H 3650 3900 50  0000 C CNN
 	1    3650 3900
 	1    0    0    -1  
 $EndComp
-Text Label 3650 4300 0    60   ~ 0
+Text Label 3650 4500 0    60   ~ 0
 IN
 $Comp
 L Earth #PWR08
@@ -346,9 +346,9 @@ F 3 "" H 3650 4600 50  0000 C CNN
 	1    3650 4600
 	1    0    0    -1  
 $EndComp
-Text Label 3650 4400 0    60   ~ 0
+Text Label 3650 4300 0    60   ~ 0
 IN_N
-Text Label 3650 4500 0    60   ~ 0
+Text Label 3650 4400 0    60   ~ 0
 IN_B
 Text Notes 1600 3300 0    60   ~ 0
 Inputs direct from pickups
