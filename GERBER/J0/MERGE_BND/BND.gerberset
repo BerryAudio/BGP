@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GerberLayoutSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LoadedOutlines>
-    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0\BND</string>
+    <string>/home/charlie/work/BGP/GERBER/J0/BND</string>
   </LoadedOutlines>
   <Instances>
     <GerberInstance>
@@ -10,7 +10,7 @@
         <Y>98</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0\BND</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
@@ -19,7 +19,7 @@
         <Y>98</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0\BND</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
@@ -28,7 +28,7 @@
         <Y>128</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0\BND</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
@@ -37,15 +37,15 @@
         <Y>128</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\J0\BND</GerberPath>
+      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
   </Instances>
   <Tabs>
     <BreakTab>
       <Center>
-        <X>12.5</X>
-        <Y>29</Y>
+        <X>26</X>
+        <Y>13</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -54,7 +54,7 @@
     <BreakTab>
       <Center>
         <X>26</X>
-        <Y>14</Y>
+        <Y>45</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -62,20 +62,20 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>39.5</X>
+        <X>13</X>
         <Y>29</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3.2</Radius>
+      <Radius>3</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>26</X>
-        <Y>44</Y>
+        <X>39</X>
+        <Y>29</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3.2</Radius>
+      <Radius>3</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
@@ -86,4 +86,7 @@
   <FillOffset>3</FillOffset>
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
+  <ClipToOutlines>true</ClipToOutlines>
+  <LastExportFolder>/home/charlie/work/BGP/GERBER/J0/MERGE_BND</LastExportFolder>
+  <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>
