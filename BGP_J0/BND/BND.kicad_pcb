@@ -2,8 +2,8 @@
 
   (general
     (links 15)
-    (no_connects 4)
-    (area 104.924999 69.924999 130.075001 98.075001)
+    (no_connects 0)
+    (area 104.774999 68.674999 133.04762 98.585)
     (thickness 1.6)
     (drawings 8)
     (tracks 59)
@@ -43,7 +43,7 @@
     (zone_45_only no)
     (trace_min 0.5)
     (segment_width 0.2)
-    (edge_width 0.15)
+    (edge_width 0.001)
     (via_size 0.6)
     (via_drill 0.4)
     (via_min_size 0.4)
