@@ -367,7 +367,7 @@ F 1 "CONN_01X04" V 3550 4450 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 3450 4450 50  0001 C CNN
 F 3 "" H 3450 4450 50  0000 C CNN
 	1    3450 4450
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L R_Small R1
