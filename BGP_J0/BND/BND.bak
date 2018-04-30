@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -56,10 +57,54 @@ F 3 "" H 5000 4050 50  0001 C CNN
 	1    5000 4050
 	-1   0    0    -1  
 $EndComp
-Text Label 6600 4050 0    60   ~ 0
+$Comp
+L Conn_01x02 J3
+U 1 1 5AE4EB53
+P 5850 3950
+F 0 "J3" H 5850 4050 50  0000 C CNN
+F 1 "Conn_01x02" H 5850 3750 50  0000 C CNN
+F 2 "LIBS:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 5850 3950 50  0001 C CNN
+F 3 "" H 5850 3950 50  0001 C CNN
+	1    5850 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J6
+U 1 1 5AE4EB86
+P 6400 3950
+F 0 "J6" H 6400 4050 50  0000 C CNN
+F 1 "Conn_01x02" H 6400 3750 50  0000 C CNN
+F 2 "LIBS:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 6400 3950 50  0001 C CNN
+F 3 "" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	-1   0    0    -1  
+$EndComp
+Text Label 6050 3950 0    60   ~ 0
 N_+
 Text Label 5200 3550 0    60   ~ 0
 N_+
+$Comp
+L Earth #PWR01
+U 1 1 5AE4EC05
+P 6050 4050
+F 0 "#PWR01" H 6050 3800 50  0001 C CNN
+F 1 "Earth" H 6050 3900 50  0001 C CNN
+F 2 "" H 6050 4050 50  0001 C CNN
+F 3 "" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 5AE4EC20
+P 6600 4050
+F 0 "#PWR02" H 6600 3800 50  0001 C CNN
+F 1 "Earth" H 6600 3900 50  0001 C CNN
+F 2 "" H 6600 4050 50  0001 C CNN
+F 3 "" H 6600 4050 50  0001 C CNN
+	1    6600 4050
+	0    -1   1    0   
+$EndComp
 Wire Wire Line
 	5200 3650 5200 3750
 Text Label 6600 3950 0    60   ~ 0
@@ -86,29 +131,40 @@ $EndComp
 $Comp
 L Conn_01x02 J4
 U 1 1 5AE4EEB8
-P 5850 3950
-F 0 "J4" H 5850 4050 50  0000 C CNN
-F 1 "Conn_01x02" H 5850 3750 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5850 3950 50  0001 C CNN
-F 3 "" H 5850 3950 50  0001 C CNN
-	1    5850 3950
+P 5850 4350
+F 0 "J4" H 5850 4450 50  0000 C CNN
+F 1 "Conn_01x02" H 5850 4150 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5850 4350 50  0001 C CNN
+F 3 "" H 5850 4350 50  0001 C CNN
+	1    5850 4350
 	-1   0    0    -1  
 $EndComp
-Text Label 6050 4050 0    60   ~ 0
+Text Label 6050 4450 0    60   ~ 0
 V_I
-Text Label 6050 3950 0    60   ~ 0
+Text Label 6050 4350 0    60   ~ 0
 V_O
-Text Label 6600 4150 0    60   ~ 0
+$Comp
+L Conn_01x02 J7
+U 1 1 5AE4F048
+P 6400 4350
+F 0 "J7" H 6400 4450 50  0000 C CNN
+F 1 "Conn_01x02" H 6400 4150 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6400 4350 50  0001 C CNN
+F 3 "" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	-1   0    0    -1  
+$EndComp
+Text Label 6600 4450 0    60   ~ 0
 BT_O
 $Comp
 L Earth #PWR04
 U 1 1 5AE4F0BF
-P 6600 4250
-F 0 "#PWR04" H 6600 4000 50  0001 C CNN
-F 1 "Earth" H 6600 4100 50  0001 C CNN
-F 2 "" H 6600 4250 50  0001 C CNN
-F 3 "" H 6600 4250 50  0001 C CNN
-	1    6600 4250
+P 6600 4350
+F 0 "#PWR04" H 6600 4100 50  0001 C CNN
+F 1 "Earth" H 6600 4200 50  0001 C CNN
+F 2 "" H 6600 4350 50  0001 C CNN
+F 3 "" H 6600 4350 50  0001 C CNN
+	1    6600 4350
 	0    -1   -1   0   
 $EndComp
 Text Label 5200 4150 0    60   ~ 0
@@ -177,15 +233,4 @@ Text Label 5200 3650 0    60   ~ 0
 O2
 Text Label 6600 3550 0    60   ~ 0
 O2
-$Comp
-L CONN_01X04 P7
-U 1 1 5AE6AC54
-P 6400 4100
-F 0 "P7" H 6400 4350 50  0000 C CNN
-F 1 "CONN_01X04" H 6400 3850 50  0000 C CNN
-F 2 "" H 6400 4100 50  0000 C CNN
-F 3 "" H 6400 4100 50  0000 C CNN
-	1    6400 4100
-	-1   0    0    -1  
-$EndComp
 $EndSCHEMATC
