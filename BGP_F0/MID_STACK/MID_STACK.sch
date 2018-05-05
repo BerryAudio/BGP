@@ -101,17 +101,17 @@ F 3 "" H 5950 4150 50  0000 C CNN
 	1    5950 4150
 	1    0    0    -1  
 $EndComp
-Text Label 6950 3750 2    60   ~ 0
+Text Label 6950 3950 2    60   ~ 0
 VOL1
 Text Label 6950 3850 2    60   ~ 0
 VOL2
-Text Label 6950 3950 2    60   ~ 0
+Text Label 6950 3750 2    60   ~ 0
 VOL3
-Text Label 6950 3150 2    60   ~ 0
+Text Label 6950 3350 2    60   ~ 0
 F1_1
 Text Label 6950 3250 2    60   ~ 0
 F1_2
-Text Label 6950 3450 2    60   ~ 0
+Text Label 6950 3650 2    60   ~ 0
 F2_1
 Text Label 6950 3550 2    60   ~ 0
 F2_2
@@ -175,10 +175,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3800 6250 3800
 Connection ~ 6250 4300
-Wire Wire Line
-	6950 3350 6950 3250
-Wire Wire Line
-	6950 3650 6950 3550
 Wire Wire Line
 	6250 3450 6150 3450
 Wire Wire Line
