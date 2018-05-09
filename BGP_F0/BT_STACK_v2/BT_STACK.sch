@@ -1,0 +1,456 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BT_STACK-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP1_Small C1
+U 1 1 5A288695
+P 4400 2450
+F 0 "C1" H 4410 2520 50  0000 L CNN
+F 1 "22u" H 4410 2370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4400 2450 50  0001 C CNN
+F 3 "" H 4400 2450 50  0000 C CNN
+	1    4400 2450
+	1    0    0    -1  
+$EndComp
+Text Label 4400 2300 1    60   ~ 0
+V+
+Text Label 5300 2400 1    60   ~ 0
+V+
+$Comp
+L C_Small C4
+U 1 1 5A2888B6
+P 5300 2100
+F 0 "C4" H 5310 2170 50  0000 L CNN
+F 1 "270p" H 5310 2020 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5300 2100 50  0001 C CNN
+F 3 "" H 5300 2100 50  0000 C CNN
+	1    5300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5A2889CA
+P 4950 3250
+F 0 "R1" H 4980 3270 50  0000 L CNN
+F 1 "1.8k" H 4980 3210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4950 3250 50  0001 C CNN
+F 3 "" H 4950 3250 50  0000 C CNN
+	1    4950 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5A288A43
+P 4950 3750
+F 0 "R2" H 4980 3770 50  0000 L CNN
+F 1 "6.8k" H 4980 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4950 3750 50  0001 C CNN
+F 3 "" H 4950 3750 50  0000 C CNN
+	1    4950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 5A288B14
+P 5550 3250
+F 0 "C5" H 5560 3320 50  0000 L CNN
+F 1 "0.1u" H 5560 3170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5550 3250 50  0001 C CNN
+F 3 "" H 5550 3250 50  0000 C CNN
+	1    5550 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 5A288BAC
+P 5850 3750
+F 0 "R4" H 5880 3770 50  0000 L CNN
+F 1 "6.8k" H 5880 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5850 3750 50  0001 C CNN
+F 3 "" H 5850 3750 50  0000 C CNN
+	1    5850 3750
+	0    1    1    0   
+$EndComp
+Text Label 5500 3850 3    60   ~ 0
+B-
+Text Label 5400 3850 3    60   ~ 0
+BW
+$Comp
+L C_Small C3
+U 1 1 5A2890E1
+P 4950 4150
+F 0 "C3" H 4960 4220 50  0000 L CNN
+F 1 "10n" H 4960 4070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4950 4150 50  0001 C CNN
+F 3 "" H 4950 4150 50  0000 C CNN
+	1    4950 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 5A289144
+P 4950 4450
+F 0 "R3" H 4980 4470 50  0000 L CNN
+F 1 "1k" H 4980 4410 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4950 4450 50  0001 C CNN
+F 3 "" H 4950 4450 50  0000 C CNN
+	1    4950 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R5
+U 1 1 5A289194
+P 5850 4450
+F 0 "R5" H 5880 4470 50  0000 L CNN
+F 1 "1k" H 5880 4410 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 5850 4450 50  0001 C CNN
+F 3 "" H 5850 4450 50  0000 C CNN
+	1    5850 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 2800 4750 2800
+Wire Wire Line
+	4750 2100 4750 4150
+Wire Wire Line
+	4750 2100 5200 2100
+Wire Wire Line
+	5400 2100 6000 2100
+Wire Wire Line
+	5700 2700 6000 2700
+Wire Wire Line
+	5050 3750 5400 3750
+Wire Wire Line
+	5500 3850 5500 3750
+Wire Wire Line
+	5500 3750 5750 3750
+Wire Wire Line
+	5050 3250 5450 3250
+Wire Wire Line
+	4750 3250 4850 3250
+Connection ~ 4750 2800
+Connection ~ 6000 2700
+Wire Wire Line
+	5400 3850 5400 3250
+Wire Wire Line
+	6000 2100 6000 4450
+Wire Wire Line
+	5050 4450 5300 4450
+Wire Wire Line
+	5300 4450 5300 4550
+Wire Wire Line
+	5400 4550 5400 4150
+Wire Wire Line
+	5400 4150 5050 4150
+Wire Wire Line
+	5500 4550 5500 4450
+Wire Wire Line
+	5500 4450 5750 4450
+Wire Wire Line
+	6000 4450 5950 4450
+Connection ~ 6000 3750
+Wire Wire Line
+	4750 4150 4850 4150
+Connection ~ 4750 3250
+Wire Wire Line
+	4850 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 3750
+Connection ~ 4700 3750
+Text Label 5500 4550 3    60   ~ 0
+T-
+Text Label 5300 4550 3    60   ~ 0
+T+
+Text Label 5400 4550 3    60   ~ 0
+TW
+Wire Wire Line
+	4550 3750 4850 3750
+Text Label 8050 2700 0    60   ~ 0
+OUT
+Text Label 4550 3750 2    60   ~ 0
+IN
+Wire Wire Line
+	4400 2600 4400 2550
+Wire Wire Line
+	4400 2350 4400 2300
+$Comp
+L DUAL_POT RV1
+U 1 1 5A289F35
+P 5300 5200
+F 0 "RV1" H 5460 5510 50  0000 C CNN
+F 1 "DUAL_POT" H 5590 4900 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alpha_Double_Vertical_Dual_Shaft" H 5300 5200 50  0001 C CNN
+F 3 "" H 5300 5200 50  0000 C CNN
+	1    5300 5200
+	1    0    0    -1  
+$EndComp
+Text Label 5150 4900 2    60   ~ 0
+B-
+Text Label 5150 5100 2    60   ~ 0
+B+
+Text Label 5600 5000 0    60   ~ 0
+BW
+Text Label 5150 5300 2    60   ~ 0
+T-
+Text Label 5150 5500 2    60   ~ 0
+T+
+Text Label 5600 5400 0    60   ~ 0
+TW
+Text Label 3950 2500 0    60   ~ 0
+V+
+Text Label 3950 2400 0    60   ~ 0
+OUT
+Text Label 3950 2300 0    60   ~ 0
+IN
+$Comp
+L CONN_01X05 P1
+U 1 1 5A5738E3
+P 3750 2500
+F 0 "P1" H 3750 2800 50  0000 C CNN
+F 1 "CONN_01X05" V 3850 2500 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 3750 2500 50  0001 C CNN
+F 3 "" H 3750 2500 50  0000 C CNN
+	1    3750 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Earth #PWR01
+U 1 1 5A5AEE2D
+P 3950 2700
+F 0 "#PWR01" H 3950 2450 50  0001 C CNN
+F 1 "Earth" H 3950 2550 50  0001 C CNN
+F 2 "" H 3950 2700 50  0001 C CNN
+F 3 "" H 3950 2700 50  0001 C CNN
+	1    3950 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C2
+U 1 1 5A66629E
+P 7900 2700
+F 0 "C2" H 7910 2770 50  0000 L CNN
+F 1 "10u" H 7910 2620 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012" H 7900 2700 50  0001 C CNN
+F 3 "" H 7900 2700 50  0000 C CNN
+	1    7900 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 2700 8000 2700
+$Comp
+L MC33178 U1
+U 1 1 5A666491
+P 5400 2700
+F 0 "U1" H 5400 2900 50  0000 L CNN
+F 1 "MC33178" H 5400 2500 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5300 2750 50  0001 C CNN
+F 3 "" H 5400 2850 50  0000 C CNN
+	1    5400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MC33178 U1
+U 2 1 5A666572
+P 7200 2700
+F 0 "U1" H 7200 2900 50  0000 L CNN
+F 1 "MC33178" H 7200 2500 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7100 2750 50  0001 C CNN
+F 3 "" H 7200 2850 50  0000 C CNN
+	2    7200 2700
+	1    0    0    -1  
+$EndComp
+Text Label 3950 2600 0    60   ~ 0
+Vref
+Text Label 5100 2600 2    60   ~ 0
+Vref
+$Comp
+L Earth #PWR02
+U 1 1 5A66674C
+P 4400 2600
+F 0 "#PWR02" H 4400 2350 50  0001 C CNN
+F 1 "Earth" H 4400 2450 50  0001 C CNN
+F 2 "" H 4400 2600 50  0001 C CNN
+F 3 "" H 4400 2600 50  0001 C CNN
+	1    4400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR03
+U 1 1 5A666795
+P 5300 3000
+F 0 "#PWR03" H 5300 2750 50  0001 C CNN
+F 1 "Earth" H 5300 2850 50  0001 C CNN
+F 2 "" H 5300 3000 50  0001 C CNN
+F 3 "" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+Text Label 7100 2400 1    60   ~ 0
+V+
+$Comp
+L Earth #PWR04
+U 1 1 5A666848
+P 7100 3000
+F 0 "#PWR04" H 7100 2750 50  0001 C CNN
+F 1 "Earth" H 7100 2850 50  0001 C CNN
+F 2 "" H 7100 3000 50  0001 C CNN
+F 3 "" H 7100 3000 50  0001 C CNN
+	1    7100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R6
+U 1 1 5A666880
+P 6700 3200
+F 0 "R6" H 6730 3220 50  0000 L CNN
+F 1 "20k" H 6730 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6700 3200 50  0001 C CNN
+F 3 "" H 6700 3200 50  0000 C CNN
+	1    6700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 5A666918
+P 7400 3200
+F 0 "R7" H 7430 3220 50  0000 L CNN
+F 1 "20k" H 7430 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7400 3200 50  0001 C CNN
+F 3 "" H 7400 3200 50  0000 C CNN
+	1    7400 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R8
+U 1 1 5A666973
+P 7650 2700
+F 0 "R8" H 7680 2720 50  0000 L CNN
+F 1 "1k" H 7680 2660 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7650 2700 50  0001 C CNN
+F 3 "" H 7650 2700 50  0000 C CNN
+	1    7650 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 2700 7750 2700
+Wire Wire Line
+	7550 2700 7500 2700
+Wire Wire Line
+	7500 2700 7500 3450
+Wire Wire Line
+	6800 3200 7300 3200
+Wire Wire Line
+	6900 2800 6900 3450
+Connection ~ 6900 3200
+Wire Wire Line
+	6000 3750 5950 3750
+Wire Wire Line
+	6600 3200 6000 3200
+Connection ~ 6000 3200
+Wire Wire Line
+	6900 2600 6900 2500
+Text Label 6900 2250 1    60   ~ 0
+Vref
+Text Label 6550 3200 1    60   ~ 0
+MID_I
+Text Label 7500 2700 1    60   ~ 0
+MID_O
+Text Label 6900 2600 3    60   ~ 0
+MID_R
+$Comp
+L CONN_01X04 P3
+U 1 1 5A667029
+P 8800 2450
+F 0 "P3" H 8800 2700 50  0000 C CNN
+F 1 "CONN_01X04" V 8900 2450 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 8800 2450 50  0001 C CNN
+F 3 "" H 8800 2450 50  0000 C CNN
+	1    8800 2450
+	1    0    0    -1  
+$EndComp
+Text Label 8600 2300 2    60   ~ 0
+Vref
+Text Label 8600 2600 2    60   ~ 0
+MID_I
+Text Label 8600 2500 2    60   ~ 0
+MID_R
+Text Label 8600 2400 2    60   ~ 0
+MID_O
+$Comp
+L C_Small C6
+U 1 1 5A7E145F
+P 7400 3450
+F 0 "C6" H 7410 3520 50  0000 L CNN
+F 1 "270p" H 7410 3370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0000 C CNN
+	1    7400 3450
+	0    1    1    0   
+$EndComp
+Connection ~ 7500 3200
+Wire Wire Line
+	6900 3450 7300 3450
+$Comp
+L R_Small R9
+U 1 1 5A88933C
+P 6900 2400
+F 0 "R9" H 6930 2420 50  0000 L CNN
+F 1 "100k" H 6930 2360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6900 2400 50  0001 C CNN
+F 3 "" H 6900 2400 50  0000 C CNN
+	1    6900 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 2250 6900 2300
+Wire Wire Line
+	5400 3750 5400 3900
+Wire Wire Line
+	5700 3750 5700 3250
+Wire Wire Line
+	5700 3250 5650 3250
+Connection ~ 5700 3750
+Connection ~ 5400 3250
+$EndSCHEMATC
