@@ -267,7 +267,7 @@ F 1 "CONN_01X05" V 3850 2500 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B5B-PH-K_05x2.00mm_Straight" H 3750 2500 50  0001 C CNN
 F 3 "" H 3750 2500 50  0000 C CNN
 	1    3750 2500
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Earth #PWR01
