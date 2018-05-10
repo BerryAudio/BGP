@@ -465,7 +465,7 @@ U 1 1 5AF39016
 P 4650 4950
 F 0 "P2" H 4650 5100 50  0000 C CNN
 F 1 "CONN_01X02" V 4750 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4650 4950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4650 4950 50  0001 C CNN
 F 3 "" H 4650 4950 50  0000 C CNN
 	1    4650 4950
 	-1   0    0    -1  
