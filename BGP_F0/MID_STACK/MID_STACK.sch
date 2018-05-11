@@ -43,11 +43,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5500 3350 2    60   ~ 0
+Text Label 5500 3550 2    60   ~ 0
 VOL1
 Text Label 5500 3450 2    60   ~ 0
 VOL2
-Text Label 5500 3550 2    60   ~ 0
+Text Label 5500 3350 2    60   ~ 0
 VOL3
 $Comp
 L C_Small C1
@@ -101,11 +101,11 @@ F 3 "" H 5950 4150 50  0000 C CNN
 	1    5950 4150
 	1    0    0    -1  
 $EndComp
-Text Label 6950 3950 2    60   ~ 0
+Text Label 6950 3750 2    60   ~ 0
 VOL1
 Text Label 6950 3850 2    60   ~ 0
 VOL2
-Text Label 6950 3750 2    60   ~ 0
+Text Label 6950 3950 2    60   ~ 0
 VOL3
 Text Label 6950 3350 2    60   ~ 0
 F1_1

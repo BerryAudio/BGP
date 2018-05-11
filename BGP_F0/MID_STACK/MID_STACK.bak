@@ -101,11 +101,11 @@ F 3 "" H 5950 4150 50  0000 C CNN
 	1    5950 4150
 	1    0    0    -1  
 $EndComp
-Text Label 6950 3950 2    60   ~ 0
+Text Label 6950 3750 2    60   ~ 0
 VOL1
 Text Label 6950 3850 2    60   ~ 0
 VOL2
-Text Label 6950 3750 2    60   ~ 0
+Text Label 6950 3950 2    60   ~ 0
 VOL3
 Text Label 6950 3350 2    60   ~ 0
 F1_1
@@ -143,7 +143,7 @@ F 1 "CONN_01X04" V 4650 3300 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 4550 3300 50  0001 C CNN
 F 3 "" H 4550 3300 50  0000 C CNN
 	1    4550 3300
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 4750 3150 0    60   ~ 0
 Vref
