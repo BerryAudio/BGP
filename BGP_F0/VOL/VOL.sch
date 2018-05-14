@@ -1,9 +1,9 @@
 EESchema Schematic File Version 2
+LIBS:VOL-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -77,17 +77,6 @@ F 3 "" H 5000 3150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03_Female J2
-U 1 1 5A7FCBD4
-P 6050 3650
-F 0 "J2" H 6050 3850 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 6050 3450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6050 3650 50  0001 C CNN
-F 3 "" H 6050 3650 50  0001 C CNN
-	1    6050 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Conn_01x03_Female J1
 U 1 1 5A7FCBFC
 P 5550 3650
@@ -99,17 +88,23 @@ F 3 "" H 5550 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 3350 5800 3550
-Wire Wire Line
-	5750 3550 5850 3550
-Connection ~ 5800 3550
-Wire Wire Line
-	5750 3750 5850 3750
-Wire Wire Line
 	5800 3750 5800 3950
+Wire Wire Line
+	5950 3550 5950 3200
+Wire Wire Line
+	5750 3550 5950 3550
+Wire Wire Line
+	5750 3750 5950 3750
+$Comp
+L C_Small C1
+U 1 1 5AF91950
+P 5950 3650
+F 0 "C1" H 5960 3720 50  0000 L CNN
+F 1 "C_Small" H 5960 3570 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5950 3650 50  0001 C CNN
+F 3 "" H 5950 3650 50  0000 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
 Connection ~ 5800 3750
-Wire Wire Line
-	5950 3200 5950 3350
-Wire Wire Line
-	5950 3350 5800 3350
 $EndSCHEMATC

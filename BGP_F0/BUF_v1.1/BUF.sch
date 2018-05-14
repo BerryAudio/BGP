@@ -307,7 +307,7 @@ F 3 "" H 7650 3600 50  0000 C CNN
 $EndComp
 Text Label 7650 3300 0    60   ~ 0
 OUT
-Text Label 6400 3300 0    60   ~ 0
+Text Label 6650 3300 2    60   ~ 0
 IN_EQ
 Text Label 2400 3900 0    60   ~ 0
 IN_B
