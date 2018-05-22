@@ -1,4 +1,4 @@
-update=19/05/2018 8:54:46 AM
+update=22/05/2018 6:03:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../MID_STACK;../BT
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=C:/Users/Charlie/Documents/GitHub/BGP/BGP_MM/MID_STACK/LIB_MM
