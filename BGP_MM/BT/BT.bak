@@ -726,9 +726,9 @@ Wire Wire Line
 	6650 2400 6650 2550
 Wire Wire Line
 	4850 3650 4800 3650
-Text Notes 8650 3950 0    60   ~ 0
+Text Notes 8650 4000 0    60   ~ 0
 TO MID
-Text Notes 8650 3200 0    60   ~ 0
+Text Notes 8650 3550 0    60   ~ 0
 TO VOL
 Text Notes 4750 2150 0    60   ~ 0
 BRIGHT

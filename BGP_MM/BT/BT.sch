@@ -509,7 +509,7 @@ F 1 "POT_MM_DUAL" V 5500 4250 50  0001 C CNN
 F 2 "LIBS:Potentiometer_Alpha_Double_Vertical_Dual_Shaft" H 5600 4250 50  0001 C CNN
 F 3 "" H 5600 4250 50  0001 C CNN
 	2    5600 4250
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L POT_MM_DUAL RV1
