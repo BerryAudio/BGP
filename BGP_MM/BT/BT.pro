@@ -1,4 +1,4 @@
-update=22/05/2018 6:03:32 PM
+update=Thu 24 May 2018 10:44:51 AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,3 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=C:/Users/Charlie/Documents/GitHub/BGP/BGP_MM/MID_STACK/LIB_MM
