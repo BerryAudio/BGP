@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/charlie/work/BGP/BGP_MM/SW/SW.sch)
-    (date "Thu 24 May 2018 17:20:06 AEST")
+    (source /home/charlie/work/BGP/BGP_MM/SW_MM/SW_MM.sch)
+    (date "Fri 25 May 2018 09:37:15 AEST")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source SW.sch)
+        (source SW_MM.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -17,13 +17,13 @@
   (components
     (comp (ref SW1)
       (value Switch_SPDT_x2)
-      (footprint LIBS:ESwitch_DPDT_100DP6T1B4M2QE)
+      (footprint LIBS:NKK_DPDT)
       (libsource (lib device) (part Switch_SPDT_x2))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B065E8D))
     (comp (ref P1)
       (value CONN_01X04)
-      (footprint Connectors_JST:JST_PH_B4B-PH-SM4-TB_04x2.00mm_Straight)
+      (footprint Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight)
       (libsource (lib conn) (part CONN_01X04))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B065FE9)))
@@ -56,10 +56,10 @@
         (pin (num 5) (name B) (type passive))
         (pin (num 6) (name C) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /BC)
       (node (ref P1) (pin 3))

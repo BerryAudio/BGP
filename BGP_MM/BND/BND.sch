@@ -59,13 +59,13 @@ $EndComp
 $Comp
 L Conn_01x02 J1
 U 1 1 5AE4EB86
-P 6650 3450
-F 0 "J1" H 6650 3550 50  0000 C CNN
-F 1 "Conn_01x02" H 6650 3250 50  0001 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 6650 3450 50  0001 C CNN
-F 3 "" H 6650 3450 50  0001 C CNN
-	1    6650 3450
-	-1   0    0    -1  
+P 6650 3550
+F 0 "J1" H 6650 3650 50  0000 C CNN
+F 1 "Conn_01x02" H 6650 3350 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 6650 3550 50  0001 C CNN
+F 3 "" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Earth #PWR01
@@ -87,7 +87,7 @@ F 1 "Conn_01x03" H 6650 3650 50  0001 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 6650 3850 50  0001 C CNN
 F 3 "" H 6650 3850 50  0001 C CNN
 	1    6650 3850
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X04 P1

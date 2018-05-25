@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_MM/BT/BT.sch)
-    (date "Thu 24 May 2018 15:25:47 AEST")
+    (date "Fri 25 May 2018 10:31:16 AEST")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 5AFF5CD5))
     (comp (ref C4)
       (value 10n)
-      (footprint Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02)
+      (footprint Capacitors_SMD:C_0805)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AFF5D11))
@@ -179,7 +179,7 @@
       (tstamp 5B03D2CD))
     (comp (ref C11)
       (value 68n)
-      (footprint Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02)
+      (footprint Capacitors_SMD:C_1210)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B03D8BB))
@@ -349,12 +349,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical BT-cache)
-      (uri /home/charlie/work/BGP/BGP_MM/BT/BT-cache.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+    (library (logical BT-cache)
+      (uri /home/charlie/work/BGP/BGP_MM/BT/BT-cache.lib)))
   (nets
     (net (code 1) (name "Net-(C13-Pad1)")
       (node (ref R15) (pin 1))
