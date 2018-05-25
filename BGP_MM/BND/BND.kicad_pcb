@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 100.73412 69.174999 131.635 98.553333)
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 31)
     (zones 0)
     (modules 5)
@@ -384,6 +384,9 @@
     )
   )
 
+  (gr_text "MM Sabre\nVolume A/P\nCBD Design" (at 123 95) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  )
   (gr_line (start 103.3 97.7) (end 103.3 70.3) (angle 90) (layer Margin) (width 0.2))
   (gr_line (start 129.7 97.7) (end 103.3 97.7) (angle 90) (layer Margin) (width 0.2))
   (gr_line (start 129.7 70.3) (end 129.7 97.7) (angle 90) (layer Margin) (width 0.2))

@@ -1332,7 +1332,7 @@
     )
   )
 
-  (gr_text "MM Sabre\nBass/Treble Stack\nCBD Design" (at 169 107 90) (layer F.SilkS)
+  (gr_text "MM Sabre\nB/T Stack\nCBD Design" (at 167 109) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (gr_line (start 145.3 111.7) (end 145.3 86.3) (layer Margin) (width 0.2))

@@ -3,9 +3,9 @@
   (general
     (links 6)
     (no_connects 0)
-    (area 136.924999 95.924999 150.075001 113.075001)
+    (area 136.924999 82.924999 154.075001 96.075001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 13)
     (zones 0)
     (modules 2)
@@ -221,6 +221,9 @@
     )
   )
 
+  (gr_text "MM Sabre\nSel Switch\nCBD Design" (at 138.8 87.5 270) (layer B.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  )
   (gr_line (start 154 96) (end 137 96) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 154 83) (end 154 96) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 137 83) (end 154 83) (layer Edge.Cuts) (width 0.15))
