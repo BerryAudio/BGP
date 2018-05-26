@@ -1,0 +1,15 @@
+Trebble Pot:
+RV16AF-20-15S1-C1M-LA
+
+BASS Pot:
+RV16AF-20-15S1-A100K-LA
+
+
+RV16AF-20-15S1-A100K-LA
+RV16AF-20-15S1-C1M  -LA
+MODEL -|  | || ||
+       |  | || |R Value	
+       |  | || 9 Taper 
+       |  | 8 Shaft Type
+       |  7 Shaft Length
+       6 Terminal Type (PC Horizontal)

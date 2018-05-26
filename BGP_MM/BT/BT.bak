@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -129,7 +130,7 @@ L R_Small R5
 U 1 1 5AFF5CD5
 P 5250 3650
 F 0 "R5" H 5280 3670 50  0000 L CNN
-F 1 "47k" H 5280 3610 50  0000 L CNN
+F 1 "220k" H 5280 3610 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 5250 3650 50  0001 C CNN
 F 3 "" H 5250 3650 50  0001 C CNN
 	1    5250 3650
@@ -140,7 +141,7 @@ L C_Small C4
 U 1 1 5AFF5D11
 P 5250 4250
 F 0 "C4" H 5260 4320 50  0000 L CNN
-F 1 "10n" H 5260 4170 50  0000 L CNN
+F 1 "1.8n" H 5260 4170 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5250 4250 50  0001 C CNN
 F 3 "" H 5250 4250 50  0001 C CNN
 	1    5250 4250
@@ -151,8 +152,8 @@ L C_Small C7
 U 1 1 5AFF5D48
 P 5950 4250
 F 0 "C7" H 5960 4320 50  0000 L CNN
-F 1 "2.2n" H 5960 4170 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5950 4250 50  0001 C CNN
+F 1 "470p" H 5960 4170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5950 4250 50  0001 C CNN
 F 3 "" H 5950 4250 50  0001 C CNN
 	1    5950 4250
 	0    -1   -1   0   
@@ -197,7 +198,7 @@ L C_Small C8
 U 1 1 5AFF60E3
 P 6000 2950
 F 0 "C8" H 6010 3020 50  0000 L CNN
-F 1 "470p" H 6010 2870 50  0000 L CNN
+F 1 "120p" H 6010 2870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6000 2950 50  0001 C CNN
 F 3 "" H 6000 2950 50  0001 C CNN
 	1    6000 2950
@@ -208,7 +209,7 @@ L R_Small R7
 U 1 1 5AFF61D0
 P 5600 2650
 F 0 "R7" H 5630 2670 50  0000 L CNN
-F 1 "20k" H 5630 2610 50  0000 L CNN
+F 1 "100k" H 5630 2610 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 5600 2650 50  0001 C CNN
 F 3 "" H 5600 2650 50  0001 C CNN
 	1    5600 2650
@@ -260,17 +261,6 @@ F 3 "" H 7050 3150 50  0001 C CNN
 $EndComp
 Text Label 7050 3000 1    60   ~ 0
 Vref
-$Comp
-L CP1_Small C10
-U 1 1 5AFF6BAD
-P 6600 3550
-F 0 "C10" H 6610 3620 50  0000 L CNN
-F 1 "10u" H 6610 3470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6600 3550 50  0001 C CNN
-F 3 "" H 6600 3550 50  0001 C CNN
-	1    6600 3550
-	0    1    1    0   
-$EndComp
 $Comp
 L R_Small R12
 U 1 1 5AFF6C51
@@ -472,8 +462,8 @@ L C_Small C11
 U 1 1 5B03D8BB
 P 6650 2650
 F 0 "C11" H 6660 2720 50  0000 L CNN
-F 1 "68n" H 6660 2570 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 6650 2650 50  0001 C CNN
+F 1 "47n" H 6660 2570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6650 2650 50  0001 C CNN
 F 3 "" H 6650 2650 50  0001 C CNN
 	1    6650 2650
 	1    0    0    -1  
@@ -488,28 +478,6 @@ F 2 "Resistors_SMD:R_0603" H 4700 3650 50  0001 C CNN
 F 3 "" H 4700 3650 50  0001 C CNN
 	1    4700 3650
 	0    1    1    0   
-$EndComp
-$Comp
-L POT_MM_DUAL RV1
-U 2 1 5B03D291
-P 5600 4250
-F 0 "RV1" V 5500 4250 50  0000 C CNN
-F 1 "POT_MM_DUAL" V 5500 4250 50  0001 C CNN
-F 2 "LIBS:Potentiometer_Alpha_Double_Vertical_Dual_Shaft" H 5600 4250 50  0001 C CNN
-F 3 "" H 5600 4250 50  0001 C CNN
-	2    5600 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L POT_MM_DUAL RV1
-U 1 1 5B03D949
-P 6350 2650
-F 0 "RV1" V 6250 2650 50  0000 C CNN
-F 1 "POT_MM_DUAL" V 6250 2650 50  0001 C CNN
-F 2 "LIBS:Potentiometer_Alpha_Double_Vertical_Dual_Shaft" H 6350 2650 50  0001 C CNN
-F 3 "" H 6350 2650 50  0001 C CNN
-	1    6350 2650
-	-1   0    0    1   
 $EndComp
 $Comp
 L R_Small R6
@@ -533,140 +501,6 @@ F 3 "" H 5950 2400 50  0001 C CNN
 	1    5950 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6650 2950 6650 2750
-Connection ~ 6200 2950
-Wire Wire Line
-	6200 2650 6200 2950
-Wire Wire Line
-	6350 2950 6350 4250
-Wire Wire Line
-	6350 2000 6350 2500
-Wire Wire Line
-	8250 3450 8400 3450
-Wire Wire Line
-	3500 3950 4450 3950
-Connection ~ 3500 3400
-Connection ~ 5800 5150
-Wire Wire Line
-	5500 5000 5500 5150
-Connection ~ 5800 4550
-Wire Wire Line
-	5500 4700 5500 4550
-Connection ~ 6050 5150
-Wire Wire Line
-	5800 5100 5800 5150
-Wire Wire Line
-	5500 4550 6050 4550
-Wire Wire Line
-	5800 4900 5800 4550
-Wire Wire Line
-	6050 4550 6050 4600
-Wire Wire Line
-	6400 5150 6400 5100
-Wire Wire Line
-	5500 5150 6400 5150
-Wire Wire Line
-	6050 5100 6050 5150
-Connection ~ 6050 4850
-Wire Wire Line
-	6400 4850 6400 4900
-Wire Wire Line
-	6050 4850 6400 4850
-Wire Wire Line
-	6050 4800 6050 4900
-Wire Wire Line
-	8050 3450 8000 3450
-Wire Wire Line
-	7800 3450 7750 3450
-Connection ~ 7750 4000
-Wire Wire Line
-	7750 4300 7450 4300
-Connection ~ 7050 4000
-Wire Wire Line
-	7050 4300 7250 4300
-Wire Wire Line
-	7750 3450 7750 4300
-Wire Wire Line
-	7450 4000 7750 4000
-Connection ~ 7050 3550
-Wire Wire Line
-	7050 4000 7250 4000
-Wire Wire Line
-	7050 3550 7050 4300
-Wire Wire Line
-	7000 3550 7150 3550
-Wire Wire Line
-	6350 3550 6500 3550
-Wire Wire Line
-	6700 3550 6800 3550
-Wire Wire Line
-	7050 3050 7050 3000
-Wire Wire Line
-	7050 3350 7150 3350
-Wire Wire Line
-	7050 3250 7050 3350
-Connection ~ 6350 2400
-Wire Wire Line
-	6350 2000 6300 2000
-Wire Wire Line
-	5900 2000 6100 2000
-Wire Wire Line
-	5600 2000 5700 2000
-Wire Wire Line
-	5600 2550 5600 2400
-Connection ~ 5600 2950
-Wire Wire Line
-	5900 2950 5600 2950
-Connection ~ 6350 2950
-Wire Wire Line
-	6100 2950 6650 2950
-Connection ~ 6350 3550
-Connection ~ 5600 3650
-Wire Wire Line
-	5600 2750 5600 4100
-Wire Wire Line
-	6350 4250 6050 4250
-Wire Wire Line
-	5350 3650 5750 3650
-Wire Wire Line
-	5750 4250 5850 4250
-Wire Wire Line
-	5350 4250 5450 4250
-Connection ~ 5100 3650
-Wire Wire Line
-	5100 4250 5150 4250
-Wire Wire Line
-	5100 3650 5100 4250
-Wire Wire Line
-	5050 3650 5150 3650
-Connection ~ 4450 3650
-Wire Wire Line
-	4450 3600 4450 3700
-Connection ~ 4000 3400
-Wire Wire Line
-	4000 3400 4000 3450
-Wire Wire Line
-	3850 3400 4150 3400
-Wire Wire Line
-	4000 3700 4000 3650
-Wire Wire Line
-	4450 3950 4450 3900
-Wire Wire Line
-	3500 3650 3500 3950
-Wire Wire Line
-	3250 3400 3650 3400
-Wire Wire Line
-	3500 3450 3500 3400
-Wire Wire Line
-	4600 3650 4450 3650
-Wire Wire Line
-	5150 2400 5350 2400
-Wire Wire Line
-	6050 2400 6650 2400
-Wire Wire Line
-	5550 2400 5850 2400
-Connection ~ 5600 2400
 $Comp
 L Earth #PWR010
 U 1 1 5B0462B0
@@ -700,10 +534,6 @@ F 3 "" H 4850 2200 50  0001 C CNN
 	1    4850 2200
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6650 2400 6650 2550
-Wire Wire Line
-	4850 3650 4800 3650
 Text Notes 8650 4000 0    60   ~ 0
 TO MID
 Text Notes 8650 3550 0    60   ~ 0
@@ -754,4 +584,172 @@ F 3 "" H 5050 2400 50  0001 C CNN
 	1    5050 2400
 	0    1    1    0   
 $EndComp
+$Comp
+L Conn_01x02_Male J2
+U 1 1 5B087BF2
+P 6150 2750
+F 0 "J2" H 6150 2850 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6150 2550 50  0001 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6150 2750 50  0001 C CNN
+F 3 "" H 6150 2750 50  0001 C CNN
+	1    6150 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L POT RV1
+U 1 1 5B089278
+P 5600 4250
+F 0 "RV1" V 5425 4250 50  0000 C CNN
+F 1 "POT" V 5500 4250 50  0000 C CNN
+F 2 "LIBS:Potentiometer_Alpha_RV16" H 5600 4250 50  0001 C CNN
+F 3 "" H 5600 4250 50  0001 C CNN
+	1    5600 4250
+	0    1    -1   0   
+$EndComp
+Connection ~ 6350 2950
+Wire Wire Line
+	6100 2950 6650 2950
+Wire Wire Line
+	4850 3650 4800 3650
+Wire Wire Line
+	6650 2400 6650 2550
+Connection ~ 5600 2400
+Wire Wire Line
+	5550 2400 5850 2400
+Wire Wire Line
+	6050 2400 6650 2400
+Wire Wire Line
+	5150 2400 5350 2400
+Wire Wire Line
+	4600 3650 4450 3650
+Wire Wire Line
+	3500 3450 3500 3400
+Wire Wire Line
+	3250 3400 3650 3400
+Wire Wire Line
+	3500 3650 3500 3950
+Wire Wire Line
+	4450 3950 4450 3900
+Wire Wire Line
+	4000 3700 4000 3650
+Wire Wire Line
+	3850 3400 4150 3400
+Wire Wire Line
+	4000 3400 4000 3450
+Connection ~ 4000 3400
+Wire Wire Line
+	4450 3600 4450 3700
+Connection ~ 4450 3650
+Wire Wire Line
+	5050 3650 5150 3650
+Wire Wire Line
+	5100 3650 5100 4250
+Wire Wire Line
+	5100 4250 5150 4250
+Connection ~ 5100 3650
+Wire Wire Line
+	5350 4250 5450 4250
+Wire Wire Line
+	5750 4250 5850 4250
+Wire Wire Line
+	5350 3650 5750 3650
+Wire Wire Line
+	6350 4250 6050 4250
+Wire Wire Line
+	5600 2750 5600 4100
+Connection ~ 5600 3650
+Connection ~ 6350 3550
+Wire Wire Line
+	5900 2950 5600 2950
+Connection ~ 5600 2950
+Wire Wire Line
+	5600 2550 5600 2400
+Wire Wire Line
+	5600 2000 5700 2000
+Wire Wire Line
+	5900 2000 6100 2000
+Wire Wire Line
+	6350 2000 6300 2000
+Connection ~ 6350 2400
+Wire Wire Line
+	7050 3250 7050 3350
+Wire Wire Line
+	7050 3350 7150 3350
+Wire Wire Line
+	7050 3050 7050 3000
+Wire Wire Line
+	7000 3550 7150 3550
+Wire Wire Line
+	7050 3550 7050 4300
+Wire Wire Line
+	7050 4000 7250 4000
+Connection ~ 7050 3550
+Wire Wire Line
+	7450 4000 7750 4000
+Wire Wire Line
+	7750 3450 7750 4300
+Wire Wire Line
+	7050 4300 7250 4300
+Connection ~ 7050 4000
+Wire Wire Line
+	7750 4300 7450 4300
+Connection ~ 7750 4000
+Wire Wire Line
+	7800 3450 7750 3450
+Wire Wire Line
+	8050 3450 8000 3450
+Wire Wire Line
+	6050 4800 6050 4900
+Wire Wire Line
+	6050 4850 6400 4850
+Wire Wire Line
+	6400 4850 6400 4900
+Connection ~ 6050 4850
+Wire Wire Line
+	6050 5100 6050 5150
+Wire Wire Line
+	5500 5150 6400 5150
+Wire Wire Line
+	6400 5150 6400 5100
+Wire Wire Line
+	6050 4550 6050 4600
+Wire Wire Line
+	5800 4900 5800 4550
+Wire Wire Line
+	5500 4550 6050 4550
+Wire Wire Line
+	5800 5100 5800 5150
+Connection ~ 6050 5150
+Wire Wire Line
+	5500 4700 5500 4550
+Connection ~ 5800 4550
+Wire Wire Line
+	5500 5000 5500 5150
+Connection ~ 5800 5150
+Connection ~ 3500 3400
+Wire Wire Line
+	3500 3950 4450 3950
+Wire Wire Line
+	8250 3450 8400 3450
+Wire Wire Line
+	6350 2000 6350 2650
+Wire Wire Line
+	6350 2750 6350 4250
+Wire Wire Line
+	6650 2950 6650 2750
+$Comp
+L R_Small R?
+U 1 1 5B09E639
+P 6500 3550
+F 0 "R?" H 6530 3570 50  0000 L CNN
+F 1 "100" H 6530 3510 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6500 3550 50  0001 C CNN
+F 3 "" H 6500 3550 50  0001 C CNN
+	1    6500 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 3550 6400 3550
+Wire Wire Line
+	6600 3550 6800 3550
 $EndSCHEMATC
