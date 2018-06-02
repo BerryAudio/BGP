@@ -46,48 +46,37 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x13 RV1
-U 1 1 5AE4EAE8
-P 5000 4050
-F 0 "RV1" H 5000 4750 50  0000 C CNN
-F 1 "Conn_01x13" H 5000 3350 50  0001 C CNN
-F 2 "LIBS:Bournes_Blend_PP" H 5000 4050 50  0001 C CNN
-F 3 "" H 5000 4050 50  0001 C CNN
-	1    5000 4050
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Conn_01x02 J1
 U 1 1 5AE4EB86
-P 6650 3550
-F 0 "J1" H 6650 3650 50  0000 C CNN
-F 1 "Conn_01x02" H 6650 3350 50  0001 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 6650 3550 50  0001 C CNN
-F 3 "" H 6650 3550 50  0001 C CNN
-	1    6650 3550
-	-1   0    0    1   
+P 6500 3450
+F 0 "J1" H 6500 3550 50  0000 C CNN
+F 1 "Conn_01x02" H 6500 3250 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 6500 3450 50  0001 C CNN
+F 3 "" H 6500 3450 50  0001 C CNN
+	1    6500 3450
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Earth #PWR01
 U 1 1 5AE4ECAD
-P 5200 4650
-F 0 "#PWR01" H 5200 4400 50  0001 C CNN
-F 1 "Earth" H 5200 4500 50  0001 C CNN
-F 2 "" H 5200 4650 50  0001 C CNN
-F 3 "" H 5200 4650 50  0001 C CNN
-	1    5200 4650
+P 5200 4350
+F 0 "#PWR01" H 5200 4100 50  0001 C CNN
+F 1 "Earth" H 5200 4200 50  0001 C CNN
+F 2 "" H 5200 4350 50  0001 C CNN
+F 3 "" H 5200 4350 50  0001 C CNN
+	1    5200 4350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Conn_01x03 J2
 U 1 1 5AE533B1
-P 6650 3850
-F 0 "J2" H 6650 4050 50  0000 C CNN
-F 1 "Conn_01x03" H 6650 3650 50  0001 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 6650 3850 50  0001 C CNN
-F 3 "" H 6650 3850 50  0001 C CNN
-	1    6650 3850
-	-1   0    0    1   
+P 6500 3850
+F 0 "J2" H 6500 4050 50  0000 C CNN
+F 1 "Conn_01x03" H 6500 3650 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 6500 3850 50  0001 C CNN
+F 3 "" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X04 P1
@@ -125,36 +114,34 @@ $EndComp
 $Comp
 L Earth #PWR04
 U 1 1 5B063927
-P 6850 3950
-F 0 "#PWR04" H 6850 3700 50  0001 C CNN
-F 1 "Earth" H 6850 3800 50  0001 C CNN
-F 2 "" H 6850 3950 50  0001 C CNN
-F 3 "" H 6850 3950 50  0001 C CNN
-	1    6850 3950
+P 6700 3950
+F 0 "#PWR04" H 6700 3700 50  0001 C CNN
+F 1 "Earth" H 6700 3800 50  0001 C CNN
+F 2 "" H 6700 3950 50  0001 C CNN
+F 3 "" H 6700 3950 50  0001 C CNN
+	1    6700 3950
 	0    -1   -1   0   
 $EndComp
-Text Label 6850 3850 0    60   ~ 0
+Text Label 6700 3850 0    60   ~ 0
 OUT
-Wire Wire Line
-	6850 3750 6850 3550
 $Comp
 L VCC #PWR05
 U 1 1 5B063954
-P 6850 3450
-F 0 "#PWR05" H 6850 3300 50  0001 C CNN
-F 1 "VCC" H 6850 3600 50  0000 C CNN
-F 2 "" H 6850 3450 50  0000 C CNN
-F 3 "" H 6850 3450 50  0000 C CNN
-	1    6850 3450
+P 6700 3450
+F 0 "#PWR05" H 6700 3300 50  0001 C CNN
+F 1 "VCC" H 6700 3600 50  0000 C CNN
+F 2 "" H 6700 3450 50  0000 C CNN
+F 3 "" H 6700 3450 50  0000 C CNN
+	1    6700 3450
 	0    1    1    0   
 $EndComp
 Text Label 5950 3550 0    60   ~ 0
-ACT_IN
+ACT_O
 Text Label 5950 3450 0    60   ~ 0
-ACT_OUT
-Text Notes 7050 3450 0    60   ~ 0
+ACT_I
+Text Notes 6900 3450 0    60   ~ 0
 BAT
-Text Notes 7050 3800 0    60   ~ 0
+Text Notes 6900 3800 0    60   ~ 0
 JACK
 Text Notes 5700 3350 0    60   ~ 0
 ACTIVE
@@ -183,13 +170,11 @@ F 3 "" H 5950 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5950 4100 0    60   ~ 0
-PSV_OUT
+PSV_I
 Text Label 5200 3550 0    60   ~ 0
 OUT
-Text Label 5200 4150 0    60   ~ 0
-SEL
 Text Label 5200 3450 0    60   ~ 0
-SEL
+VOL_I
 $Comp
 L Earth #PWR07
 U 1 1 5B063C07
@@ -201,12 +186,27 @@ F 3 "" H 5200 3650 50  0001 C CNN
 	1    5200 3650
 	0    -1   -1   0   
 $EndComp
-Text Label 5200 4050 0    60   ~ 0
-PSV_OUT
+Text Label 5200 3750 0    60   ~ 0
+PSV_I
+Text Label 5200 3950 0    60   ~ 0
+ACT_I
+Text Label 5200 4150 0    60   ~ 0
+ACT_O
 Text Label 5200 4250 0    60   ~ 0
-ACT_OUT
-Text Label 5200 4450 0    60   ~ 0
-ACT_IN
-Text Label 5200 4550 0    60   ~ 0
-PSV_OUT
+PSV_I
+Text Label 5200 3850 0    60   ~ 0
+VOL_I
+Wire Wire Line
+	6700 3750 6700 3550
+$Comp
+L CONN_01X10 RV1
+U 1 1 5B0F69E0
+P 5000 3900
+F 0 "RV1" H 5000 4450 50  0000 C CNN
+F 1 "CONN_01X10" V 5100 3900 50  0000 C CNN
+F 2 "LIBS:Bournes_Blend_PP_PCB" H 5000 3900 50  0001 C CNN
+F 3 "" H 5000 3900 50  0000 C CNN
+	1    5000 3900
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

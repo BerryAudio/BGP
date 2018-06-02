@@ -436,11 +436,11 @@ Text Label 7050 3350 2    60   ~ 0
 Mr
 Text Label 8400 3900 2    60   ~ 0
 Vref
-Text Label 8400 4000 2    60   ~ 0
+Text Label 8400 4200 2    60   ~ 0
 Mi
 Text Label 8400 4100 2    60   ~ 0
 Mr
-Text Label 8400 4200 2    60   ~ 0
+Text Label 8400 4000 2    60   ~ 0
 Mo
 Text Label 3250 3400 0    60   ~ 0
 SIG_I

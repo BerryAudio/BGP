@@ -1,9 +1,9 @@
 EESchema Schematic File Version 2
+LIBS:BT-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -596,7 +596,7 @@ F 3 "" H 6150 2750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-BT RV1
 U 1 1 5B089278
 P 5600 4250
 F 0 "RV1" V 5425 4250 50  0000 C CNN
