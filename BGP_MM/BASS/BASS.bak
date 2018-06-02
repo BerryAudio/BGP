@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BASS-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BASS-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -175,26 +177,26 @@ F 3 "" H 8400 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02_Male J?
+L Conn_01x02_Male J1
 U 1 1 5B08BD93
-P 4900 3450
-F 0 "J?" H 4900 3550 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4900 3250 50  0001 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4900 3450 50  0001 C CNN
-F 3 "" H 4900 3450 50  0001 C CNN
-	1    4900 3450
-	1    0    0    -1  
+P 4900 3550
+F 0 "J1" H 4900 3350 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4900 3350 50  0001 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4900 3550 50  0001 C CNN
+F 3 "" H 4900 3550 50  0001 C CNN
+	1    4900 3550
+	1    0    0    1   
 $EndComp
 $Comp
-L POT RV?
+L POT-RESCUE-BASS RV1
 U 1 1 5B08BE8C
 P 5350 3600
-F 0 "RV?" V 5175 3600 50  0000 C CNN
+F 0 "RV1" V 5175 3600 50  0000 C CNN
 F 1 "POT" V 5250 3600 50  0000 C CNN
-F 2 "" H 5350 3600 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alpha_RV16" H 5350 3600 50  0001 C CNN
 F 3 "" H 5350 3600 50  0001 C CNN
 	1    5350 3600
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5200 3600 5100 3600
@@ -203,34 +205,34 @@ Wire Wire Line
 Wire Wire Line
 	5100 3450 5350 3450
 $Comp
-L Conn_01x02 J?
+L Conn_01x02 P2
 U 1 1 5B08BF2B
 P 8200 3450
-F 0 "J?" H 8200 3550 50  0000 C CNN
+F 0 "P2" H 8200 3550 50  0000 C CNN
 F 1 "Conn_01x02" H 8200 3250 50  0001 C CNN
-F 2 "" H 8200 3450 50  0001 C CNN
+F 2 "LIBS:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 8200 3450 50  0001 C CNN
 F 3 "" H 8200 3450 50  0001 C CNN
 	1    8200 3450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J?
+L Conn_01x02 P3
 U 1 1 5B08BF5E
 P 8200 3800
-F 0 "J?" H 8200 3900 50  0000 C CNN
+F 0 "P3" H 8200 3900 50  0000 C CNN
 F 1 "Conn_01x02" H 8200 3600 50  0001 C CNN
-F 2 "" H 8200 3800 50  0001 C CNN
+F 2 "LIBS:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 8200 3800 50  0001 C CNN
 F 3 "" H 8200 3800 50  0001 C CNN
 	1    8200 3800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J?
+L Conn_01x03 P4
 U 1 1 5B08BF82
 P 8200 4250
-F 0 "J?" H 8200 4450 50  0000 C CNN
+F 0 "P4" H 8200 4450 50  0000 C CNN
 F 1 "Conn_01x03" H 8200 4050 50  0001 C CNN
-F 2 "" H 8200 4250 50  0001 C CNN
+F 2 "LIBS:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 8200 4250 50  0001 C CNN
 F 3 "" H 8200 4250 50  0001 C CNN
 	1    8200 4250
 	-1   0    0    -1  
