@@ -179,13 +179,13 @@ $EndComp
 $Comp
 L Conn_01x02_Male J1
 U 1 1 5B08BD93
-P 4900 3550
-F 0 "J1" H 4900 3350 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4900 3350 50  0001 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4900 3550 50  0001 C CNN
-F 3 "" H 4900 3550 50  0001 C CNN
-	1    4900 3550
-	1    0    0    1   
+P 4900 3450
+F 0 "J1" H 4900 3550 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4900 3250 50  0001 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 4900 3450 50  0001 C CNN
+F 3 "" H 4900 3450 50  0001 C CNN
+	1    4900 3450
+	1    0    0    -1  
 $EndComp
 $Comp
 L POT-RESCUE-BASS RV1
@@ -196,7 +196,7 @@ F 1 "POT" V 5250 3600 50  0000 C CNN
 F 2 "LIBS:Potentiometer_Alpha_RV16" H 5350 3600 50  0001 C CNN
 F 3 "" H 5350 3600 50  0001 C CNN
 	1    5350 3600
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 3600 5100 3600
