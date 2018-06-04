@@ -1,0 +1,68 @@
+(export (version D)
+  (design
+    (source /home/charlie/work/BGP/BGP_MM/SW_BR/SW_BR.sch)
+    (date "Mon 04 Jun 2018 12:11:19 AEST")
+    (tool "Eeschema 4.0.4-1.fc24-product")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source SW_BR.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref P1)
+      (value CONN_01X03)
+      (footprint LIBS:NKK_SPDT)
+      (libsource (lib conn) (part CONN_01X03))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5B149C21))
+    (comp (ref P2)
+      (value CONN_01X02)
+      (footprint Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight)
+      (libsource (lib conn) (part CONN_01X02))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5B149C91)))
+  (libparts
+    (libpart (lib conn) (part CONN_01X02)
+      (description "Connector, single row, 01x02")
+      (footprints
+        (fp Pin_Header_Straight_1X02)
+        (fp Pin_Header_Angled_1X02)
+        (fp Socket_Strip_Straight_1X02)
+        (fp Socket_Strip_Angled_1X02))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X02))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))))
+    (libpart (lib conn) (part CONN_01X03)
+      (description "Connector, single row, 01x03")
+      (footprints
+        (fp Pin_Header_Straight_1X03)
+        (fp Pin_Header_Angled_1X03)
+        (fp Socket_Strip_Straight_1X03)
+        (fp Socket_Strip_Angled_1X03))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X03))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive)))))
+  (libraries
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
+  (nets
+    (net (code 1) (name "Net-(P1-Pad2)")
+      (node (ref P1) (pin 2))
+      (node (ref P2) (pin 1)))
+    (net (code 2) (name Earth)
+      (node (ref P1) (pin 1))
+      (node (ref P1) (pin 3))
+      (node (ref P2) (pin 2)))))
