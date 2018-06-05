@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-1.fc24-product)
 
   (general
     (links 13)
     (no_connects 0)
-    (area 128.924999 80.924999 148.575001 102.575001)
+    (area 127.485 78.666666 148.925001 103.685)
     (thickness 1.6)
     (drawings 9)
     (tracks 44)

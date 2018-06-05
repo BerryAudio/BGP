@@ -3,7 +3,7 @@
   (general
     (links 65)
     (no_connects 0)
-    (area 124.924999 77.924999 157.075001 104.075001)
+    (area 123.10412 74.821428 157.275001 104.183001)
     (thickness 1.2)
     (drawings 8)
     (tracks 186)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../GERBER/F0_BUF/))
+      (outputdirectory ../../GERBER/F0/BUF/))
   )
 
   (net 0 "")
