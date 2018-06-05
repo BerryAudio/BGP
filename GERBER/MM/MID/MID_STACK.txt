@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad 4.0.4-1.fc24-product} date Mon Jun  4 16:01:54 2018
+;DRILL file {KiCad 4.0.7} date 06/05/18 10:39:09
 ;FORMAT={3:3/ absolute / metric / suppress leading zeros}
 FMAT,2
 METRIC,TZ
@@ -11,7 +11,7 @@ G90
 G05
 M71
 T1
-X134500Y-101000
+X133150Y-99825
 X138100Y-96900
 T2
 X146400Y-84650
