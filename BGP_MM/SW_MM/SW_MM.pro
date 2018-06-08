@@ -1,4 +1,4 @@
-update=Thu 07 Jun 2018 14:46:42 AEST
+update=Fri 08 Jun 2018 09:07:35 AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../PARTS
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/Charlie/Documents/kicad-symbols-master/Switch
-LibName31=/home/charlie/work/BGP/parts
+LibName30=parts

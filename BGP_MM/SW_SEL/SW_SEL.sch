@@ -61,7 +61,7 @@ I_BR
 Wire Wire Line
 	5850 3700 5850 3950
 Text Label 5850 3700 0    60   ~ 0
-SIG_O
+SEL_O
 $Comp
 L Earth #PWR01
 U 1 1 5B074DFC
@@ -133,7 +133,7 @@ F 3 "" H 6450 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 6450 4200 2    60   ~ 0
-SIG_O
+SEL_O
 $Comp
 L CONN_01X03 J1
 U 1 1 5B18CF0C

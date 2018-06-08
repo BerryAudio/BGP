@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_MM/SW_SEL/SW_SEL.sch)
-    (date "Thu 07 Jun 2018 15:23:36 AEST")
+    (date "Fri 08 Jun 2018 10:10:37 AEST")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -73,10 +73,10 @@
         (pin (num 5) (name B) (type passive))
         (pin (num 6) (name C) (type passive)))))
   (libraries
-    (library (logical SW_SEL-cache)
-      (uri /home/charlie/work/BGP/BGP_MM/SW_SEL/SW_SEL-cache.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical SW_SEL-cache)
+      (uri /home/charlie/work/BGP/BGP_MM/SW_SEL/SW_SEL-cache.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib)))
   (nets
@@ -91,7 +91,7 @@
       (node (ref SW1) (pin 1))
       (node (ref J2) (pin 1))
       (node (ref J1) (pin 1)))
-    (net (code 4) (name /SIG_O)
+    (net (code 4) (name /SEL_O)
       (node (ref SW1) (pin 4))
       (node (ref J2) (pin 2))
       (node (ref SW1) (pin 3)))))
