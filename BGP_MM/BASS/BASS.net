@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Charlie/Documents/GitHub/BGP/BGP_MM/BASS/BASS.sch)
-    (date "6/06/2018 1:16:28 AM")
+    (date "9/06/2018 7:15:34 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value Conn_01x02_Male)
-      (footprint Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight)
+      (footprint Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm)
       (libsource (lib conn) (part Conn_01x02_Male))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B08BD93))
@@ -53,10 +53,10 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive)))))
   (libraries
-    (library (logical BASS-rescue)
-      (uri C:\Users\Charlie\Documents\GitHub\BGP\BGP_MM\BASS\BASS-rescue.lib))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical BASS-rescue)
+      (uri C:\Users\Charlie\Documents\GitHub\BGP\BGP_MM\BASS\BASS-rescue.lib)))
   (nets
     (net (code 1) (name "Net-(J1-Pad1)")
       (node (ref J1) (pin 1))

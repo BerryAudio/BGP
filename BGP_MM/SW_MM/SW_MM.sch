@@ -45,15 +45,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 5000 3550 0    60   ~ 0
-BBH
-Text Label 4400 3650 2    60   ~ 0
 BNH
+Text Label 4400 3650 2    60   ~ 0
+BBH
 Wire Wire Line
 	5000 4000 5000 3750
 Text Label 5000 3750 0    60   ~ 0
-BBC
-Text Label 4400 4100 2    60   ~ 0
 BNC
+Text Label 4400 4100 2    60   ~ 0
+BBC
 Text Label 5400 3900 2    60   ~ 0
 BBH
 Text Label 5400 4000 2    60   ~ 0
@@ -104,7 +104,7 @@ $EndComp
 Wire Wire Line
 	4950 3350 4750 3350
 Text Label 4750 3350 2    60   ~ 0
-BNC
+BBC
 Text Label 5400 4300 2    60   ~ 0
 BBH
 Text Label 6700 3550 0    60   ~ 0
@@ -182,17 +182,6 @@ NNC
 Text Label 5400 4200 2    60   ~ 0
 NBH
 $Comp
-L CONN_01X03 P1
-U 1 1 5B18C99E
-P 5600 4300
-F 0 "P1" H 5600 4500 50  0000 C CNN
-F 1 "CONN_01X03" V 5700 4300 50  0001 C CNN
-F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 5600 4300 50  0001 C CNN
-F 3 "" H 5600 4300 50  0000 C CNN
-	1    5600 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L SW_4PDT SW1
 U 3 1 5B19BB3C
 P 4600 3650
@@ -235,5 +224,16 @@ F 2 "LIBS:NKK_DP3T" H 6300 3650 50  0001 C CNN
 F 3 "" H 6300 3650 50  0001 C CNN
 	1    6300 3650
 	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J3
+U 1 1 5B1B17BF
+P 5600 4300
+F 0 "J3" H 5600 4150 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5600 4100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5600 4300
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

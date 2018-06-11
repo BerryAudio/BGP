@@ -1,4 +1,4 @@
-update=Fri 08 Jun 2018 09:02:48 AEST
+update=9/06/2018 2:58:20 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../PARTS
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/charlie/work/BGP/PARTS/parts

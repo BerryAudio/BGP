@@ -61,7 +61,7 @@ I_BR
 Wire Wire Line
 	5850 3700 5850 3950
 Text Label 5850 3700 0    60   ~ 0
-SIG_O
+SEL_O
 $Comp
 L Earth #PWR01
 U 1 1 5B074DFC
@@ -101,7 +101,7 @@ U 1 1 5B169CF7
 P 6650 4100
 F 0 "J2" H 6650 4200 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 6650 3900 50  0001 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6650 4100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6650 4100 50  0001 C CNN
 F 3 "" H 6650 4100 50  0001 C CNN
 	1    6650 4100
 	-1   0    0    -1  
@@ -133,16 +133,16 @@ F 3 "" H 6450 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 6450 4200 2    60   ~ 0
-SIG_O
+SEL_O
 $Comp
-L CONN_01X03 J1
-U 1 1 5B18CF0C
+L Conn_01x03_Male J1
+U 1 1 5B1B1C8C
 P 6650 3600
-F 0 "J1" H 6650 3800 50  0000 C CNN
-F 1 "CONN_01X03" V 6750 3600 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 6650 3600 50  0001 C CNN
-F 3 "" H 6650 3600 50  0000 C CNN
+F 0 "J1" H 6650 3400 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6650 3400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6650 3600 50  0001 C CNN
+F 3 "" H 6650 3600 50  0001 C CNN
 	1    6650 3600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
