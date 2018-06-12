@@ -12,8 +12,8 @@
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-50</X>
-        <Y>-72</Y>
+        <X>-56</X>
+        <Y>-82</Y>
       </Center>
       <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/BASS</GerberPath>
@@ -21,17 +21,17 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-103</X>
-        <Y>98</Y>
+        <X>-45</X>
+        <Y>-76</Y>
       </Center>
-      <Angle>0</Angle>
+      <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-144</X>
-        <Y>142</Y>
+        <X>-145</X>
+        <Y>112</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/BT</GerberPath>
@@ -39,26 +39,26 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-100</X>
-        <Y>109</Y>
+        <X>-56</X>
+        <Y>-129</Y>
       </Center>
-      <Angle>0</Angle>
+      <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/MID</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-121</X>
-        <Y>171</Y>
+        <X>-97</X>
+        <Y>-83</Y>
       </Center>
-      <Angle>0</Angle>
+      <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_BR</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-108</X>
-        <Y>134</Y>
+        <X>-133</X>
+        <Y>132</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_MM</GerberPath>
@@ -66,10 +66,10 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-137</X>
-        <Y>156</Y>
+        <X>-59</X>
+        <Y>-71</Y>
       </Center>
-      <Angle>0</Angle>
+      <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_SEL</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
@@ -77,88 +77,97 @@
   <Tabs>
     <BreakTab>
       <Center>
-        <X>13.75862</X>
-        <Y>29</Y>
+        <X>12.5181818</X>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>8</X>
-        <Y>57</Y>
+        <X>13.227273</X>
+        <Y>54</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>28</X>
-        <Y>15.8663368</Y>
+        <X>24</X>
+        <Y>38.1666679</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>23</X>
-        <Y>57</Y>
+        <X>24</X>
+        <Y>50</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>16</X>
-        <Y>64.9516144</Y>
+        <X>24</X>
+        <Y>59.75</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.75</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>38.6336632</X>
-        <Y>29</Y>
+        <X>32.9148941</X>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>38.5</X>
-        <Y>56</Y>
+        <X>32</X>
+        <Y>46</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>28</X>
-        <Y>42.7142868</Y>
+        <X>24</X>
+        <Y>13</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>30</X>
-        <Y>64.9516144</Y>
+        <X>31.9722214</X>
+        <Y>65</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.8</Radius>
+      <Radius>2.5</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+    <BreakTab>
+      <Center>
+        <X>24</X>
+        <Y>70.1554</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>49</Width>
-  <Height>74</Height>
+  <Width>45</Width>
+  <Height>81</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
