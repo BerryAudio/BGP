@@ -4,6 +4,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -56,7 +57,7 @@ U 1 1 5A6864CE
 P 5800 3200
 F 0 "RV1" V 5625 3200 50  0000 C CNN
 F 1 "POT" V 5700 3200 50  0000 C CNN
-F 2 "LIBS:Potentiometer_Alps_RK097_Double_Vertical" H 5800 3200 50  0001 C CNN
+F 2 "LIBS:Potentiometer_Alpha_RV16" H 5800 3200 50  0001 C CNN
 F 3 "" H 5800 3200 50  0001 C CNN
 	1    5800 3200
 	1    0    0    -1  
@@ -71,7 +72,7 @@ U 1 1 5A7A6251
 P 5000 3150
 F 0 "P1" H 5000 3300 50  0000 C CNN
 F 1 "CONN_01X02" V 5100 3150 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5000 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5000 3150 50  0001 C CNN
 F 3 "" H 5000 3150 50  0000 C CNN
 	1    5000 3150
 	-1   0    0    1   
@@ -101,7 +102,7 @@ U 1 1 5AF91950
 P 5950 3650
 F 0 "C1" H 5960 3720 50  0000 L CNN
 F 1 "C_Small" H 5960 3570 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5950 3650 50  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5950 3650 50  0001 C CNN
 F 3 "" H 5950 3650 50  0000 C CNN
 	1    5950 3650
 	1    0    0    -1  
