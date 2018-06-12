@@ -12,19 +12,19 @@
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-56</X>
-        <Y>-82</Y>
+        <X>-103.5</X>
+        <Y>124.5</Y>
       </Center>
-      <Angle>90</Angle>
+      <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/BASS</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-45</X>
-        <Y>-76</Y>
+        <X>-78.5</X>
+        <Y>129</Y>
       </Center>
-      <Angle>90</Angle>
+      <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
@@ -39,7 +39,7 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-56</X>
+        <X>-55.5</X>
         <Y>-129</Y>
       </Center>
       <Angle>90</Angle>
@@ -49,7 +49,7 @@
     <GerberInstance>
       <Center>
         <X>-97</X>
-        <Y>-83</Y>
+        <Y>-82</Y>
       </Center>
       <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_BR</GerberPath>
@@ -58,7 +58,7 @@
     <GerberInstance>
       <Center>
         <X>-133</X>
-        <Y>132</Y>
+        <Y>132.5</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_MM</GerberPath>
@@ -66,10 +66,10 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-59</X>
-        <Y>-71</Y>
+        <X>-111.5</X>
+        <Y>158.5</Y>
       </Center>
-      <Angle>90</Angle>
+      <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_SEL</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
@@ -77,8 +77,8 @@
   <Tabs>
     <BreakTab>
       <Center>
-        <X>12.5181818</X>
-        <Y>27</Y>
+        <X>13</X>
+        <Y>27.25</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -86,8 +86,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>13.227273</X>
-        <Y>54</Y>
+        <X>13</X>
+        <Y>54.75</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -95,8 +95,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24</X>
-        <Y>38.1666679</Y>
+        <X>24.25</X>
+        <Y>37</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -104,8 +104,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24</X>
-        <Y>50</Y>
+        <X>24.25</X>
+        <Y>50.5</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -113,8 +113,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24</X>
-        <Y>59.75</Y>
+        <X>32.5</X>
+        <Y>27.25</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -122,8 +122,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32.9148941</X>
-        <Y>27</Y>
+        <X>32.5</X>
+        <Y>44.75</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -131,16 +131,7 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32</X>
-        <Y>46</Y>
-      </Center>
-      <Angle>0</Angle>
-      <Radius>3.2</Radius>
-      <Valid>false</Valid>
-    </BreakTab>
-    <BreakTab>
-      <Center>
-        <X>24</X>
+        <X>24.25</X>
         <Y>13</Y>
       </Center>
       <Angle>0</Angle>
@@ -149,8 +140,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>31.9722214</X>
-        <Y>65</Y>
+        <X>32.5</X>
+        <Y>60.25</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
@@ -158,22 +149,22 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24</X>
-        <Y>70.1554</Y>
+        <X>24.25</X>
+        <Y>67</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>2.5</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>45</Width>
-  <Height>81</Height>
+  <Width>46</Width>
+  <Height>77</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
   <ClipToOutlines>true</ClipToOutlines>
-  <LastExportFolder />
+  <LastExportFolder>/home/charlie/work/BGP/GERBER/MM/MERGE</LastExportFolder>
   <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>
