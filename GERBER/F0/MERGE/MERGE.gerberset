@@ -27,8 +27,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-103.5</X>
-        <Y>131</Y>
+        <X>-101.5</X>
+        <Y>130.5</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/F0/MID</GerberPath>
@@ -36,10 +36,10 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-109</X>
-        <Y>102</Y>
+        <X>-42</X>
+        <Y>-130</Y>
       </Center>
-      <Angle>0</Angle>
+      <Angle>90</Angle>
       <GerberPath>/home/charlie/work/BGP/GERBER/F0/TONE</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
@@ -47,42 +47,42 @@
   <Tabs>
     <BreakTab>
       <Center>
-        <X>13.5769234</X>
+        <X>14.1153851</X>
         <Y>27</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3.2</Radius>
-      <Valid>false</Valid>
-    </BreakTab>
-    <BreakTab>
-      <Center>
-        <X>24.25</X>
-        <Y>39</Y>
-      </Center>
-      <Angle>0</Angle>
-      <Radius>3.2</Radius>
+      <Radius>2.8</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
         <X>39</X>
-        <Y>27.25</Y>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3.2</Radius>
+      <Radius>2.8</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>33</X>
-        <Y>15.956522</Y>
+        <X>32.75</X>
+        <Y>16.4693871</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>3.2</Radius>
+      <Radius>2.8</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+    <BreakTab>
+      <Center>
+        <X>26.25</X>
+        <Y>40</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>2.8</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>45</Width>
+  <Width>47</Width>
   <Height>50</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>

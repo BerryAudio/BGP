@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MID_STACK-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -154,7 +155,7 @@ MID_R
 Text Label 4000 3200 2    60   ~ 0
 MID_R
 $Comp
-L LM318N U1
+L LM318N-RESCUE-MID_STACK U1
 U 1 1 5B1A4170
 P 5850 3300
 F 0 "U1" H 5850 3600 50  0000 L CNN
