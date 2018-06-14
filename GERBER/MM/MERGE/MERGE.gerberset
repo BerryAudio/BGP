@@ -1,170 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<GerberLayoutSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LoadedOutlines>
-    <string>/home/charlie/work/BGP/GERBER/MM/BASS</string>
-    <string>/home/charlie/work/BGP/GERBER/MM/BND</string>
-    <string>/home/charlie/work/BGP/GERBER/MM/BT</string>
-    <string>/home/charlie/work/BGP/GERBER/MM/MID</string>
-    <string>/home/charlie/work/BGP/GERBER/MM/SW_BR</string>
-    <string>/home/charlie/work/BGP/GERBER/MM/SW_MM</string>
-    <string>/home/charlie/work/BGP/GERBER/MM/SW_SEL</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\BT</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\MID</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\SW_BR</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\SW_MM</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\SW_SEL</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\BASS</string>
+    <string>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\BND</string>
   </LoadedOutlines>
   <Instances>
-    <GerberInstance>
-      <Center>
-        <X>-103.5</X>
-        <Y>124.5</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/BASS</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
-    <GerberInstance>
-      <Center>
-        <X>-78.5</X>
-        <Y>129</Y>
-      </Center>
-      <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/BND</GerberPath>
-      <Generated>false</Generated>
-    </GerberInstance>
     <GerberInstance>
       <Center>
         <X>-145</X>
         <Y>112</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/BT</GerberPath>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-55.5</X>
-        <Y>-129</Y>
+        <X>-104</X>
+        <Y>101</Y>
       </Center>
-      <Angle>90</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/MID</GerberPath>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\MID</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-97</X>
-        <Y>-82</Y>
+        <X>-113</X>
+        <Y>142</Y>
       </Center>
-      <Angle>90</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_BR</GerberPath>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\SW_BR</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
         <X>-133</X>
-        <Y>132.5</Y>
+        <Y>132</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_MM</GerberPath>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\SW_MM</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-111.5</X>
-        <Y>158.5</Y>
+        <X>-112</X>
+        <Y>141</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/MM/SW_SEL</GerberPath>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\SW_SEL</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-104</X>
+        <Y>153</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\BASS</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>-98</X>
+        <Y>138</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\Charlie\Documents\GitHub\BGP\GERBER\MM\BND</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
   </Instances>
   <Tabs>
     <BreakTab>
       <Center>
-        <X>13</X>
-        <Y>27.25</Y>
+        <X>12.5181818</X>
+        <Y>27</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>13</X>
-        <Y>54.75</Y>
+        <X>14.1428576</X>
+        <Y>54</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24.25</X>
-        <Y>37</Y>
+        <X>24</X>
+        <Y>32</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24.25</X>
-        <Y>50.5</Y>
+        <X>24</X>
+        <Y>49</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32.5</X>
-        <Y>27.25</Y>
+        <X>36.625</X>
+        <Y>21</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32.5</X>
-        <Y>44.75</Y>
+        <X>33.6148643</X>
+        <Y>43</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24.25</X>
-        <Y>13</Y>
+        <X>33</X>
+        <Y>58</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32.5</X>
-        <Y>60.25</Y>
+        <X>24</X>
+        <Y>63.5</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>24.25</X>
-        <Y>67</Y>
+        <X>24</X>
+        <Y>11.5849056</Y>
       </Center>
       <Angle>0</Angle>
-      <Radius>2.5</Radius>
+      <Radius>3.2</Radius>
       <Valid>false</Valid>
     </BreakTab>
   </Tabs>
-  <Width>45.5</Width>
-  <Height>76.5</Height>
+  <Width>51</Width>
+  <Height>72</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
-  <ClipToOutlines>true</ClipToOutlines>
-  <LastExportFolder>/home/charlie/work/BGP/GERBER/MM/MERGE</LastExportFolder>
-  <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>
