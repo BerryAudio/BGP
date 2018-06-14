@@ -27,7 +27,7 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>-101.5</X>
+        <X>-101.9</X>
         <Y>130.5</Y>
       </Center>
       <Angle>0</Angle>
@@ -74,7 +74,7 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>26.25</X>
+        <X>26</X>
         <Y>40</Y>
       </Center>
       <Angle>0</Angle>
