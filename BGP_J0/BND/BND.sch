@@ -3,7 +3,6 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -134,7 +133,7 @@ U 1 1 5AE4EEB8
 P 5850 4350
 F 0 "J4" H 5850 4450 50  0000 C CNN
 F 1 "Conn_01x02" H 5850 4150 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 5850 4350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5850 4350 50  0001 C CNN
 F 3 "" H 5850 4350 50  0001 C CNN
 	1    5850 4350
 	-1   0    0    -1  
@@ -149,7 +148,7 @@ U 1 1 5AE4F048
 P 6400 4350
 F 0 "J7" H 6400 4450 50  0000 C CNN
 F 1 "Conn_01x02" H 6400 4150 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 6400 4350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6400 4350 50  0001 C CNN
 F 3 "" H 6400 4350 50  0001 C CNN
 	1    6400 4350
 	-1   0    0    -1  
@@ -178,59 +177,48 @@ V_O
 Text Label 5200 4350 0    60   ~ 0
 OUT
 $Comp
-L Conn_01x03 J2
-U 1 1 5AE53374
-P 5850 3550
-F 0 "J2" H 5850 3750 50  0000 C CNN
-F 1 "Conn_01x03" H 5850 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5850 3550 50  0001 C CNN
-F 3 "" H 5850 3550 50  0001 C CNN
-	1    5850 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03 J5
-U 1 1 5AE533B1
-P 6400 3550
-F 0 "J5" H 6400 3750 50  0000 C CNN
-F 1 "Conn_01x03" H 6400 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6400 3550 50  0001 C CNN
-F 3 "" H 6400 3550 50  0001 C CNN
-	1    6400 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Earth #PWR05
 U 1 1 5AE533F6
-P 6050 3450
-F 0 "#PWR05" H 6050 3200 50  0001 C CNN
-F 1 "Earth" H 6050 3300 50  0001 C CNN
-F 2 "" H 6050 3450 50  0001 C CNN
-F 3 "" H 6050 3450 50  0001 C CNN
-	1    6050 3450
-	0    -1   -1   0   
+P 5900 3450
+F 0 "#PWR05" H 5900 3200 50  0001 C CNN
+F 1 "Earth" H 5900 3300 50  0001 C CNN
+F 2 "" H 5900 3450 50  0001 C CNN
+F 3 "" H 5900 3450 50  0001 C CNN
+	1    5900 3450
+	0    1    -1   0   
 $EndComp
 $Comp
 L Earth #PWR06
 U 1 1 5AE53416
-P 6600 3650
-F 0 "#PWR06" H 6600 3400 50  0001 C CNN
-F 1 "Earth" H 6600 3500 50  0001 C CNN
-F 2 "" H 6600 3650 50  0001 C CNN
-F 3 "" H 6600 3650 50  0001 C CNN
-	1    6600 3650
+P 6400 3650
+F 0 "#PWR06" H 6400 3400 50  0001 C CNN
+F 1 "Earth" H 6400 3500 50  0001 C CNN
+F 2 "" H 6400 3650 50  0001 C CNN
+F 3 "" H 6400 3650 50  0001 C CNN
+	1    6400 3650
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 3650 0    60   ~ 0
+Text Label 5900 3650 2    60   ~ 0
 OUT
-Text Label 6600 3450 0    60   ~ 0
+Text Label 6400 3450 0    60   ~ 0
 OUT
 Text Label 5200 3450 0    60   ~ 0
 O1
-Text Label 6050 3550 0    60   ~ 0
+Text Label 5900 3550 2    60   ~ 0
 O1
 Text Label 5200 3650 0    60   ~ 0
 O2
-Text Label 6600 3550 0    60   ~ 0
+Text Label 6400 3550 0    60   ~ 0
 O2
+$Comp
+L CONN_02X03 J2
+U 1 1 5B835CAA
+P 6150 3550
+F 0 "J2" H 6150 3750 50  0000 C CNN
+F 1 "CONN_02X03" H 6150 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 6150 2350 50  0001 C CNN
+F 3 "" H 6150 2350 50  0000 C CNN
+	1    6150 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
