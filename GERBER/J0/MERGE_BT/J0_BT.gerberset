@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LoadedOutlines>
-    <string>/home/charlie/work/BGP/GERBER/J0/BT</string>
+    <string>C:\Users\charl\Documents\GitHub\BGP\GERBER\J0\BT</string>
   </LoadedOutlines>
   <Instances>
     <GerberInstance>
       <Center>
         <X>-137</X>
-        <Y>105.1</Y>
+        <Y>108</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BT</GerberPath>
+      <GerberPath>C:\Users\charl\Documents\GitHub\BGP\GERBER\J0\BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
         <X>-106.5</X>
-        <Y>105</Y>
+        <Y>108</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BT</GerberPath>
+      <GerberPath>C:\Users\charl\Documents\GitHub\BGP\GERBER\J0\BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
         <X>-106.5</X>
-        <Y>128.5</Y>
+        <Y>133.5</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BT</GerberPath>
+      <GerberPath>C:\Users\charl\Documents\GitHub\BGP\GERBER\J0\BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
     <GerberInstance>
       <Center>
         <X>-137</X>
-        <Y>128.5</Y>
+        <Y>133.5</Y>
       </Center>
       <Angle>0</Angle>
-      <GerberPath>/home/charlie/work/BGP/GERBER/J0/BT</GerberPath>
+      <GerberPath>C:\Users\charl\Documents\GitHub\BGP\GERBER\J0\BT</GerberPath>
       <Generated>false</Generated>
     </GerberInstance>
   </Instances>
@@ -45,7 +45,7 @@
     <BreakTab>
       <Center>
         <X>14</X>
-        <Y>22.25</Y>
+        <Y>24.25</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -54,7 +54,7 @@
     <BreakTab>
       <Center>
         <X>29.25</X>
-        <Y>33.95</Y>
+        <Y>11.5</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -63,7 +63,7 @@
     <BreakTab>
       <Center>
         <X>44.5</X>
-        <Y>22.2</Y>
+        <Y>24.25</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -72,7 +72,7 @@
     <BreakTab>
       <Center>
         <X>29.25</X>
-        <Y>10.499999</Y>
+        <Y>37</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3.2</Radius>
@@ -80,7 +80,7 @@
     </BreakTab>
   </Tabs>
   <Width>58.5</Width>
-  <Height>44.5</Height>
+  <Height>48.5</Height>
   <MarginBetweenBoards>2</MarginBetweenBoards>
   <ConstructNegativePolygon>false</ConstructNegativePolygon>
   <FillOffset>3</FillOffset>
