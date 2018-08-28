@@ -62,6 +62,15 @@
     </BreakTab>
     <BreakTab>
       <Center>
+        <X>29.25</X>
+        <Y>26.25</Y>
+      </Center>
+      <Angle>0</Angle>
+      <Radius>3.2</Radius>
+      <Valid>false</Valid>
+    </BreakTab>
+    <BreakTab>
+      <Center>
         <X>44.5</X>
         <Y>26.25</Y>
       </Center>

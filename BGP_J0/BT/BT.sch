@@ -1,6 +1,7 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
 LIBS:BT-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -154,7 +155,7 @@ U 1 1 5A6FCF89
 P 6400 3350
 F 0 "C4" H 6410 3420 50  0000 L CNN
 F 1 "2700p" H 6410 3270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6400 3350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6400 3350 50  0001 C CNN
 F 3 "" H 6400 3350 50  0000 C CNN
 	1    6400 3350
 	0    -1   -1   0   
@@ -225,10 +226,10 @@ $EndComp
 Text Label 3750 3600 0    60   ~ 0
 IN
 $Comp
-L power:Earth #PWR08
+L power:Earth #PWR06
 U 1 1 5A6FF586
 P 5400 4500
-F 0 "#PWR08" H 5400 4250 50  0001 C CNN
+F 0 "#PWR06" H 5400 4250 50  0001 C CNN
 F 1 "Earth" H 5400 4350 50  0001 C CNN
 F 2 "" H 5400 4500 50  0000 C CNN
 F 3 "" H 5400 4500 50  0000 C CNN
@@ -247,10 +248,10 @@ F 3 "" H 6600 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR09
+L power:Earth #PWR07
 U 1 1 5A713616
 P 3750 3700
-F 0 "#PWR09" H 3750 3450 50  0001 C CNN
+F 0 "#PWR07" H 3750 3450 50  0001 C CNN
 F 1 "Earth" H 3750 3550 50  0001 C CNN
 F 2 "" H 3750 3700 50  0000 C CNN
 F 3 "" H 3750 3700 50  0000 C CNN
@@ -308,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3600 4450 3600
 Wire Wire Line
-	4650 3600 4800 3600
+	4650 3600 5100 3600
 Wire Wire Line
 	4800 3600 4800 3650
 Wire Wire Line
@@ -325,9 +326,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 4500 5400 4100
 Wire Wire Line
-	5400 3900 5400 3850
+	5400 3800 5400 3900
 Wire Wire Line
-	5400 3850 5750 3850
+	5400 3850 5900 3850
 Wire Wire Line
 	5750 3850 5750 3900
 Connection ~ 5400 3850
@@ -337,14 +338,14 @@ Wire Wire Line
 	5900 3850 5900 4050
 Connection ~ 5750 3850
 Wire Wire Line
-	5400 3400 5400 3350
+	5400 3300 5400 3400
 Wire Wire Line
 	5400 3100 5400 3050
 Wire Wire Line
-	5650 3350 5400 3350
+	5400 3350 5650 3350
 Connection ~ 5400 3350
 Wire Wire Line
-	5850 3350 6150 3350
+	5850 3350 6300 3350
 Wire Wire Line
 	6150 3350 6150 3400
 Connection ~ 6150 3350
@@ -364,11 +365,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 3950 6500 3950
 Wire Wire Line
-	6150 3600 6150 3650
+	6150 3600 6150 3950
 Text Label 6600 3650 0    60   ~ 0
 RV_4
 Wire Wire Line
-	7250 3750 7250 3650
+	7250 3550 7250 3750
 Wire Wire Line
 	7250 3650 7700 3650
 Wire Wire Line
@@ -378,20 +379,6 @@ Text Label 6600 3950 0    60   ~ 0
 RV_1
 Wire Wire Line
 	4800 3900 5100 3900
-Wire Wire Line
-	4800 3600 5100 3600
-Wire Wire Line
-	5400 3850 5400 3800
-Wire Wire Line
-	5750 3850 5900 3850
-Wire Wire Line
-	5400 3350 5400 3300
-Wire Wire Line
-	6150 3350 6300 3350
-Wire Wire Line
-	6150 3650 6150 3950
-Wire Wire Line
-	7250 3650 7250 3550
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5B833F56
