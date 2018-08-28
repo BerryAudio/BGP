@@ -221,4 +221,15 @@ F 3 "" H 6150 2350 50  0000 C CNN
 	1    6150 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B84EEF8
+P 5200 4050
+F 0 "#PWR?" H 5200 3800 50  0001 C CNN
+F 1 "Earth" H 5200 3900 50  0001 C CNN
+F 2 "" H 5200 4050 50  0001 C CNN
+F 3 "" H 5200 4050 50  0001 C CNN
+	1    5200 4050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
