@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlie/work/BGP/BGP_J0/BT/BT.sch)
-    (date "Tue 28 Aug 2018 13:48:45 AEST")
+    (date "Tue 28 Aug 2018 16:53:44 AEST")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -77,7 +77,7 @@
       (tstamp 5A6FCF36))
     (comp (ref C4)
       (value 2700p)
-      (footprint Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2)
+      (footprint Capacitors_SMD:C_0805_HandSoldering)
       (libsource (lib BT-cache) (part Device:CP1_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6FCF89))
